@@ -10,7 +10,7 @@
 🎬 Emby`select`[]⚡Main`[]DIRECT`.*
 🎵 Tiktok`select`[]⚡Main`[]DIRECT`[]🇭🇰 HK`[]🇸🇬 SG`[]🇹🇼 TW`[]🇺🇸 US`[]🇯🇵 JP`.*
 🌐 Google`select`[]⚡Main`[]DIRECT`[]🇭🇰 HK`[]🇸🇬 SG`[]🇹🇼 TW`[]🇺🇸 US`[]🇯🇵 JP`.*
-🐹 OpenAI`select`[]⚡Main`[]DIRECT`[]🇭🇰 HK`[]🇸🇬 SG`[]🇹🇼 TW`[]🇺🇸 US`[]🇯🇵 JP`.*
+🤖 OpenAI`select`[]⚡Main`[]DIRECT`[]🇭🇰 HK`[]🇸🇬 SG`[]🇹🇼 TW`[]🇺🇸 US`[]🇯🇵 JP`.*
 🐦 Twitter`select`[]⚡Main`[]DIRECT`[]🇭🇰 HK`[]🇸🇬 SG`[]🇹🇼 TW`[]🇺🇸 US`[]🇯🇵 JP`.*
 🖥 Microsoft`select`[]DIRECT`[]⚡Main`.*
 📖 Learning`select`[]⚡Main`[]DIRECT`.*
