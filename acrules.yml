@@ -648,13 +648,13 @@ rules:
   - DOMAIN-KEYWORD,www.google,🌐 Google
   - IP-CIDR,173.194.0.0/16,🌐 Google
   - IP-CIDR,74.125.0.0/16,🌐 Google
-  - DOMAIN-SUFFIX,openai.com,🐹 OpenAI
-  - DOMAIN-SUFFIX,ai.com,🐹 OpenAI
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🐹 OpenAI
-  - DOMAIN-SUFFIX,openaicom.imgix.net,🐹 OpenAI
-  - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net,🐹 OpenAI
-  - DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,🐹 OpenAI
-  - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net,🐹 OpenAI
+  - DOMAIN-SUFFIX,openai.com,🤖 OpenAI
+  - DOMAIN-SUFFIX,ai.com,🤖 OpenAI
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🤖 OpenAI
+  - DOMAIN-SUFFIX,openaicom.imgix.net,🤖 OpenAI
+  - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net,🤖 OpenAI
+  - DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,🤖 OpenAI
+  - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net,🤖 OpenAI
   - DOMAIN-SUFFIX,1drv.com,🖥 Microsoft
   - DOMAIN-SUFFIX,aadrm.com,🖥 Microsoft
   - DOMAIN-SUFFIX,acompli.com,🖥 Microsoft
