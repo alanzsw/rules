@@ -1343,7 +1343,7 @@ rules:
   - IP-CIDR,172.16.0.0/12,China-Websites
   - IP-CIDR,127.0.0.0/8,China-Websites
   - IP-CIDR,100.64.0.0/10,China-Websites
-  - DOMAIN-SUFFIX,iqiyi.com,China-Websites
+  - DOMAIN-SUFFIX,iqiqyi,China-Websites
   - DOMAIN-SUFFIX,bilibili.com,China-Websites
   - DOMAIN-SUFFIX,flightpacific.net,Final
   - DOMAIN-SUFFIX,nexitallysecure.com,Final
