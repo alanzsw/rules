@@ -156,55 +156,8 @@ rules:
   - DOMAIN-SUFFIX,steam-content-dnld-1.apac-1-cdn.cqloud.com,DIRECT
   - DOMAIN-SUFFIX,steam-content-dnld-1.eu-c1-cdn.cqloud.com,DIRECT
   - DOMAIN-SUFFIX,steam-content-dnld-1.qwilted-cds.cqloud.com,DIRECT
-  - DOMAIN-SUFFIX,emby.nexitally.com,🎬 Emby
-  - DOMAIN,emby.xeton.dev,🎬 Emby
-  - DOMAIN,emby-misakaf.atomlantis.cloud ,🎬 Emby
-  - DOMAIN,emby-mix.atomlantis.cloud,🎬 Emby
-  - DOMAIN,emby.cn2gias.uk,🎬 Emby
-  - DOMAIN,emby.enjoyit.eu.org,🎬 Emby
-  - DOMAIN-SUFFIX,cn2gias.uk,🎬 Emby
-  - DOMAIN-SUFFIX,agahk1.jmsooo.com,🎬 Emby
-  - DOMAIN-SUFFIX,agajp1.jmsooo.com,🎬 Emby
-  - DOMAIN-SUFFIX,agasg1.jmsooo.com,🎬 Emby
-  - DOMAIN-SUFFIX,aws.jmsooo.com,🎬 Emby
-  - DOMAIN-SUFFIX,cf1.jmsooo.com,🎬 Emby
-  - DOMAIN-SUFFIX,cristiamo.xyz,🎬 Emby
-  - DOMAIN-SUFFIX,emby.cjpc.cc,🎬 Emby
-  - DOMAIN-SUFFIX,emby.cjpc.tv,🎬 Emby
-  - DOMAIN-SUFFIX,emby.cjpc.xyz,🎬 Emby
-  - DOMAIN-SUFFIX,emby.cristiamo.top,🎬 Emby
-  - DOMAIN-SUFFIX,emby.flowercloud.yt,🎬 Emby
-  - DOMAIN-SUFFIX,emby.immtel.com,🎬 Emby
-  - DOMAIN-SUFFIX,emby.maying.club,🎬 Emby
-  - DOMAIN-SUFFIX,emby.mcwy.me,🎬 Emby
-  - DOMAIN-SUFFIX,emby.mdss.cloud,🎬 Emby
-  - DOMAIN-SUFFIX,emby.neko.edu.rs,🎬 Emby
-  - DOMAIN-SUFFIX,emby.nexitally.com,🎬 Emby
-  - DOMAIN-SUFFIX,emby.nyancat.net,🎬 Emby
-  - DOMAIN-SUFFIX,emby.ok.edu.hk,🎬 Emby
-  - DOMAIN-SUFFIX,emby.paoche.ooo,🎬 Emby
-  - DOMAIN-SUFFIX,emby.prprcloud.com,🎬 Emby
-  - DOMAIN-SUFFIX,emby.wtf,🎬 Emby
-  - DOMAIN-SUFFIX,emby.xeton.dev,🎬 Emby
-  - DOMAIN-SUFFIX,emby.ytoo.li,🎬 Emby
-  - DOMAIN-SUFFIX,embyserver.ga,🎬 Emby
-  - DOMAIN-SUFFIX,hinet.jmsooo.com,🎬 Emby
-  - DOMAIN-SUFFIX,jellyfin.xeton.dev,🎬 Emby
-  - DOMAIN-SUFFIX,line.emby.men,🎬 Emby
-  - DOMAIN-SUFFIX,mickeycloud.com,🎬 Emby
-  - DOMAIN-SUFFIX,movie.xeton.dev,🎬 Emby
-  - DOMAIN-SUFFIX,ntt1.jmsooo.com,🎬 Emby
-  - DOMAIN-SUFFIX,plusmedia.site,🎬 Emby
-  - DOMAIN-SUFFIX,pornemby.club,🎬 Emby
-  - DOMAIN-SUFFIX,servers.xeton.dev,🎬 Emby
-  - DOMAIN-KEYWORD,emby.wtf,🎬 Emby
-  - DOMAIN-KEYWORD,jmsooo,🎬 Emby
-  - DOMAIN-KEYWORD,odysseyplus,🎬 Emby
-  - PROCESS-NAME,com.mb.android,🎬 Emby
-  - DOMAIN-SUFFIX,emby.cn2gias.uk,🎬 Emby
-  - DOMAIN-SUFFIX,src-emby.cn2gias.uk,🎬 Emby
-  - DOMAIN-SUFFIX,post.cn2gias.uk,🎬 Emby
   - DOMAIN-SUFFIX,ap.spotify.com,DIRECT
+
   - DOMAIN-KEYWORD,epochtimes,REJECT
   - DOMAIN-SUFFIX,881903.com,REJECT
   - DOMAIN-SUFFIX,aboluowang.com,REJECT
@@ -254,31 +207,70 @@ rules:
   - DOMAIN-SUFFIX,xinsheng.net,REJECT
   - DOMAIN-SUFFIX,zhengjian.org,REJECT
   - DOMAIN-SUFFIX,zhuichaguoji.org,REJECT
-  - DOMAIN-SUFFIX,aaplimg.com,Final
-  - DOMAIN-SUFFIX,Apple.co,Final
-  - DOMAIN-SUFFIX,Apple.com,Final
-  - DOMAIN-SUFFIX,appstore.com,Final
-  - DOMAIN-SUFFIX,cdn-Apple.com,Final
-  - DOMAIN-SUFFIX,crashlytics.com,Final
-  - DOMAIN-SUFFIX,icloud.com,Final
-  - DOMAIN-SUFFIX,icloud-content.com,Final
-  - DOMAIN-SUFFIX,me.com,Final
-  - DOMAIN-SUFFIX,mzstatic.com,Final
-  - DOMAIN,www-cdn.icloud.com.akadns.net,Final
-  - IP-CIDR,17.0.0.0/8,Final
-  - DOMAIN-SUFFIX,t.me,📲 Telegram
-  - DOMAIN-SUFFIX,tdesktop.com,📲 Telegram
-  - DOMAIN-SUFFIX,telegra.ph,📲 Telegram
-  - DOMAIN-SUFFIX,telegram.me,📲 Telegram
-  - DOMAIN-SUFFIX,telegram.org,📲 Telegram
-  - DOMAIN-SUFFIX,telesco.pe,📲 Telegram
-  - IP-CIDR,91.108.4.0/22,📲 Telegram
-  - IP-CIDR,91.108.8.0/22,📲 Telegram
-  - IP-CIDR,91.108.12.0/22,📲 Telegram
-  - IP-CIDR,91.108.16.0/22,📲 Telegram
-  - IP-CIDR,91.108.20.0/22,📲 Telegram
-  - IP-CIDR,91.108.56.0/22,📲 Telegram
-  - IP-CIDR,149.154.160.0/20,📲 Telegram
+
+  - DOMAIN-SUFFIX,emby.nexitally.com,📽️ Emby
+  - DOMAIN,emby.xeton.dev,📽️ Emby
+  - DOMAIN,emby-misakaf.atomlantis.cloud ,📽️ Emby
+  - DOMAIN,emby-mix.atomlantis.cloud,📽️ Emby
+  - DOMAIN,emby.cn2gias.uk,📽️ Emby
+  - DOMAIN,emby.enjoyit.eu.org,📽️ Emby
+  - DOMAIN-SUFFIX,cn2gias.uk,📽️ Emby
+  - DOMAIN-SUFFIX,agahk1.jmsooo.com,📽️ Emby
+  - DOMAIN-SUFFIX,agajp1.jmsooo.com,📽️ Emby
+  - DOMAIN-SUFFIX,agasg1.jmsooo.com,📽️ Emby
+  - DOMAIN-SUFFIX,aws.jmsooo.com,📽️ Emby
+  - DOMAIN-SUFFIX,cf1.jmsooo.com,📽️ Emby
+  - DOMAIN-SUFFIX,cristiamo.xyz,📽️ Emby
+  - DOMAIN-SUFFIX,emby.cjpc.cc,📽️ Emby
+  - DOMAIN-SUFFIX,emby.cjpc.tv,📽️ Emby
+  - DOMAIN-SUFFIX,emby.cjpc.xyz,📽️ Emby
+  - DOMAIN-SUFFIX,emby.cristiamo.top,📽️ Emby
+  - DOMAIN-SUFFIX,emby.flowercloud.yt,📽️ Emby
+  - DOMAIN-SUFFIX,emby.immtel.com,📽️ Emby
+  - DOMAIN-SUFFIX,emby.maying.club,📽️ Emby
+  - DOMAIN-SUFFIX,emby.mcwy.me,📽️ Emby
+  - DOMAIN-SUFFIX,emby.mdss.cloud,📽️ Emby
+  - DOMAIN-SUFFIX,emby.neko.edu.rs,📽️ Emby
+  - DOMAIN-SUFFIX,emby.nexitally.com,📽️ Emby
+  - DOMAIN-SUFFIX,emby.nyancat.net,📽️ Emby
+  - DOMAIN-SUFFIX,emby.ok.edu.hk,📽️ Emby
+  - DOMAIN-SUFFIX,emby.paoche.ooo,📽️ Emby
+  - DOMAIN-SUFFIX,emby.prprcloud.com,📽️ Emby
+  - DOMAIN-SUFFIX,emby.wtf,📽️ Emby
+  - DOMAIN-SUFFIX,emby.xeton.dev,📽️ Emby
+  - DOMAIN-SUFFIX,emby.ytoo.li,📽️ Emby
+  - DOMAIN-SUFFIX,embyserver.ga,📽️ Emby
+  - DOMAIN-SUFFIX,hinet.jmsooo.com,📽️ Emby
+  - DOMAIN-SUFFIX,jellyfin.xeton.dev,📽️ Emby
+  - DOMAIN-SUFFIX,line.emby.men,📽️ Emby
+  - DOMAIN-SUFFIX,mickeycloud.com,📽️ Emby
+  - DOMAIN-SUFFIX,movie.xeton.dev,📽️ Emby
+  - DOMAIN-SUFFIX,ntt1.jmsooo.com,📽️ Emby
+  - DOMAIN-SUFFIX,plusmedia.site,📽️ Emby
+  - DOMAIN-SUFFIX,pornemby.club,📽️ Emby
+  - DOMAIN-SUFFIX,servers.xeton.dev,📽️ Emby
+  - DOMAIN-KEYWORD,emby.wtf,📽️ Emby
+  - DOMAIN-KEYWORD,jmsooo,📽️ Emby
+  - DOMAIN-KEYWORD,odysseyplus,📽️ Emby
+  - PROCESS-NAME,com.mb.android,📽️ Emby
+  - DOMAIN-SUFFIX,emby.cn2gias.uk,📽️ Emby
+  - DOMAIN-SUFFIX,src-emby.cn2gias.uk,📽️ Emby
+  - DOMAIN-SUFFIX,post.cn2gias.uk,📽️ Emby
+
+  - DOMAIN-SUFFIX,t.me,💬 Telegram
+  - DOMAIN-SUFFIX,tdesktop.com,💬 Telegram
+  - DOMAIN-SUFFIX,telegra.ph,💬 Telegram
+  - DOMAIN-SUFFIX,telegram.me,💬 Telegram
+  - DOMAIN-SUFFIX,telegram.org,💬 Telegram
+  - DOMAIN-SUFFIX,telesco.pe,💬 Telegram
+  - IP-CIDR,91.108.4.0/22,💬 Telegram
+  - IP-CIDR,91.108.8.0/22,💬 Telegram
+  - IP-CIDR,91.108.12.0/22,💬 Telegram
+  - IP-CIDR,91.108.16.0/22,💬 Telegram
+  - IP-CIDR,91.108.20.0/22,💬 Telegram
+  - IP-CIDR,91.108.56.0/22,💬 Telegram
+  - IP-CIDR,149.154.160.0/20,💬 Telegram
+
   - DOMAIN-SUFFIX,byteoversea.com,🎵 Tiktok
   - DOMAIN-SUFFIX,ibytedtos.com,🎵 Tiktok
   - DOMAIN-SUFFIX,ipstatp.com,🎵 Tiktok
@@ -289,11 +281,13 @@ rules:
   - DOMAIN-SUFFIX,tiktokcdn.com,🎵 Tiktok
   - DOMAIN-SUFFIX,tiktokv.com,🎵 Tiktok
   - DOMAIN-KEYWORD,-tiktokcdn-com,🎵 Tiktok
+
   - DOMAIN-SUFFIX,googlevideo.com,📹 YouTube
   - DOMAIN-SUFFIX,youtube.com,📹 YouTube
   - DOMAIN-SUFFIX,ytimg.com,📹 YouTube
   - DOMAIN,youtubei.googleapis.com,📹 YouTube
   - DOMAIN,yt3.ggpht.com,📹 YouTube
+
   - DOMAIN-SUFFIX,20thcenturystudios.com.au,📺 Disney
   - DOMAIN-SUFFIX,20thcenturystudios.com.br,📺 Disney
   - DOMAIN-SUFFIX,20thcenturystudios.jp,📺 Disney
@@ -455,6 +449,7 @@ rules:
   - DOMAIN-SUFFIX,watchespn.com,📺 Disney
   - PROCESS-NAME,com.disney.datg.videoplatforms.android.abc,📺 Disney
   - PROCESS-NAME,com.disney.disneyplus,📺 Disney
+
   - DOMAIN,e13252.dscg.akamaiedge.net,📺 Netflix
   - DOMAIN,h-netflix.online-metrix.net,📺 Netflix
   - DOMAIN,netflix.com.edgesuite.net,📺 Netflix
@@ -489,6 +484,7 @@ rules:
   - DOMAIN-KEYWORD,dualstack.apiproxy-,📺 Netflix
   - DOMAIN-KEYWORD,dualstack.ichnaea-web-,📺 Netflix
   - DOMAIN-KEYWORD,netflixdnstest,📺 Netflix
+
   - DOMAIN-SUFFIX,ext-twitch.tv,🐭 Twitch
   - DOMAIN-SUFFIX,jtvnw.net,🐭 Twitch
   - DOMAIN-SUFFIX,live-video.net,🐭 Twitch
@@ -510,31 +506,7 @@ rules:
   - IP-CIDR,52.223.224.0/19,🐭 Twitch,no-resolve
   - IP-CIDR,99.181.64.0/18,🐭 Twitch,no-resolve
   - IP-CIDR6,2402:2a80::/32,🐭 Twitch,no-resolve
-  - DOMAIN,atv-ps.amazon.com,📺 PrimeVideo
-  - DOMAIN,avodmp4s3ww-a.akamaihd.net,📺 PrimeVideo
-  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,📺 PrimeVideo
-  - DOMAIN,d22qjgkvxw22r6.cloudfront.net,📺 PrimeVideo
-  - DOMAIN,d25xi40x97liuc.cloudfront.net,📺 PrimeVideo
-  - DOMAIN,d27xxe7juh1us6.cloudfront.net,📺 PrimeVideo
-  - DOMAIN,dmqdd6hw24ucf.cloudfront.net,📺 PrimeVideo
-  - DOMAIN,fls-na.amazon.com,📺 PrimeVideo
-  - DOMAIN,www.amazon.com,📺 PrimeVideo
-  - DOMAIN-SUFFIX,aiv-cdn.net,📺 PrimeVideo
-  - DOMAIN-SUFFIX,aiv-delivery.net,📺 PrimeVideo
-  - DOMAIN-SUFFIX,amazonprimevideo.cn,📺 PrimeVideo
-  - DOMAIN-SUFFIX,amazonprimevideo.com.cn,📺 PrimeVideo
-  - DOMAIN-SUFFIX,amazonprimevideos.com,📺 PrimeVideo
-  - DOMAIN-SUFFIX,amazonvideo.cc,📺 PrimeVideo
-  - DOMAIN-SUFFIX,amazonvideo.com,📺 PrimeVideo
-  - DOMAIN-SUFFIX,media-amazon.com,📺 PrimeVideo
-  - DOMAIN-SUFFIX,prime-video.com,📺 PrimeVideo
-  - DOMAIN-SUFFIX,primevideo.cc,📺 PrimeVideo
-  - DOMAIN-SUFFIX,primevideo.com,📺 PrimeVideo
-  - DOMAIN-SUFFIX,primevideo.info,📺 PrimeVideo
-  - DOMAIN-SUFFIX,primevideo.org,📺 PrimeVideo
-  - DOMAIN-SUFFIX,primevideo.tv,📺 PrimeVideo
-  - DOMAIN-SUFFIX,pv-cdn.net,📺 PrimeVideo
-  - DOMAIN-KEYWORD,avoddashs,📺 PrimeVideo
+
   - DOMAIN,mtalk.google.com,🌐 Google
   - DOMAIN,mobile-gtalk.l.google.com,🌐 Google
   - DOMAIN,alt1-mtalk.google.com,🌐 Google
@@ -648,136 +620,148 @@ rules:
   - DOMAIN-KEYWORD,www.google,🌐 Google
   - IP-CIDR,173.194.0.0/16,🌐 Google
   - IP-CIDR,74.125.0.0/16,🌐 Google
+
   - DOMAIN-SUFFIX,openai.com,🤖 OpenAI
   - DOMAIN-SUFFIX,ai.com,🤖 OpenAI
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🤖 OpenAI
   - DOMAIN-SUFFIX,openaicom.imgix.net,🤖 OpenAI
   - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net,🤖 OpenAI
   - DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,🤖 OpenAI
-  - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net,🤖 OpenAI
-  - DOMAIN-SUFFIX,1drv.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,aadrm.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,acompli.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,acompli.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,aka.ms,🖥 Microsoft
-  - DOMAIN-SUFFIX,akadns.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,aspnetcdn.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,assets-yammer.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,azure.cn,🖥 Microsoft
-  - DOMAIN-SUFFIX,azure.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,azure.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,azureedge.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,azurerms.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,bing.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,bing.com.cn,🖥 Microsoft
-  - DOMAIN-SUFFIX,bingads.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,bingagencyawards.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,bingapistatistics.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,bingsandbox.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,bingvisualsearch.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,bingworld.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,bluehatnights.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,dictate.ms,🖥 Microsoft
-  - DOMAIN-SUFFIX,flipwithsurface.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,masalladeloslimites.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,microsoft-give.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,microsoftcloudsummit.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,microsoftdiplomados.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,microsoftlatamholiday.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,microsoftmxfilantropia.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,microsoftpartnersolutions.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,msunlimitedcloudsummit.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,office365love.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,office365tw.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,renovacionoffice.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,sprinklesapp.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,cn.bing.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,cn.bing.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,ditu.live.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,full:bj1.api.bing.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,full:emoi-cncdn.bing.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,bing.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,cloudapp.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,cloudappsecurity.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,docs.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,edgesuite.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,fabric.io,🖥 Microsoft
-  - DOMAIN-SUFFIX,gfx.ms,🖥 Microsoft
-  - DOMAIN-SUFFIX,hotmail.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,live.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,live.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,livefilestore.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,lync.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,mesh.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,microsoft-tst.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,microsoft.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,microsoftonline.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,msappproxy.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,msauth.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,msauthimages.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,msecnd.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,msedge.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,msft.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,msftauth.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,msftauthimages.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,msftconnecttest.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,msftidentity.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,msidentity.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,msn.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,msocdn.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,msocsp.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,mstea.ms,🖥 Microsoft
-  - DOMAIN-SUFFIX,o365weve.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,oaspapps.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,office.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,office.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,office365.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,officeppe.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,omniroot.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,onedrive.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,onenote.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,onenote.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,onestore.ms,🖥 Microsoft
-  - DOMAIN-SUFFIX,onmicrosoft.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,outlook.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,outlookgroups.ms,🖥 Microsoft
-  - DOMAIN-SUFFIX,outlookmobile.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,phonefactor.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,public-trust.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,s-microsoft.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,sfbassets.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,sfx.ms,🖥 Microsoft
-  - DOMAIN-SUFFIX,sharepoint.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,sharepointonline.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,skype.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,skypeassets.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,skypeforbusiness.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,spoprod-a.akamaihd.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,staffhub.ms,🖥 Microsoft
-  - DOMAIN-SUFFIX,svc.ms,🖥 Microsoft
-  - DOMAIN-SUFFIX,sway-cdn.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,sway-extensions.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,sway.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,trafficmanager.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,uservoice.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,virtualearth.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,visualstudio.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,windows-ppe.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,windows.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,windows.net,🖥 Microsoft
-  - DOMAIN-SUFFIX,windowsazure.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,windowsupdate.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,wunderlist.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,xbox.cn,🖥 Microsoft
-  - DOMAIN-SUFFIX,xbox.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,xboxlive.cn,🖥 Microsoft
-  - DOMAIN-SUFFIX,xboxlive.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,yammer.com,🖥 Microsoft
-  - DOMAIN-SUFFIX,yammerusercontent.com,🖥 Microsoft
-  - DOMAIN-KEYWORD,1drv,🖥 Microsoft
-  - DOMAIN-KEYWORD,microsoft,🖥 Microsoft
-  - DOMAIN-KEYWORD,onedrive,🖥 Microsoft
-  - DOMAIN-KEYWORD,skydrive,🖥 Microsoft
+  - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net,🤖 OpenA
+  - DOMAIN-SUFFIX,cdn.auth0.com,🤖 OpenAI
+  - DOMAIN-SUFFIX,azureedge.net,🤖 OpenAI
+  - DOMAIN-SUFFIX,sentry.io,🤖 OpenAI
+  - DOMAIN-SUFFIX,azurefd.net,🤖 OpenAI
+  - DOMAIN-SUFFIX,intercom.io,🤖 OpenAI
+  - DOMAIN-SUFFIX,identrust.com,🤖 OpenAI
+  - DOMAIN-SUFFIX,challenges.cloudflare.com,🤖 OpenAI
+  - DOMAIN-SUFFIX,oaistatic.com,🤖 OpenAI
+  - DOMAIN-SUFFIX,oaiusercontent.com,🤖 OpenAI
+
+  - DOMAIN-SUFFIX,1drv.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,acompli.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,acompli.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,aka.ms,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,akadns.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,aspnetcdn.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,assets-yammer.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,azure.cn,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,azure.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,azure.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,azureedge.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,azurerms.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,bing.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,bing.com.cn,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,bingads.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,bingagencyawards.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,bingapistatistics.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,bingsandbox.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,bingvisualsearch.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,bingworld.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,bluehatnights.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,dictate.ms,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,flipwithsurface.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,masalladeloslimites.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,microsoft-give.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,microsoftcloudsummit.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,microsoftdiplomados.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,microsoftlatamholiday.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,microsoftmxfilantropia.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,microsoftpartnersolutions.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,msunlimitedcloudsummit.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,office365love.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,office365tw.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,renovacionoffice.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,sprinklesapp.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,cn.bing.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,cn.bing.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,ditu.live.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,full:bj1.api.bing.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,full:emoi-cncdn.bing.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,bing.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,cloudapp.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,cloudappsecurity.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,docs.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,edgesuite.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,fabric.io,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,gfx.ms,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,hotmail.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,live.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,live.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,livefilestore.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,lync.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,mesh.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,microsoft-tst.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,microsoft.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,microsoftonline.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,msappproxy.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,msauth.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,msauthimages.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,msecnd.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,msedge.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,msft.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,msftauth.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,msftauthimages.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,msftconnecttest.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,msftidentity.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,msidentity.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,msn.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,msocdn.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,msocsp.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,mstea.ms,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,o365weve.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,oaspapps.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,office.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,office.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,office365.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,officeppe.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,omniroot.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,onedrive.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,onenote.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,onenote.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,onestore.ms,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,onmicrosoft.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,outlook.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,outlookgroups.ms,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,outlookmobile.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,phonefactor.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,public-trust.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,s-microsoft.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,sfbassets.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,sfx.ms,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,sharepoint.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,sharepointonline.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,skype.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,skypeassets.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,skypeforbusiness.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,spoprod-a.akamaihd.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,staffhub.ms,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,svc.ms,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,sway-cdn.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,sway-extensions.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,sway.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,trafficmanager.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,uservoice.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,virtualearth.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,visualstudio.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,windows-ppe.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,windows.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,windows.net,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,windowsazure.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,windowsupdate.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,wunderlist.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,xbox.cn,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,xbox.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,xboxlive.cn,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,xboxlive.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,yammer.com,Ⓜ️ Microsoft
+  - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ Microsoft
+  - DOMAIN-KEYWORD,1drv,Ⓜ️ Microsoft
+  - DOMAIN-KEYWORD,microsoft,Ⓜ️ Microsoft
+  - DOMAIN-KEYWORD,onedrive,Ⓜ️ Microsoft
+  - DOMAIN-KEYWORD,skydrive,Ⓜ️ Microsoft
+
   - DOMAIN-SUFFIX,acm.org,📖 Learning
   - DOMAIN-SUFFIX,acs.org,📖 Learning
   - DOMAIN-SUFFIX,aip.org,📖 Learning
@@ -854,6 +838,7 @@ rules:
   - DOMAIN-SUFFIX,wiley.com,📖 Learning
   - DOMAIN-SUFFIX,worldbank.org,📖 Learning
   - DOMAIN-SUFFIX,worldscientific.com,📖 Learning
+
   - DOMAIN-SUFFIX,pscp.tv,🐦 Twitter
   - DOMAIN-SUFFIX,periscope.tv,🐦 Twitter
   - DOMAIN-SUFFIX,t.co,🐦 Twitter
@@ -863,6 +848,106 @@ rules:
   - DOMAIN-SUFFIX,twitter.com,🐦 Twitter
   - DOMAIN-SUFFIX,twitter.jp,🐦 Twitter
   - DOMAIN-SUFFIX,vine.co,🐦 Twitter
+
+  - DOMAIN-SUFFIX,gamer.com.tw,📺 Asian-Media
+  - DOMAIN-SUFFIX,bahamut.com.tw,📺 Asian-Media
+  - DOMAIN-SUFFIX,hinet.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,fbcdn.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,gvt1.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,digicert.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,viblast.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,dai3fd1oh325y.cloudfront.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,hboasia1-i.akamaihd.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,hboasia2-i.akamaihd.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,hboasia3-i.akamaihd.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,hboasia4-i.akamaihd.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,hboasia5-i.akamaihd.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,hboasialive.akamaized.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,hbogoprod-vod.akamaized.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,hbolb.onwardsmg.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,hbounify-prod.evergent.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,hbogoasia.hk,📺 Asian-Media
+  - DOMAIN-SUFFIX,hbogoasia.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,bigbigchannel.com.hk,📺 Asian-Media
+  - DOMAIN-SUFFIX,bigbigshop.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,content.jwplatform.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,encoretvb.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,mytvsuper.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,mytvsuperlimited.hb.omtrdc.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,mytvsuperlimited.sc.omtrdc.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,tvb.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,tvb.com.au,📺 Asian-Media
+  - DOMAIN-SUFFIX,tvbanywhere.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,tvbanywhere.com.sg,📺 Asian-Media
+  - DOMAIN-SUFFIX,tvbc.com.cn,📺 Asian-Media
+  - DOMAIN-SUFFIX,tvbeventpower.com.hk,📺 Asian-Media
+  - DOMAIN-SUFFIX,tvbusa.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,tvbweekly.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,tvmedia.net.au,📺 Asian-Media
+  - DOMAIN-SUFFIX,videos-f.jwpsrv.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,myvideo.net.tw,📺 Asian-Media
+  - DOMAIN-SUFFIX,chocotv.com.tw,📺 Asian-Media
+  - DOMAIN-SUFFIX,line-cdn.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,line-scdn.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,linetv.tw,📺 Asian-Media
+  - DOMAIN-SUFFIX,viu.tv,📺 Asian-Media
+  - DOMAIN-SUFFIX,viu.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,viu.now.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,litv.tv,📺 Asian-Media
+  - DOMAIN-SUFFIX,LiTV.tv,📺 Asian-Media
+  - DOMAIN-SUFFIX,cdn.hinet.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,myvideo.net.tw,📺 Asian-Media
+  - DOMAIN-SUFFIX,kktv.com.tw,📺 Asian-Media
+  - DOMAIN-SUFFIX,kktv.me,📺 Asian-Media
+  - DOMAIN-SUFFIX,kk.stream,📺 Asian-Media
+  - DOMAIN-SUFFIX,catchplay.com.tw,📺 Asian-Media
+  - DOMAIN-SUFFIX,catchplay.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,cloudfront.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,akamaized.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,dai3fd1oh325y.cloudfront.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,hboasia1-i.akamaihd.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,hboasia2-i.akamaihd.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,hboasia3-i.akamaihd.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,hboasia4-i.akamaihd.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,hboasia5-i.akamaihd.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,hboasialive.akamaized.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,hbogoprod-vod.akamaized.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,hbolb.onwardsmg.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,hbounify-prod.evergent.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,hbogoasia.hk,📺 Asian-Media
+  - DOMAIN-SUFFIX,hbogoasia.com,📺 Asian-Media
+
+  - DOMAIN-SUFFIX,peacock.com,📺 International-Media
+  - DOMAIN-SUFFIX,peacocktv.com,📺 International-Media
+  - DOMAIN,atv-ps.amazon.com,📺 International-Media
+  - DOMAIN,avodmp4s3ww-a.akamaihd.net,📺 International-Media
+  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,📺 International-Media
+  - DOMAIN,d22qjgkvxw22r6.cloudfront.net,📺 International-Media
+  - DOMAIN,d25xi40x97liuc.cloudfront.net,📺 International-Media
+  - DOMAIN,d27xxe7juh1us6.cloudfront.net,📺 International-Media
+  - DOMAIN,dmqdd6hw24ucf.cloudfront.net,📺 International-Media
+  - DOMAIN,fls-na.amazon.com,📺 International-Media
+  - DOMAIN,www.amazon.com,📺 International-Media
+  - DOMAIN-SUFFIX,aiv-cdn.net,📺 International-Media
+  - DOMAIN-SUFFIX,aiv-delivery.net,📺 International-Media
+  - DOMAIN-SUFFIX,amazonprimevideo.cn,📺 International-Media
+  - DOMAIN-SUFFIX,amazonprimevideo.com.cn,📺 International-Media
+  - DOMAIN-SUFFIX,amazonprimevideos.com,📺 International-Media
+  - DOMAIN-SUFFIX,amazonvideo.cc,📺 International-Media
+  - DOMAIN-SUFFIX,amazonvideo.com,📺 International-Media
+  - DOMAIN-SUFFIX,media-amazon.com,📺 International-Media
+  - DOMAIN-SUFFIX,prime-video.com,📺 International-Media
+  - DOMAIN-SUFFIX,primevideo.cc,📺 International-Media
+  - DOMAIN-SUFFIX,primevideo.com,📺 International-Media
+  - DOMAIN-SUFFIX,primevideo.info,📺 International-Media
+  - DOMAIN-SUFFIX,primevideo.org,📺 International-Media
+  - DOMAIN-SUFFIX,primevideo.tv,📺 International-Media
+  - DOMAIN-SUFFIX,pv-cdn.net,📺 International-Media
+  - DOMAIN-KEYWORD,avoddashs,📺 International-Media
   - DOMAIN-SUFFIX,c4assets.com,📺 International-Media
   - DOMAIN-SUFFIX,channel4.com,📺 International-Media
   - DOMAIN-SUFFIX,abema.io,📺 International-Media
@@ -892,16 +977,15 @@ rules:
   - DOMAIN-SUFFIX,staticasiafox.akamaized.net,📺 International-Media
   - DOMAIN-SUFFIX,theplatform.com,📺 International-Media
   - DOMAIN-SUFFIX,uplynk.com,📺 International-Media
+  - DOMAIN-SUFFIX,max.com,📺 International-Media
+  - DOMAIN-SUFFIX,maxgo.com,📺 International-Media
   - DOMAIN-SUFFIX,hbo.com,📺 International-Media
+  - DOMAIN-SUFFIX,hbonow.com,📺 International-Media
   - DOMAIN-SUFFIX,hbogo.com,📺 International-Media
-  - DOMAIN-SUFFIX,hboasia.com,📺 International-Media
-  - DOMAIN-SUFFIX,hbogo.com,📺 International-Media
-  - DOMAIN-SUFFIX,hbogoasia.hk,📺 International-Media
-  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,📺 International-Media
-  - DOMAIN,bcbolthboa-a.akamaihd.net,📺 International-Media
-  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,📺 International-Media
-  - DOMAIN,manifest.prod.boltdns.net,📺 International-Media
-  - DOMAIN,s3-ap-southeast-1.amazonaws.com,📺 International-Media
+  - DOMAIN-SUFFIX,hbomax.com,📺 International-Media
+  - DOMAIN-SUFFIX,hbomaxcdn.com,📺 International-Media
+  - DOMAIN-SUFFIX,forthethrone.com,📺 International-Media
+  - DOMAIN-SUFFIX,cinemax.com,📺 International-Media
   - DOMAIN-SUFFIX,hulu.com,📺 International-Media
   - DOMAIN-SUFFIX,huluim.com,📺 International-Media
   - DOMAIN-SUFFIX,hulustream.com,📺 International-Media
@@ -912,10 +996,6 @@ rules:
   - DOMAIN,d3c7rimkq79yfu.cloudfront.net,📺 International-Media
   - DOMAIN-SUFFIX,happyon.jp,📺 International-Media
   - DOMAIN-SUFFIX,hulu.jp,📺 International-Media
-  - DOMAIN-SUFFIX,litv.tv,📺 International-Media
-  - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,📺 International-Media
-  - DOMAIN-SUFFIX,mytvsuper.com,📺 International-Media
-  - DOMAIN-SUFFIX,tvb.com,📺 International-Media
   - DOMAIN-SUFFIX,netflix.com,📺 International-Media
   - DOMAIN-SUFFIX,netflix.net,📺 International-Media
   - DOMAIN-SUFFIX,nflxext.com,📺 International-Media
@@ -959,16 +1039,17 @@ rules:
   - DOMAIN-SUFFIX,spoti.fi,📺 International-Media
   - IP-CIDR,35.186.224.47/32,📺 International-Media
   - DOMAIN-SUFFIX,tidal.com,📺 International-Media
-  - DOMAIN-SUFFIX,mytvsuper.com,📺 International-Media
-  - DOMAIN-SUFFIX,tvb.com,📺 International-Media
-  - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,📺 International-Media
-  - DOMAIN-SUFFIX,linetv.tw,📺 International-Media
-  - DOMAIN-SUFFIX,profile.line-scdn.net,📺 International-Media
-  - DOMAIN-SUFFIX,peacock.com,📺 International-Media
-  - DOMAIN-SUFFIX,iqiyi.com,China-Media
-  - DOMAIN-SUFFIX,71.am,China-Media
-  - DOMAIN-SUFFIX,bilibili.com,China-Media
-  - DOMAIN,upos-hz-mirrorakam.akamaized.net,China-Media
+  - DOMAIN-SUFFIX,paramountplus.com,📺 International-Media
+  - DOMAIN-SUFFIX,cbsi.live.ott.irdeto.com,📺 International-Media
+  - DOMAIN-SUFFIX,cbsplaylistserver.aws.syncbak.com,📺 International-Media
+  - DOMAIN-SUFFIX,cbsservice.aws.syncbak.com,📺 International-Media
+  - DOMAIN-SUFFIX,link.theplatform.com,📺 International-Media
+  - DOMAIN-SUFFIX,cbsaavideo.com,📺 International-Media
+  - DOMAIN-SUFFIX,cbsi.com,📺 International-Media
+  - DOMAIN-SUFFIX,cbsivideo.com,📺 International-Media
+  - DOMAIN-SUFFIX,pplusstatic.com,📺 International-Media
+
+
   - DOMAIN-SUFFIX,17gouwuba.com,Hijacking
   - DOMAIN-SUFFIX,186078.com,Hijacking
   - DOMAIN-SUFFIX,189zj.cn,Hijacking
@@ -1158,6 +1239,9 @@ rules:
   - DOMAIN-SUFFIX,yuanchengxiezuo.com,Hijacking
   - DOMAIN-SUFFIX,zbrushcn.com,Hijacking
   - DOMAIN-SUFFIX,zhzzx.com,Hijacking
+
+  - DOMAIN-SUFFIX,71.am,China-Websites
+  - DOMAIN,upos-hz-mirrorakam.akamaized.net,China-Websites
   - DOMAIN-SUFFIX,taichi-maker.com,China-Websites
   - DOMAIN-SUFFIX,leaguehd.com,China-Websites
   - DOMAIN-SUFFIX,plex.tv,China-Websites
@@ -1345,6 +1429,19 @@ rules:
   - IP-CIDR,100.64.0.0/10,China-Websites
   - DOMAIN-SUFFIX,iqiyi.com,China-Websites
   - DOMAIN-SUFFIX,bilibili.com,China-Websites
+
+  - DOMAIN-SUFFIX,aaplimg.com,Final
+  - DOMAIN-SUFFIX,Apple.co,Final
+  - DOMAIN-SUFFIX,Apple.com,Final
+  - DOMAIN-SUFFIX,appstore.com,Final
+  - DOMAIN-SUFFIX,cdn-Apple.com,Final
+  - DOMAIN-SUFFIX,crashlytics.com,Final
+  - DOMAIN-SUFFIX,icloud.com,Final
+  - DOMAIN-SUFFIX,icloud-content.com,Final
+  - DOMAIN-SUFFIX,me.com,Final
+  - DOMAIN-SUFFIX,mzstatic.com,Final
+  - DOMAIN,www-cdn.icloud.com.akadns.net,Final
+  - IP-CIDR,17.0.0.0/8,Final
   - DOMAIN-SUFFIX,flightpacific.net,Final
   - DOMAIN-SUFFIX,nexitallysecure.com,Final
   - DOMAIN-SUFFIX,nexitally.com,Final
