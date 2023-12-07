@@ -627,7 +627,7 @@ rules:
   - DOMAIN-SUFFIX,openaicom.imgix.net,🤖 OpenAI
   - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net,🤖 OpenAI
   - DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,🤖 OpenAI
-  - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net,🤖 OpenA
+  - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net,🤖 OpenAI
   - DOMAIN-SUFFIX,cdn.auth0.com,🤖 OpenAI
   - DOMAIN-SUFFIX,azureedge.net,🤖 OpenAI
   - DOMAIN-SUFFIX,sentry.io,🤖 OpenAI
