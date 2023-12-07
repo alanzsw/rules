@@ -19,7 +19,7 @@
 🇹🇼 Taiwan`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:台|台湾|TW|Taiwan)).*$)`http://www.gstatic.com/generate_204`120,5,50
 🇺🇸 United States`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:美|美国|US|United States|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))).*$)`http://www.gstatic.com/generate_204`120,5,50
 🇯🇵 Japan`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:日本|JP|Japan)).*$)`http://www.gstatic.com/generate_204`120,5,50
-🇰🇷 Korea`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:韩国|韩|KR|Korea|KOR)).*$)`http://www.gstatic.com/generate_204`120,5,50
+🇰🇷 Korea`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?:韩国|韩|KR|Korea|KOR)).*$)`http://www.gstatic.com/generate_204`120,5,50
 China-Websites`select`[]DIRECT`[]✈️ AC-Rules`.*
 Hijacking`select`[]REJECT`[]DIRECT
 Final`select`[]✈️ AC-Rules`[]DIRECT`.*
