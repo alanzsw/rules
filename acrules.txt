@@ -1,17 +1,17 @@
 ⚡Main`select`[]♻️ Auto`[]DIRECT`[]🇭🇰 Hong Kong`[]🇸🇬 Singapore`[]🇹🇼 Taiwan`[]🇺🇸 United States`[]🇯🇵 Japan`.*
 ♻️ Auto`url-test`.*`http://www.gstatic.com/generate_204`120,5,50
-📲 Telegram`select`[]⚡Main`[]DIRECT`[]🇭🇰 HK`[]🇸🇬 SG`[]🇹🇼 TW`.*
-📹 YouTube`select`[]⚡Main`[]DIRECT`[]🇭🇰 HK`[]🇸🇬 SG`[]🇹🇼 TW`[]🇺🇸 US`[]🇯🇵 JP`.*
-📺 Netflix`select`[]⚡Main`[]DIRECT`[]🇭🇰 HK`[]🇸🇬 SG`[]🇹🇼 TW`[]🇺🇸 US`[]🇯🇵 JP`.*
-📺 Disney`select`[]⚡Main`[]DIRECT`[]🇭🇰 HK`[]🇸🇬 SG`[]🇹🇼 TW`[]🇺🇸 US`[]🇯🇵 JP`.*
-🐭 Twitch`select`[]⚡Main`[]DIRECT`[]🇭🇰 HK`[]🇸🇬 SG`[]🇹🇼 TW`.*
-📺 PrimeVideo`select`[]⚡Main`[]DIRECT`[]🇺🇸 US`.*
-📺 International-Media`select`[]⚡Main`[]DIRECT`[]🇭🇰 HK`[]🇸🇬 SG`[]🇹🇼 TW`[]🇺🇸 US`[]🇯🇵 JP`.*
+📲 Telegram`select`[]⚡Main`[]DIRECT`[]🇭🇰 Hong Kong`[]🇸🇬 Singapore`[]🇹🇼 Taiwan`.*
+📹 YouTube`select`[]⚡Main`[]DIRECT`[]🇭🇰 Hong Kong`[]🇸🇬 Singapore`[]🇹🇼 Taiwan`[]🇺🇸 United States`[]🇯🇵 Japan`.*
+📺 Netflix`select`[]⚡Main`[]DIRECT`[]🇭🇰 Hong Kong`[]🇸🇬 Singapore`[]🇹🇼 Taiwan`[]🇺🇸 United States`[]🇯🇵 Japan`.*
+📺 Disney`select`[]⚡Main`[]DIRECT`[]🇭🇰 Hong Kong`[]🇸🇬 Singapore`[]🇹🇼 Taiwan`[]🇺🇸 United States`[]🇯🇵 Japan`.*
+🐭 Twitch`select`[]⚡Main`[]DIRECT`[]🇭🇰 Hong Kong`[]🇸🇬 Singapore`[]🇹🇼 Taiwan`.*
+📺 PrimeVideo`select`[]⚡Main`[]DIRECT`[]🇺🇸 United States`.*
+📺 International-Media`select`[]⚡Main`[]DIRECT`[]🇭🇰 Hong Kong`[]🇸🇬 Singapore`[]🇹🇼 Taiwan`[]🇺🇸 United States`[]🇯🇵 Japan`.*
 🎬 Emby`select`[]⚡Main`[]DIRECT`.*
-🎵 Tiktok`select`[]⚡Main`[]DIRECT`[]🇭🇰 HK`[]🇸🇬 SG`[]🇹🇼 TW`[]🇺🇸 US`[]🇯🇵 JP`.*
-🌐 Google`select`[]⚡Main`[]DIRECT`[]🇭🇰 HK`[]🇸🇬 SG`[]🇹🇼 TW`[]🇺🇸 US`[]🇯🇵 JP`.*
-🤖 OpenAI`select`[]⚡Main`[]DIRECT`[]🇭🇰 HK`[]🇸🇬 SG`[]🇹🇼 TW`[]🇺🇸 US`[]🇯🇵 JP`.*
-🐦 Twitter`select`[]⚡Main`[]DIRECT`[]🇭🇰 HK`[]🇸🇬 SG`[]🇹🇼 TW`[]🇺🇸 US`[]🇯🇵 JP`.*
+🎵 Tiktok`select`[]⚡Main`[]DIRECT`[]🇭🇰 Hong Kong`[]🇸🇬 Singapore`[]🇹🇼 Taiwan`[]🇺🇸 United States`[]🇯🇵 Japan`.*
+🌐 Google`select`[]⚡Main`[]DIRECT`[]🇭🇰 Hong Kong`[]🇸🇬 Singapore`[]🇹🇼 Taiwan`[]🇺🇸 United States`[]🇯🇵 Japan`.*
+🤖 OpenAI`select`[]⚡Main`[]DIRECT`[]🇭🇰 Hong Kong`[]🇸🇬 Singapore`[]🇹🇼 Taiwan`[]🇺🇸 United States`[]🇯🇵 Japan`.*
+🐦 Twitter`select`[]⚡Main`[]DIRECT`[]🇭🇰 Hong Kong`[]🇸🇬 Singapore`[]🇹🇼 Taiwan`[]🇺🇸 United States`[]🇯🇵 Japan`.*
 🖥 Microsoft`select`[]DIRECT`[]⚡Main`.*
 📖 Learning`select`[]⚡Main`[]DIRECT`.*
 🇭🇰 Hong Kong`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:港|香港|HongKong|HK|Hong Kong)).*$)`http://www.gstatic.com/generate_204`120,5,50
