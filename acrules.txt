@@ -1,4 +1,4 @@
-⚡Main`select`[]♻️ Auto`[]DIRECT`[]🇭🇰 HK`[]🇸🇬 SG`[]🇹🇼 TW`[]🇺🇸 US`[]🇯🇵 JP`.*
+⚡Main`select`[]♻️ Auto`[]DIRECT`[]🇭🇰 Hong Kong`[]🇸🇬 Singapore`[]🇹🇼 Taiwan`[]🇺🇸 United States`[]🇯🇵 Japan`.*
 ♻️ Auto`url-test`.*`http://www.gstatic.com/generate_204`120,5,50
 📲 Telegram`select`[]⚡Main`[]DIRECT`[]🇭🇰 HK`[]🇸🇬 SG`[]🇹🇼 TW`.*
 📹 YouTube`select`[]⚡Main`[]DIRECT`[]🇭🇰 HK`[]🇸🇬 SG`[]🇹🇼 TW`[]🇺🇸 US`[]🇯🇵 JP`.*
