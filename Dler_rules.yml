@@ -104,6 +104,7 @@ rule-providers:
     WeTV: { type: http, behavior: classical, url: 'https://1a135efb-1e6c-4e3c-9d3d-a331bf6a6ee3.oss-cn-hangzhou.aliyuncs.com/Provider/Media/WeTV.yaml', path: ./Rules/Media/WeTV, interval: 86400 }
     ABC: { type: http, behavior: classical, url: 'https://1a135efb-1e6c-4e3c-9d3d-a331bf6a6ee3.oss-cn-hangzhou.aliyuncs.com/Provider/Media/ABC.yaml', path: ./Rules/Media/ABC, interval: 86400 }
     'Abema TV': { type: http, behavior: classical, url: 'https://1a135efb-1e6c-4e3c-9d3d-a331bf6a6ee3.oss-cn-hangzhou.aliyuncs.com/Provider/Media/Abema%20TV.yaml', path: ./Rules/Media/Abema_TV, interval: 86400 }
+    Peacock : { type: http, behavior: classical, url: 'https://1a135efb-1e6c-4e3c-9d3d-a331bf6a6ee3.oss-cn-hangzhou.aliyuncs.com/Provider/Media/Abema%20TV.yaml', path: ./Rules/Media/Abema_TV, interval: 86400 }
     Amazon: { type: http, behavior: classical, url: 'https://1a135efb-1e6c-4e3c-9d3d-a331bf6a6ee3.oss-cn-hangzhou.aliyuncs.com/Provider/Media/Amazon.yaml', path: ./Rules/Media/Amazon, interval: 86400 }
     'Apple Music': { type: http, behavior: classical, url: 'https://1a135efb-1e6c-4e3c-9d3d-a331bf6a6ee3.oss-cn-hangzhou.aliyuncs.com/Provider/Media/Apple%20Music.yaml', path: ./Rules/Media/Apple_Music, interval: 86400 }
     'Apple News': { type: http, behavior: classical, url: 'https://1a135efb-1e6c-4e3c-9d3d-a331bf6a6ee3.oss-cn-hangzhou.aliyuncs.com/Provider/Media/Apple%20News.yaml', path: ./Rules/Media/Apple_News, interval: 86400 }
