@@ -1,25 +1,25 @@
-Proxy`select`.*`[]AUTO`[]DIRECT`.*
+Proxy`select`.*`[]AUTO`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台灣`[]🇺🇸 美國`[]🇯🇵 日本`[]🇰🇷 韓國`.*
 AUTO`url-test`.*`http://www.gstatic.com/generate_204`300
+Telegram`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台灣`[]🇺🇸 美國`[]🇯🇵 日本`[]🇰🇷 韓國`.*
+YouTube`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台灣`[]🇺🇸 美國`[]🇯🇵 日本`[]🇰🇷 韓國`.*
+Netflix`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台灣`[]🇺🇸 美國`[]🇯🇵 日本`[]🇰🇷 韓國`.*
+Disney`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台灣`[]🇺🇸 美國`[]🇯🇵 日本`[]🇰🇷 韓國`.*
+Global TV`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台灣`[]🇺🇸 美國`[]🇯🇵 日本`[]🇰🇷 韓國`.*
+Asian TV`select`[]DIRECT`[]Proxy`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台灣`.*
+Emby`select`[]Proxy`[]DIRECT`.*
+Google FCM`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台灣`[]🇺🇸 美國`[]🇯🇵 日本`[]🇰🇷 韓國`.*
+OpenAI`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台灣`[]🇺🇸 美國`[]🇯🇵 日本`[]🇰🇷 韓國`.*
+Apple`select`[]DIRECT`[]Proxy`.*
+Apple TV`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台灣`[]🇺🇸 美國`[]🇯🇵 日本`[]🇰🇷 韓國`.*
+Scholar`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台灣`[]🇺🇸 美國`[]🇯🇵 日本`[]🇰🇷 韓國`.*
+Microsoft`select`[]DIRECT`[]Proxy`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台灣`[]🇺🇸 美國`[]🇯🇵 日本`[]🇰🇷 韓國`.*
+Spotify`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台灣`[]🇺🇸 美國`[]🇯🇵 日本`[]🇰🇷 韓國`.*
+Discord`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台灣`[]🇺🇸 美國`[]🇯🇵 日本`[]🇰🇷 韓國`.*
+Steam`select`[]Proxy`[]DIRECT`.*
+Crypto`select`[]Proxy`[]DIRECT`.*
+PayPal`select`[]Proxy`[]DIRECT`.*
+Speedtest`select`[]Proxy`[]DIRECT`.*
+Others`select`[]Proxy`[]DIRECT`.*
 Domestic`select`[]DIRECT`[]Proxy`.*
-Others`select`[]DIRECT`[]Proxy`.*
 AdBlock`select`[]REJECT`[]DIRECT`[]Proxy
 Anti IP`select`[]DIRECT`[]Proxy`.*
-Emby`select`[]Proxy`[]DIRECT`.*
-Netflix`select`[]Proxy`[]DIRECT`.*
-Disney`select`[]Proxy`[]DIRECT`.*
-YouTube`select`[]Proxy`[]DIRECT`.*
-Spotify`select`[]Proxy`[]DIRECT`.*
-Asian TV`select`[]Proxy`[]DIRECT`.*
-Global TV`select`[]Proxy`[]DIRECT`.*
-Apple`select`[]Proxy`[]DIRECT`.*
-Apple TV`select`[]Proxy`[]DIRECT`.*
-Telegram`select`[]Proxy`[]DIRECT`.*
-Google FCM`select`[]Proxy`[]DIRECT`.*
-Crypto`select`[]Proxy`[]DIRECT`.*
-Discord`select`[]Proxy`[]DIRECT`.*
-OpenAI`select`[]Proxy`[]DIRECT`.*
-Microsoft`select`[]Proxy`[]DIRECT`.*
-PayPal`select`[]Proxy`[]DIRECT`.*
-Scholar`select`[]Proxy`[]DIRECT`.*
-Speedtest`select`[]Proxy`[]DIRECT`.*
-Steam`select`[]Proxy`[]DIRECT`.*
