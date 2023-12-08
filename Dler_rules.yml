@@ -35,7 +35,6 @@ rules:
     - 'RULE-SET, WeTV, Asian TV'
     - 'RULE-SET, ABC, Global TV'
     - 'RULE-SET, Abema TV, Global TV'
-    - 'RULE-SET, Peacock, Global TV'
     - 'RULE-SET, Amazon, Global TV'
     - 'RULE-SET, Bahamut, Global TV'
     - 'RULE-SET, BBC iPlayer, Global TV'
