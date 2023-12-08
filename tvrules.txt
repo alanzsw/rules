@@ -1,0 +1,14 @@
+📺 Netflix`select`[]🇸🇬 Singapore`[]🇭🇰 Hong Kong`[]🇹🇼 Taiwan`[]🇺🇸 United States`[]✈️ TV-Rules`.*
+📺 Disney`select`[]🇸🇬 Singapore`[]🇭🇰 Hong Kong`[]🇹🇼 Taiwan`[]🇺🇸 United States`[]✈️ TV-Rules`.*
+📺 International-Media`select`[]🇺🇸 United States`[]✈️ TV-Rules`.*
+📺 Asian-Media`select`[]🇭🇰 Hong Kong`[]🇹🇼 Taiwan`[]✈️ TV-Rules`.*
+📹 YouTube`select`[]🇭🇰 Hong Kong`[]🇸🇬 Singapore`[]🇹🇼 Taiwan`[]🇺🇸 United States`[]✈️ TV-Rules`.*
+📽️ Emby`select`.*
+✈️ TV-Rules`select`[]🇭🇰 Hong Kong`[]🇸🇬 Singapore`[]🇹🇼 Taiwan`[]🇺🇸 United States`.*
+🇭🇰 Hong Kong`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:港|香港|HongKong|HK|Hong Kong)).*$)`http://www.gstatic.com/generate_204`60,5,50
+🇸🇬 Singapore`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:新加坡|坡|狮城|SG|Singapore)).*$)`http://www.gstatic.com/generate_204`60,5,50
+🇹🇼 Taiwan`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:台|台湾|TW|Taiwan)).*$)`http://www.gstatic.com/generate_204`60,5,50
+🇺🇸 United States`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:美|美国|US|United States|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))).*$)`http://www.gstatic.com/generate_204`60,5,50
+China-Websites`select`[]DIRECT`[]✈️ TV-Rules`.*
+Hijacking`select`[]REJECT`[]DIRECT
+Final`select`[]✈️ TV-Rules`[]DIRECT`.*
