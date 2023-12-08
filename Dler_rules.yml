@@ -74,7 +74,6 @@ rules:
     - 'RULE-SET, Scholar, Scholar'
     - 'RULE-SET, Speedtest, Speedtest'
     - 'RULE-SET, Steam, Steam'
-    - 'RULE-SET, miHoYo, miHoYo'
     - 'RULE-SET, PROXY, Proxy'
     - 'RULE-SET, Domestic, Domestic'
     - 'RULE-SET, Domestic IPs, Domestic'
