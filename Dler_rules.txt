@@ -1,5 +1,5 @@
 Proxy`select`.*`[]AUTO`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台灣`[]🇺🇸 美國`[]🇯🇵 日本`[]🇰🇷 韓國`.*
-AUTO`url-test`.*`http://www.gstatic.com/generate_204`300
+AUTO`url-test`.*`http://www.gstatic.com/generate_204`300,5,50
 Telegram`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台灣`[]🇺🇸 美國`[]🇯🇵 日本`[]🇰🇷 韓國`.*
 YouTube`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台灣`[]🇺🇸 美國`[]🇯🇵 日本`[]🇰🇷 韓國`.*
 Netflix`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台灣`[]🇺🇸 美國`[]🇯🇵 日本`[]🇰🇷 韓國`.*
@@ -11,14 +11,20 @@ Google FCM`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹
 OpenAI`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台灣`[]🇺🇸 美國`[]🇯🇵 日本`[]🇰🇷 韓國`.*
 Apple`select`[]DIRECT`[]Proxy`.*
 Apple TV`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台灣`[]🇺🇸 美國`[]🇯🇵 日本`[]🇰🇷 韓國`.*
-Scholar`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台灣`[]🇺🇸 美國`[]🇯🇵 日本`[]🇰🇷 韓國`.*
-Microsoft`select`[]DIRECT`[]Proxy`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台灣`[]🇺🇸 美國`[]🇯🇵 日本`[]🇰🇷 韓國`.*
-Spotify`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台灣`[]🇺🇸 美國`[]🇯🇵 日本`[]🇰🇷 韓國`.*
-Discord`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台灣`[]🇺🇸 美國`[]🇯🇵 日本`[]🇰🇷 韓國`.*
+Scholar`select`[]Proxy`[]DIRECT`.*
+Microsoft`select`[]DIRECT`[]Proxy`.*
+Spotify`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台灣`[]🇺🇸 美國`.*
+Discord`select`[]Proxy`[]DIRECT`.*
 Steam`select`[]Proxy`[]DIRECT`.*
 Crypto`select`[]Proxy`[]DIRECT`.*
 PayPal`select`[]Proxy`[]DIRECT`.*
 Speedtest`select`[]Proxy`[]DIRECT`.*
+🇭🇰 香港`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:港|香港|HongKong|HK|Hong Kong|🇭🇰)).*$)`http://www.gstatic.com/generate_204`300,5,50
+🇸🇬 新加坡`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:新加坡|坡|狮城|SG|Singapore|🇸🇬)).*$)`http://www.gstatic.com/generate_204`300,5,50
+🇹🇼 台灣`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:台|台湾|TW|Taiwan|🇹🇼)).*$)`http://www.gstatic.com/generate_204`300,5,50
+🇺🇸 美國`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:美|美国|US|United States|🇺🇸|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))).*$)`http://www.gstatic.com/generate_204`300,5,50
+🇯🇵 日本`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:日本|JP|Japan|🇯🇵)).*$)`http://www.gstatic.com/generate_204`300,5,50
+🇰🇷 韓國`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:韩国|韩|KR|Korea|KOR|🇰🇷)).*$)`http://www.gstatic.com/generate_204`300,5,50
 Others`select`[]Proxy`[]DIRECT`.*
 Domestic`select`[]DIRECT`[]Proxy`.*
 AdBlock`select`[]REJECT`[]DIRECT`[]Proxy
