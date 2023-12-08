@@ -14,7 +14,7 @@ Apple TV`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹�
 Scholar`select`[]Proxy`[]DIRECT`.*
 Microsoft`select`[]DIRECT`[]Proxy`.*
 Spotify`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`.*
-Discord`select`[]Proxy`[]DIRECT`.*
+Discord`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
 Steam`select`[]Proxy`[]DIRECT`.*
 Crypto`select`[]Proxy`[]DIRECT`.*
 PayPal`select`[]Proxy`[]DIRECT`.*
