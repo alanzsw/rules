@@ -284,19 +284,19 @@ rules:
   - DOMAIN-SUFFIX,mzstatic.com,🍎 Apple
   - DOMAIN,www-cdn.icloud.com.akadns.net,🍎 Apple
   - IP-CIDR,17.0.0.0/8,🍎 Apple
-  - DOMAIN-SUFFIX,t.me,📲 Telegram
-  - DOMAIN-SUFFIX,tdesktop.com,📲 Telegram
-  - DOMAIN-SUFFIX,telegra.ph,📲 Telegram
-  - DOMAIN-SUFFIX,telegram.me,📲 Telegram
-  - DOMAIN-SUFFIX,telegram.org,📲 Telegram
-  - DOMAIN-SUFFIX,telesco.pe,📲 Telegram
-  - IP-CIDR,91.108.4.0/22,📲 Telegram
-  - IP-CIDR,91.108.8.0/22,📲 Telegram
-  - IP-CIDR,91.108.12.0/22,📲 Telegram
-  - IP-CIDR,91.108.16.0/22,📲 Telegram
-  - IP-CIDR,91.108.20.0/22,📲 Telegram
-  - IP-CIDR,91.108.56.0/22,📲 Telegram
-  - IP-CIDR,149.154.160.0/20,📲 Telegram
+  - DOMAIN-SUFFIX,t.me,📢 Telegram
+  - DOMAIN-SUFFIX,tdesktop.com,📢 Telegram
+  - DOMAIN-SUFFIX,telegra.ph,📢 Telegram
+  - DOMAIN-SUFFIX,telegram.me,📢 Telegram
+  - DOMAIN-SUFFIX,telegram.org,📢 Telegram
+  - DOMAIN-SUFFIX,telesco.pe,📢 Telegram
+  - IP-CIDR,91.108.4.0/22,📢 Telegram
+  - IP-CIDR,91.108.8.0/22,📢 Telegram
+  - IP-CIDR,91.108.12.0/22,📢 Telegram
+  - IP-CIDR,91.108.16.0/22,📢 Telegram
+  - IP-CIDR,91.108.20.0/22,📢 Telegram
+  - IP-CIDR,91.108.56.0/22,📢 Telegram
+  - IP-CIDR,149.154.160.0/20,📢 Telegram
   - DOMAIN-SUFFIX,flightpacific.net,Final
   - DOMAIN-SUFFIX,nexitallysecure.com,Final
   - DOMAIN-SUFFIX,nexitally.com,Final
@@ -424,11 +424,6 @@ rules:
   - IP-CIDR,120.92.153.217/32,🎬 Bilibili
   - IP-CIDR,134.175.207.130/32,🎬 Bilibili
   - IP-CIDR,203.107.1.0/24,🎬 Bilibili
-  - DOMAIN-SUFFIX,mytvsuper.com,🎬 myTVSUPER
-  - DOMAIN-SUFFIX,tvb.com,🎬 myTVSUPER
-  - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,📲 LineTV
-  - DOMAIN-SUFFIX,linetv.tw,📲 LineTV
-  - DOMAIN-SUFFIX,profile.line-scdn.net,📲 LineTV
   - DOMAIN,intel-cache.m.iqiyi.com,🎬 iQiyi
   - DOMAIN,intel-cache.video.iqiyi.com,🎬 iQiyi
   - DOMAIN,intl-rcd.iqiyi.com,🎬 iQiyi
@@ -453,11 +448,11 @@ rules:
   - DOMAIN-SUFFIX,tiktokcdn.com,🎵 Tiktok
   - DOMAIN-SUFFIX,tiktokv.com,🎵 Tiktok
   - DOMAIN-KEYWORD,-tiktokcdn-com,🎵 Tiktok
-  - DOMAIN-SUFFIX,googlevideo.com,🎬 YouTube
-  - DOMAIN-SUFFIX,youtube.com,🎬 YouTube
-  - DOMAIN-SUFFIX,ytimg.com,🎬 YouTube
-  - DOMAIN,youtubei.googleapis.com,🎬 YouTube
-  - DOMAIN,yt3.ggpht.com,🎬 YouTube
+  - DOMAIN-SUFFIX,googlevideo.com,▶️ YouTube
+  - DOMAIN-SUFFIX,youtube.com,▶️ YouTube
+  - DOMAIN-SUFFIX,ytimg.com,▶️ YouTube
+  - DOMAIN,youtubei.googleapis.com,▶️ YouTube
+  - DOMAIN,yt3.ggpht.com,▶️ YouTube
   - DOMAIN-SUFFIX,20thcenturystudios.com.au,📺 Disney
   - DOMAIN-SUFFIX,20thcenturystudios.com.br,📺 Disney
   - DOMAIN-SUFFIX,20thcenturystudios.jp,📺 Disney
@@ -766,13 +761,13 @@ rules:
   - DOMAIN-KEYWORD,www.google,🌐 Google
   - IP-CIDR,173.194.0.0/16,🌐 Google
   - IP-CIDR,74.125.0.0/16,🌐 Google
-  - DOMAIN-SUFFIX,openai.com,🐹 OpenAI
-  - DOMAIN-SUFFIX,ai.com,🐹 OpenAI
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🐹 OpenAI
-  - DOMAIN-SUFFIX,openaicom.imgix.net,🐹 OpenAI
-  - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net,🐹 OpenAI
-  - DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,🐹 OpenAI
-  - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net,🐹 OpenAI
+  - DOMAIN-SUFFIX,openai.com,🤖 OpenAI
+  - DOMAIN-SUFFIX,ai.com,🤖 OpenAI
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🤖 OpenAI
+  - DOMAIN-SUFFIX,openaicom.imgix.net,🤖 OpenAI
+  - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net,🤖 OpenAI
+  - DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,🤖 OpenAI
+  - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net,🤖 OpenAI
   - DOMAIN-SUFFIX,1drv.com,🖥 Microsoft
   - DOMAIN-SUFFIX,aadrm.com,🖥 Microsoft
   - DOMAIN-SUFFIX,acompli.com,🖥 Microsoft
@@ -896,91 +891,145 @@ rules:
   - DOMAIN-KEYWORD,microsoft,🖥 Microsoft
   - DOMAIN-KEYWORD,onedrive,🖥 Microsoft
   - DOMAIN-KEYWORD,skydrive,🖥 Microsoft
-  - DOMAIN-SUFFIX,acm.org,🖥 Learning
-  - DOMAIN-SUFFIX,acs.org,🖥 Learning
-  - DOMAIN-SUFFIX,aip.org,🖥 Learning
-  - DOMAIN-SUFFIX,ams.org,🖥 Learning
-  - DOMAIN-SUFFIX,annualreviews.org,🖥 Learning
-  - DOMAIN-SUFFIX,aps.org,🖥 Learning
-  - DOMAIN-SUFFIX,ascelibrary.org,🖥 Learning
-  - DOMAIN-SUFFIX,asm.org,🖥 Learning
-  - DOMAIN-SUFFIX,asme.org,🖥 Learning
-  - DOMAIN-SUFFIX,astm.org,🖥 Learning
-  - DOMAIN-SUFFIX,blackwell-synergy.com,🖥 Learning
-  - DOMAIN-SUFFIX,bmj.com,🖥 Learning
-  - DOMAIN-SUFFIX,cabdirect.org,🖥 Learning
-  - DOMAIN-SUFFIX,cambridge.org,🖥 Learning
-  - DOMAIN-SUFFIX,cas.org,🖥 Learning
-  - DOMAIN-SUFFIX,cell.com,🖥 Learning
-  - DOMAIN-SUFFIX,clarivate.com,🖥 Learning
-  - DOMAIN-SUFFIX,cnki.net,🖥 Learning
-  - DOMAIN-SUFFIX,cqvip.com,🖥 Learning
-  - DOMAIN-SUFFIX,csiro.au,🖥 Learning
-  - DOMAIN-SUFFIX,deepdyve.com,🖥 Learning
-  - DOMAIN-SUFFIX,ebscohost.com,🖥 Learning
-  - DOMAIN-SUFFIX,els-cdn.com,🖥 Learning
-  - DOMAIN-SUFFIX,elsevier.com,🖥 Learning
-  - DOMAIN-SUFFIX,emerald.com,🖥 Learning
-  - DOMAIN-SUFFIX,endnote.com,🖥 Learning
-  - DOMAIN-SUFFIX,engineeringvillage.com,🖥 Learning
-  - DOMAIN-SUFFIX,icevirtuallibrary.com,🖥 Learning
-  - DOMAIN-SUFFIX,ieee.org,🖥 Learning
-  - DOMAIN-SUFFIX,imf.org,🖥 Learning
-  - DOMAIN-SUFFIX,iop.org,🖥 Learning
-  - DOMAIN-SUFFIX,jamanetwork.com,🖥 Learning
-  - DOMAIN-SUFFIX,jbc.org,🖥 Learning
-  - DOMAIN-SUFFIX,jhu.edu,🖥 Learning
-  - DOMAIN-SUFFIX,jstor.org,🖥 Learning
-  - DOMAIN-SUFFIX,karger.com,🖥 Learning
-  - DOMAIN-SUFFIX,libguides.com,🖥 Learning
-  - DOMAIN-SUFFIX,madsrevolution.net,🖥 Learning
-  - DOMAIN-SUFFIX,mdpi.com,🖥 Learning
-  - DOMAIN-SUFFIX,mpg.de,🖥 Learning
-  - DOMAIN-SUFFIX,myilibrary.com,🖥 Learning
-  - DOMAIN-SUFFIX,nature.com,🖥 Learning
-  - DOMAIN-SUFFIX,ncbi.nlm.nih.gov,🖥 Learning
-  - DOMAIN-SUFFIX,oecd-ilibrary.org,🖥 Learning
-  - DOMAIN-SUFFIX,osapublishing.org,🖥 Learning
-  - DOMAIN-SUFFIX,oup.com,🖥 Learning
-  - DOMAIN-SUFFIX,ovid.com,🖥 Learning
-  - DOMAIN-SUFFIX,oxfordartonline.com,🖥 Learning
-  - DOMAIN-SUFFIX,oxfordbibliographies.com,🖥 Learning
-  - DOMAIN-SUFFIX,oxfordmusiconline.com,🖥 Learning
-  - DOMAIN-SUFFIX,pkulaw.com,🖥 Learning
-  - DOMAIN-SUFFIX,pnas.org,🖥 Learning
-  - DOMAIN-SUFFIX,proquest.com,🖥 Learning
-  - DOMAIN-SUFFIX,readcube.com,🖥 Learning
-  - DOMAIN-SUFFIX,researchgate.net,🖥 Learning
-  - DOMAIN-SUFFIX,rsc.org,🖥 Learning
-  - DOMAIN-SUFFIX,sagepub.com,🖥 Learning
-  - DOMAIN-SUFFIX,sci-hub.tw,🖥 Learning
-  - DOMAIN-SUFFIX,sciencedirect.com,🖥 Learning
-  - DOMAIN-SUFFIX,sciencemag.org,🖥 Learning
-  - DOMAIN-SUFFIX,scitation.org,🖥 Learning
-  - DOMAIN-SUFFIX,scopus.com,🖥 Learning
-  - DOMAIN-SUFFIX,siam.org,🖥 Learning
-  - DOMAIN-SUFFIX,spiedigitallibrary.org,🖥 Learning
-  - DOMAIN-SUFFIX,springer.com,🖥 Learning
-  - DOMAIN-SUFFIX,springerlink.com,🖥 Learning
-  - DOMAIN-SUFFIX,tandfonline.com,🖥 Learning
-  - DOMAIN-SUFFIX,un.org,🖥 Learning
-  - DOMAIN-SUFFIX,uni-bielefeld.de,🖥 Learning
-  - DOMAIN-SUFFIX,wanfangdata.com,🖥 Learning
-  - DOMAIN-SUFFIX,webofknowledge.com,🖥 Learning
-  - DOMAIN-SUFFIX,westlaw.com,🖥 Learning
-  - DOMAIN-SUFFIX,westlawchina.com,🖥 Learning
-  - DOMAIN-SUFFIX,wiley.com,🖥 Learning
-  - DOMAIN-SUFFIX,worldbank.org,🖥 Learning
-  - DOMAIN-SUFFIX,worldscientific.com,🖥 Learning
-  - DOMAIN-SUFFIX,pscp.tv,📟 Twitter
-  - DOMAIN-SUFFIX,periscope.tv,📟 Twitter
-  - DOMAIN-SUFFIX,t.co,📟 Twitter
-  - DOMAIN-SUFFIX,twimg.co,📟 Twitter
-  - DOMAIN-SUFFIX,twimg.com,📟 Twitter
-  - DOMAIN-SUFFIX,twitpic.com,📟 Twitter
-  - DOMAIN-SUFFIX,twitter.com,📟 Twitter
-  - DOMAIN-SUFFIX,twitter.jp,📟 Twitter
-  - DOMAIN-SUFFIX,vine.co,📟 Twitter
+  - DOMAIN-SUFFIX,acm.org,📖 Learning
+  - DOMAIN-SUFFIX,acs.org,📖 Learning
+  - DOMAIN-SUFFIX,aip.org,📖 Learning
+  - DOMAIN-SUFFIX,ams.org,📖 Learning
+  - DOMAIN-SUFFIX,annualreviews.org,📖 Learning
+  - DOMAIN-SUFFIX,aps.org,📖 Learning
+  - DOMAIN-SUFFIX,ascelibrary.org,📖 Learning
+  - DOMAIN-SUFFIX,asm.org,📖 Learning
+  - DOMAIN-SUFFIX,asme.org,📖 Learning
+  - DOMAIN-SUFFIX,astm.org,📖 Learning
+  - DOMAIN-SUFFIX,blackwell-synergy.com,📖 Learning
+  - DOMAIN-SUFFIX,bmj.com,📖 Learning
+  - DOMAIN-SUFFIX,cabdirect.org,📖 Learning
+  - DOMAIN-SUFFIX,cambridge.org,📖 Learning
+  - DOMAIN-SUFFIX,cas.org,📖 Learning
+  - DOMAIN-SUFFIX,cell.com,📖 Learning
+  - DOMAIN-SUFFIX,clarivate.com,📖 Learning
+  - DOMAIN-SUFFIX,cnki.net,📖 Learning
+  - DOMAIN-SUFFIX,cqvip.com,📖 Learning
+  - DOMAIN-SUFFIX,csiro.au,📖 Learning
+  - DOMAIN-SUFFIX,deepdyve.com,📖 Learning
+  - DOMAIN-SUFFIX,ebscohost.com,📖 Learning
+  - DOMAIN-SUFFIX,els-cdn.com,📖 Learning
+  - DOMAIN-SUFFIX,elsevier.com,📖 Learning
+  - DOMAIN-SUFFIX,emerald.com,📖 Learning
+  - DOMAIN-SUFFIX,endnote.com,📖 Learning
+  - DOMAIN-SUFFIX,engineeringvillage.com,📖 Learning
+  - DOMAIN-SUFFIX,icevirtuallibrary.com,📖 Learning
+  - DOMAIN-SUFFIX,ieee.org,📖 Learning
+  - DOMAIN-SUFFIX,imf.org,📖 Learning
+  - DOMAIN-SUFFIX,iop.org,📖 Learning
+  - DOMAIN-SUFFIX,jamanetwork.com,📖 Learning
+  - DOMAIN-SUFFIX,jbc.org,📖 Learning
+  - DOMAIN-SUFFIX,jhu.edu,📖 Learning
+  - DOMAIN-SUFFIX,jstor.org,📖 Learning
+  - DOMAIN-SUFFIX,karger.com,📖 Learning
+  - DOMAIN-SUFFIX,libguides.com,📖 Learning
+  - DOMAIN-SUFFIX,madsrevolution.net,📖 Learning
+  - DOMAIN-SUFFIX,mdpi.com,📖 Learning
+  - DOMAIN-SUFFIX,mpg.de,📖 Learning
+  - DOMAIN-SUFFIX,myilibrary.com,📖 Learning
+  - DOMAIN-SUFFIX,nature.com,📖 Learning
+  - DOMAIN-SUFFIX,ncbi.nlm.nih.gov,📖 Learning
+  - DOMAIN-SUFFIX,oecd-ilibrary.org,📖 Learning
+  - DOMAIN-SUFFIX,osapublishing.org,📖 Learning
+  - DOMAIN-SUFFIX,oup.com,📖 Learning
+  - DOMAIN-SUFFIX,ovid.com,📖 Learning
+  - DOMAIN-SUFFIX,oxfordartonline.com,📖 Learning
+  - DOMAIN-SUFFIX,oxfordbibliographies.com,📖 Learning
+  - DOMAIN-SUFFIX,oxfordmusiconline.com,📖 Learning
+  - DOMAIN-SUFFIX,pkulaw.com,📖 Learning
+  - DOMAIN-SUFFIX,pnas.org,📖 Learning
+  - DOMAIN-SUFFIX,proquest.com,📖 Learning
+  - DOMAIN-SUFFIX,readcube.com,📖 Learning
+  - DOMAIN-SUFFIX,researchgate.net,📖 Learning
+  - DOMAIN-SUFFIX,rsc.org,📖 Learning
+  - DOMAIN-SUFFIX,sagepub.com,📖 Learning
+  - DOMAIN-SUFFIX,sci-hub.tw,📖 Learning
+  - DOMAIN-SUFFIX,sciencedirect.com,📖 Learning
+  - DOMAIN-SUFFIX,sciencemag.org,📖 Learning
+  - DOMAIN-SUFFIX,scitation.org,📖 Learning
+  - DOMAIN-SUFFIX,scopus.com,📖 Learning
+  - DOMAIN-SUFFIX,siam.org,📖 Learning
+  - DOMAIN-SUFFIX,spiedigitallibrary.org,📖 Learning
+  - DOMAIN-SUFFIX,springer.com,📖 Learning
+  - DOMAIN-SUFFIX,springerlink.com,📖 Learning
+  - DOMAIN-SUFFIX,tandfonline.com,📖 Learning
+  - DOMAIN-SUFFIX,un.org,📖 Learning
+  - DOMAIN-SUFFIX,uni-bielefeld.de,📖 Learning
+  - DOMAIN-SUFFIX,wanfangdata.com,📖 Learning
+  - DOMAIN-SUFFIX,webofknowledge.com,📖 Learning
+  - DOMAIN-SUFFIX,westlaw.com,📖 Learning
+  - DOMAIN-SUFFIX,westlawchina.com,📖 Learning
+  - DOMAIN-SUFFIX,wiley.com,📖 Learning
+  - DOMAIN-SUFFIX,worldbank.org,📖 Learning
+  - DOMAIN-SUFFIX,worldscientific.com,📖 Learning
+  - DOMAIN-SUFFIX,pscp.tv,🐦 Twitter
+  - DOMAIN-SUFFIX,periscope.tv,🐦 Twitter
+  - DOMAIN-SUFFIX,t.co,🐦 Twitter
+  - DOMAIN-SUFFIX,twimg.co,🐦 Twitter
+  - DOMAIN-SUFFIX,twimg.com,🐦 Twitter
+  - DOMAIN-SUFFIX,twitpic.com,🐦 Twitter
+  - DOMAIN-SUFFIX,twitter.com,🐦 Twitter
+  - DOMAIN-SUFFIX,twitter.jp,🐦 Twitter
+  - DOMAIN-SUFFIX,vine.co,🐦 Twitter
+  - DOMAIN-SUFFIX,gamer.com.tw,📺 Asian-Media
+  - DOMAIN-SUFFIX,bahamut.com.tw,📺 Asian-Media
+  - DOMAIN-SUFFIX,hinet.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,fbcdn.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,gvt1.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,digicert.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,viblast.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,dai3fd1oh325y.cloudfront.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,hboasia1-i.akamaihd.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,hboasia2-i.akamaihd.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,hboasia3-i.akamaihd.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,hboasia4-i.akamaihd.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,hboasia5-i.akamaihd.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,hboasialive.akamaized.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,hbogoprod-vod.akamaized.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,hbolb.onwardsmg.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,hbounify-prod.evergent.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,hbogoasia.hk,📺 Asian-Media
+  - DOMAIN-SUFFIX,hbogoasia.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,bigbigchannel.com.hk,📺 Asian-Media
+  - DOMAIN-SUFFIX,bigbigshop.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,content.jwplatform.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,encoretvb.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,mytvsuper.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,mytvsuperlimited.hb.omtrdc.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,mytvsuperlimited.sc.omtrdc.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,tvb.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,tvb.com.au,📺 Asian-Media
+  - DOMAIN-SUFFIX,tvbanywhere.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,tvbanywhere.com.sg,📺 Asian-Media
+  - DOMAIN-SUFFIX,tvbc.com.cn,📺 Asian-Media
+  - DOMAIN-SUFFIX,tvbeventpower.com.hk,📺 Asian-Media
+  - DOMAIN-SUFFIX,tvbusa.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,tvbweekly.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,tvmedia.net.au,📺 Asian-Media
+  - DOMAIN-SUFFIX,videos-f.jwpsrv.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,myvideo.net.tw,📺 Asian-Media
+  - DOMAIN-SUFFIX,kktv.com.tw,📺 Asian-Media
+  - DOMAIN-SUFFIX,kktv.me,📺 Asian-Media
+  - DOMAIN-SUFFIX,kk.stream,📺 Asian-Media
+  - DOMAIN-SUFFIX,chocotv.com.tw,📺 Asian-Media
+  - DOMAIN-SUFFIX,line-cdn.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,line-scdn.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,linetv.tw,📺 Asian-Media
+  - DOMAIN-SUFFIX,litv.tv,📺 Asian-Media
+  - DOMAIN-SUFFIX,LiTV.tv,📺 Asian-Media
+  - DOMAIN-SUFFIX,cdn.hinet.net,📺 Asian-Media
+  - DOMAIN-SUFFIX,viu.tv,📺 Asian-Media
+  - DOMAIN-SUFFIX,viu.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,viu.now.com,📺 Asian-Media
+  - DOMAIN-SUFFIX,peacocktv.com,📺 International-Media
+  - DOMAIN-SUFFIX,peacock.com,📺 International-Media
   - DOMAIN-SUFFIX,c4assets.com,📺 International-Media
   - DOMAIN-SUFFIX,channel4.com,📺 International-Media
   - DOMAIN-SUFFIX,abema.io,📺 International-Media
