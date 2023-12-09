@@ -200,6 +200,28 @@ rules:
   - DOMAIN-KEYWORD,jmsooo,🎬 Emby
   - DOMAIN-KEYWORD,odysseyplus,🎬 Emby
   - PROCESS-NAME,com.mb.android,🎬 Emby
+  - DOMAIN-SUFFIX,ext-twitch.tv,🐭 Twitch
+  - DOMAIN-SUFFIX,jtvnw.net,🐭 Twitch
+  - DOMAIN-SUFFIX,live-video.net,🐭 Twitch
+  - DOMAIN-SUFFIX,ttvnw.net,🐭 Twitch
+  - DOMAIN-SUFFIX,twitch-ext.rootonline.de,🐭 Twitch
+  - DOMAIN-SUFFIX,twitch.tv,🐭 Twitch
+  - DOMAIN-SUFFIX,twitchcdn.net,🐭 Twitch
+  - DOMAIN-SUFFIX,twitchsvc.net,🐭 Twitch
+  - DOMAIN-KEYWORD,ttvnw,🐭 Twitch
+  - IP-CIDR,103.53.48.0/23,🐭 Twitch,no-resolve
+  - IP-CIDR,185.42.204.0/22,🐭 Twitch,no-resolve
+  - IP-CIDR,192.108.239.0/24,🐭 Twitch,no-resolve
+  - IP-CIDR,192.16.64.0/21,🐭 Twitch,no-resolve
+  - IP-CIDR,199.9.248.0/21,🐭 Twitch,no-resolve
+  - IP-CIDR,23.160.0.0/24,🐭 Twitch,no-resolve
+  - IP-CIDR,45.113.128.0/22,🐭 Twitch,no-resolve
+  - IP-CIDR,52.223.192.0/20,🐭 Twitch,no-resolve
+  - IP-CIDR,52.223.208.0/21,🐭 Twitch,no-resolve
+  - IP-CIDR,52.223.224.0/19,🐭 Twitch,no-resolve
+  - IP-CIDR,99.181.64.0/18,🐭 Twitch,no-resolve
+  - IP-CIDR6,2402:2a80::/32,🐭 Twitch,no-resolve
+  - PROCESS-NAME,tv.twitch.android.app,🐭 Twitch
   - DOMAIN-SUFFIX,ap.spotify.com,DIRECT
   - DOMAIN-KEYWORD,epochtimes,REJECT
   - DOMAIN-SUFFIX,881903.com,REJECT
