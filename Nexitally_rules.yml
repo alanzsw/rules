@@ -284,6 +284,13 @@ rules:
   - DOMAIN-SUFFIX,mzstatic.com,🍎 Apple
   - DOMAIN,www-cdn.icloud.com.akadns.net,🍎 Apple
   - IP-CIDR,17.0.0.0/8,🍎 Apple
+  - DOMAIN-SUFFIX,s.team,🎮 Steam
+  - DOMAIN-SUFFIX,steampowered.com,🎮 Steam
+  - DOMAIN-SUFFIX,steamcommunity.com,🎮 Steam
+  - DOMAIN-SUFFIX,steamgames.com,🎮 Steam
+  - DOMAIN-SUFFIX,steamusercontent.com,🎮 Steam
+  - DOMAIN-SUFFIX,steamcontent.com,🎮 Steam
+  - DOMAIN-SUFFIX,steamstatic.com,🎮 Steam
   - DOMAIN-SUFFIX,t.me,📢 Telegram
   - DOMAIN-SUFFIX,tdesktop.com,📢 Telegram
   - DOMAIN-SUFFIX,telegra.ph,📢 Telegram
