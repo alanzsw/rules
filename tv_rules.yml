@@ -718,6 +718,8 @@ rules:
   - DOMAIN-SUFFIX,twitter.com,📟 Twitter
   - DOMAIN-SUFFIX,twitter.jp,📟 Twitter
   - DOMAIN-SUFFIX,vine.co,📟 Twitter
+  - DOMAIN-SUFFIX,peacock.com,📺 International-Media
+  - DOMAIN-SUFFIX,peacocktv.com,📺 International-Media
   - DOMAIN-SUFFIX,c4assets.com,📺 International-Media
   - DOMAIN-SUFFIX,channel4.com,📺 International-Media
   - DOMAIN-SUFFIX,abema.io,📺 International-Media
