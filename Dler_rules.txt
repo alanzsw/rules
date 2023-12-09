@@ -19,7 +19,7 @@ Steam`select`[]Proxy`[]DIRECT`.*
 Crypto`select`[]Proxy`[]DIRECT`.*
 PayPal`select`[]Proxy`[]DIRECT`.*
 Speedtest`select`[]Proxy`[]DIRECT`.*
-🇭🇰 香港`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:港|香港|HongKong|HK|Hong Kong|🇭🇰)).*$)`http://www.gstatic.com/generate_204`120,5,30
+🇭🇰 香港`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:港|香港|HongKong|HK|Hong Kong|🇭🇰))(^(?!.*(EIP)).*).*$)`http://www.gstatic.com/generate_204`120,5,30
 🇸🇬 新加坡`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:新加坡|坡|狮城|SG|Singapore|🇸🇬)).*$)`http://www.gstatic.com/generate_204`120,5,30
 🇹🇼 台湾`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:台|台湾|TW|Taiwan|🇹🇼)).*$)`http://www.gstatic.com/generate_204`120,5,30
 🇺🇸 美国`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:美|美国|US|United States|🇺🇸|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))).*$)`http://www.gstatic.com/generate_204`120,5,30
