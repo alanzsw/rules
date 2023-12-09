@@ -12,6 +12,7 @@
 🤖 OpenAI`select`[]⭐ Main`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
 🐦 Twitter`select`[]⭐ Main`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
 🌐 Google`select`[]⭐ Main`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
+🎮 Steam`select`[]⭐ Main`[]DIRECT`.*
 🖥 Microsoft`select`[]DIRECT`[]⭐ Main`.*
 📖 Learning`select`[]⭐ Main`[]DIRECT`.*
 🍎 Apple`select`[]DIRECT`[]⭐ Main`.*
