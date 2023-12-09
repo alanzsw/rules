@@ -1,20 +1,20 @@
 ⚡Main`select`[]♻️ Auto`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
 ♻️ Auto`url-test`.*`http://www.gstatic.com/generate_204`300,5,50
-📲 Telegram`select`[]⚡Main`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
-🎬 YouTube`select`[]⚡Main`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
+📢 Telegram`select`[]⚡Main`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
+▶️ YouTube`select`[]⚡Main`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
 🐭 Twitch`select`[]⚡Main`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
 📺 Netflix`select`[]⚡Main`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
 📺 Disney`select`[]⚡Main`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
 📺 International-Media`select`[]⚡Main`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
 🎬 Emby`select`[]⚡Main`[]DIRECT`.*
 🐹 OpenAI`select`[]⚡Main`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
-📟 Twitter`select`[]⚡Main`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
+🐦 Twitter`select`[]⚡Main`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
 🎵 Tiktok`select`[]⚡Main`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
-🎬 myTVSUPER`select`[]⚡Main`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`.*
-📲 LineTV`select`[]⚡Main`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`.*
+📺 myTVSUPER`select`[]⚡Main`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`.*
+📺 LineTV`select`[]⚡Main`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`.*
 🌐 Google`select`[]⚡Main`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
 🖥 Microsoft`select`[]DIRECT`[]⚡Main`.*
-🖥 Learning`select`[]⚡Main`[]DIRECT`.*
+📖 Learning`select`[]⚡Main`[]DIRECT`.*
 🍎 Apple`select`[]DIRECT`[]⚡Main`.*
 🎬 Bilibili`select`[]DIRECT`[]⚡Main`.*
 🎬 iQiyi`select`[]DIRECT`[]⚡Main`.*
