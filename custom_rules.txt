@@ -19,11 +19,11 @@
 🎬 Bilibili`select`[]DIRECT`[]⭐ Main`.*
 🎬 iQiyi`select`[]DIRECT`[]⭐ Main`.*
 🇭🇰 香港`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:港|香港|HongKong|HK|Hong Kong|🇭🇰))(^(?!.*(EIP)).*).*$)`http://www.gstatic.com/generate_204`300,1,50
-🇸🇬 新加坡`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:新加坡|坡|狮城|SG|Singapore|🇸🇬)).*$)`http://www.gstatic.com/generate_204`300,1,50
-🇹🇼 台湾`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:台|台湾|TW|Taiwan|🇹🇼)).*$)`http://www.gstatic.com/generate_204`300,1,50
-🇺🇸 美国`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:美|美国|US|United States|🇺🇸|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))).*$)`http://www.gstatic.com/generate_204`300,1,50
-🇯🇵 日本`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:日本|JP|Japan|🇯🇵)).*$)`http://www.gstatic.com/generate_204`300,1,50
-🇰🇷 韩国`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:韩国|韩|KR|Korea|KOR|🇰🇷)).*$)`http://www.gstatic.com/generate_204`300,1,50
+🇸🇬 新加坡`fallback`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:新加坡|坡|狮城|SG|Singapore|🇸🇬)).*$)`http://www.gstatic.com/generate_204`300,1,50
+🇹🇼 台湾`fallback`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:台|台湾|TW|Taiwan|🇹🇼)).*$)`http://www.gstatic.com/generate_204`300,1,50
+🇺🇸 美国`fallback`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:美|美国|US|United States|🇺🇸|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))).*$)`http://www.gstatic.com/generate_204`300,1,50
+🇯🇵 日本`fallback`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:日本|JP|Japan|🇯🇵)).*$)`http://www.gstatic.com/generate_204`300,1,50
+🇰🇷 韩国`fallback`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:韩国|韩|KR|Korea|KOR|🇰🇷)).*$)`http://www.gstatic.com/generate_204`300,1,50
 China-Media`select`[]DIRECT`[]⭐ Main`.*
 China-Websites`select`[]DIRECT`[]⭐ Main`.*
 Hijacking`select`[]REJECT`[]DIRECT
