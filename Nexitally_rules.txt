@@ -1,5 +1,5 @@
 ⭐ Main`select`[]♻️ Auto`[]DIRECT`.*
-♻️ Auto`url-test`(^(?!.*(EIP)).*)`http://www.google.com/generate_204`300,1,50
+♻️ Auto`url-test`(^(?!.*(EIP)).*)`http://www.gstatic.com/generate_204`300,1,50
 📢 Telegram`select`[]⭐ Main`[]DIRECT`.*
 ▶️ YouTube`select`[]⭐ Main`[]DIRECT`.*
 🐭 Twitch`select`[]⭐ Main`[]DIRECT`.*
