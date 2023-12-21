@@ -18,12 +18,12 @@
 🎬 Bilibili`select`[]DIRECT`[]⭐ Main`.*
 🎬 iQiyi`select`[]DIRECT`[]⭐ Main`.*
 ♻️ Auto`url-test`(^(?!.*(EIP)).*)`http://www.gstatic.com/generate_204`5,5,50
-🇭🇰 香港`fallback`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:港|香港|HongKong|HK|HKG|Hong Kong|🇭🇰))(^(?!.*(EIP|0.20x)).*).*$)`http://www.gstatic.com/generate_204`5,2,50
-🇸🇬 新加坡`fallback`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:新加坡|坡|狮城|SG|SGP|Singapore|🇸🇬))(^(?!.*(0.20x)).*).*$)`http://www.gstatic.com/generate_204`5,2,50
-🇹🇼 台湾`fallback`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:台|台湾|台灣|TW|TWN|Taiwan|🇹🇼))(^(?!.*(0.20x)).*).*$)`http://www.gstatic.com/generate_204`5,2,50
-🇺🇸 美国`fallback`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:美|美国|美國|USA|US|United States|🇺🇸|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z])))(^(?!.*(0.20x)).*).*$)`http://www.gstatic.com/generate_204`5,2,50
-🇯🇵 日本`fallback`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:日本|JP|JPN|Japan|🇯🇵))(^(?!.*(0.20x)).*).*$)`http://www.gstatic.com/generate_204`5,2,50
-🇰🇷 韩国`fallback`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:韩国|韩|韓|韓國|KR|Korea|KOR|🇰🇷))(^(?!.*(0.20x)).*).*$)`http://www.gstatic.com/generate_204`5,2,50
+🇭🇰 香港`fallback`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:港|香港|HongKong|HK|HKG|Hong Kong|🇭🇰))(^(?!.*(EIP)).*).*$)`http://www.gstatic.com/generate_204`5,2,50
+🇸🇬 新加坡`fallback`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:新加坡|坡|狮城|SG|SGP|Singapore|🇸🇬)).*$)`http://www.gstatic.com/generate_204`5,2,50
+🇹🇼 台湾`fallback`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:台|台湾|台灣|TW|TWN|Taiwan|🇹🇼)).*$)`http://www.gstatic.com/generate_204`5,2,50
+🇺🇸 美国`fallback`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:美|美国|美國|USA|US|United States|🇺🇸|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))).*$)`http://www.gstatic.com/generate_204`5,2,50
+🇯🇵 日本`fallback`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:日本|JP|JPN|Japan|🇯🇵)).*$)`http://www.gstatic.com/generate_204`5,2,50
+🇰🇷 韩国`fallback`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:韩国|韩|韓|韓國|KR|Korea|KOR|🇰🇷)).*$)`http://www.gstatic.com/generate_204`5,2,50
 China-Media`select`[]DIRECT`[]⭐ Main`.*
 China-Websites`select`[]DIRECT`[]⭐ Main`.*
 Hijacking`select`[]REJECT`[]DIRECT
