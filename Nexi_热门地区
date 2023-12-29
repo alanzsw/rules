@@ -2,25 +2,6 @@
 
 rename_node=狮城@新加坡
 rename_node=🇨🇳@🇹🇼
-rename_node=[广港 | 日用]@广移
-rename_node=[广港 | 优化]@广港
-rename_node=[深港 | 优化]@深港
-rename_node=[三网  | 日常]@直连
-rename_node=[三网 | 日常]@直连
-rename_node=[京港 | 视频]@京港
-rename_node=[沪港 | 视频]@沪港
-rename_node=[EIP  | 游戏]@EIP
-rename_node=[EIP | 游戏]@EIP
-rename_node=[苏日 | 视频]@苏日
-rename_node=[沪日 | 视频]@沪日
-rename_node=[京新 | 视频]@京新
-rename_node=[沪新 | CN2]@沪新
-rename_node=[广新 | 视频]@广新
-rename_node=[苏新 | 视频]@苏新
-rename_node=[上海 | CN2]@沪台
-rename_node=[苏移 | 视频]@苏台
-rename_node=[苏美 | 视频]@苏美
-rename_node=[沪美 | 视频]@沪美
 
 custom_proxy_group=!!import:https://raw.githubusercontent.com/alanzsw01/rules/main/Nexitally_rules.txt
 clash_rule_base=https://raw.githubusercontent.com/alanzsw01/rules/main/Nexitally_rules.yml
