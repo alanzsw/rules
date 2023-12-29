@@ -1,5 +1,5 @@
 ⭐ Main`select`[]♻️ Auto`[]DIRECT`.*
-♻️ Auto`url-test`(^(?!.*(EIP)).*)`http://www.gstatic.com/generate_204`5,5,50
+♻️ Auto`url-test`(^(?!.*(EIP)).*)`http://www.gstatic.com/generate_204`5,300,50
 📢 Telegram`select`[]⭐ Main`[]DIRECT`.*
 ▶️ YouTube`select`[]⭐ Main`[]DIRECT`.*
 🐭 Twitch`select`[]⭐ Main`[]DIRECT`.*
@@ -13,8 +13,8 @@
 🐦 Twitter`select`[]⭐ Main`[]DIRECT`.*
 🌐 Google`select`[]⭐ Main`[]DIRECT`.*
 🎮 Steam`select`[]⭐ Main`[]DIRECT`.*
-🖥 Microsoft`select`[]DIRECT`[]⭐ Main`.*
 📖 Learning`select`[]⭐ Main`[]DIRECT`.*
+🖥 Microsoft`select`[]DIRECT`[]⭐ Main`.*
 🍎 Apple`select`[]DIRECT`[]⭐ Main`.*
 🎬 Bilibili`select`[]DIRECT`[]⭐ Main`.*
 🎬 iQiyi`select`[]DIRECT`[]⭐ Main`.*
