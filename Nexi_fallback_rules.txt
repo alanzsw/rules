@@ -13,8 +13,8 @@
 🐦 Twitter`select`[]⭐ Main`[]🎯 Manually`[]🇭🇰 香港-专线`[]🇸🇬 新加坡-专线`[]🇹🇼 台湾-专线`[]🇺🇸 美国-专线`[]🇯🇵 日本-专线`[]🇰🇷 韩国-专线`[]DIRECT
 🌐 Google`select`[]⭐ Main`[]🎯 Manually`[]🇭🇰 香港-专线`[]🇸🇬 新加坡-专线`[]🇹🇼 台湾-专线`[]🇺🇸 美国-专线`[]🇯🇵 日本-专线`[]🇰🇷 韩国-专线`[]DIRECT
 🎮 Steam`select`[]⭐ Main`[]DIRECT`.*
-🖥 Microsoft`select`[]DIRECT`[]⭐ Main`.*
 📖 Learning`select`[]⭐ Main`[]DIRECT`.*
+🖥 Microsoft`select`[]DIRECT`[]⭐ Main`.*
 🍎 Apple`select`[]DIRECT`[]⭐ Main`.*
 🎬 Bilibili`select`[]DIRECT`[]⭐ Main`.*
 🎬 iQiyi`select`[]DIRECT`[]⭐ Main`.*
