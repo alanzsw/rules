@@ -6,7 +6,7 @@ rename_node=🇨🇳@🇹🇼
 custom_proxy_group=!!import:https://raw.githubusercontent.com/alanzsw01/rules/main/Nexitally_rules.txt
 clash_rule_base=https://raw.githubusercontent.com/alanzsw01/rules/main/Nexitally_rules.yml
 
-exclude_remarks=(Expire|Traffic|官网|备用|重置|流量|到期|套餐|剩余|工作室|请|全局代理|忘记)
+exclude_remarks=(Expire|Traffic|官网|备用|重置|流量|到期|套餐|剩余|工作室|请|全局代理|忘记|德国|法国|英国|澳大利亚|加拿大|印度|巴西|菲律宾|泰国|阿根廷|土耳其|俄罗斯)
 
 udp=true
 sort=true
