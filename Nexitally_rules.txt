@@ -1,7 +1,6 @@
 ⭐ Main`select`[]♻️ Auto`[]DIRECT`.*
 ♻️ Auto`url-test`(^(?!.*(EIP)).*)`http://www.gstatic.com/generate_204`5,300,50
 📢 Telegram`select`[]⭐ Main`[]DIRECT`.*
-♥ Instagram`select`[]⭐ Main`[]DIRECT`.*
 ▶️ YouTube`select`[]⭐ Main`[]DIRECT`.*
 🐭 Twitch`select`[]⭐ Main`[]DIRECT`.*
 📺 Netflix`select`[]⭐ Main`[]DIRECT`.*
@@ -11,6 +10,7 @@
 🎬 Emby`select`[]⭐ Main`[]DIRECT`.*
 🎵 Tiktok`select`[]⭐ Main`[]DIRECT`.*
 🤖 OpenAI`select`[]⭐ Main`[]DIRECT`.*
+♥ Instagram`select`[]⭐ Main`[]DIRECT`.*
 🐦 Twitter`select`[]⭐ Main`[]DIRECT`.*
 🌐 Google`select`[]⭐ Main`[]DIRECT`.*
 🎮 Steam`select`[]⭐ Main`[]DIRECT`.*
