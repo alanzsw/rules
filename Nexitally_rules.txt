@@ -12,6 +12,7 @@
 🤖 OpenAI`select`[]⭐ Main`[]DIRECT`.*
 ♥ Instagram`select`[]⭐ Main`[]DIRECT`.*
 🐦 Twitter`select`[]⭐ Main`[]DIRECT`.*
+📰 News`select`[]⭐ Main`[]DIRECT`.*
 🌐 Google`select`[]⭐ Main`[]DIRECT`.*
 🎮 Steam`select`[]⭐ Main`[]DIRECT`.*
 📖 Learning`select`[]⭐ Main`[]DIRECT`.*
