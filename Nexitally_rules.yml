@@ -385,6 +385,42 @@ rules:
   - DOMAIN-SUFFIX,web-instagram.net,♥ Instagram
   - DOMAIN-SUFFIX,wwwinstagram.com,♥ Instagram
   - DOMAIN-KEYWORD,instagram,♥ Instagram
+
+  - DOMAIN-SUFFIX,epochtimes.com,📰 News
+  - DOMAIN-SUFFIX,ntdtv.com,📰 News
+  - DOMAIN-SUFFIX,voachinese.com,📰 News
+  - DOMAIN-SUFFIX,bloomberg.com,📰 News
+  - DOMAIN-SUFFIX,independent.co.uk,📰 News
+  - DOMAIN-SUFFIX,citizenpowerforchina.org,📰 News
+  - DOMAIN-SUFFIX,rfa.org,📰 News
+  - DOMAIN-SUFFIX,theinitium.com,📰 News
+  - DOMAIN-SUFFIX,tibet.net,📰 News
+  - DOMAIN-SUFFIX,bannedbook.org,📰 News
+  - DOMAIN-SUFFIX,storm.mg,📰 News
+  - DOMAIN-SUFFIX,mpweekly.com,📰 News
+  - DOMAIN-SUFFIX,thenewslens.com,📰 News
+  - DOMAIN-SUFFIX,pincong.rocks,📰 News
+  - DOMAIN-SUFFIX,soundofhope.org,📰 News
+  - DOMAIN-SUFFIX,aboluowang.com,📰 News
+  - DOMAIN-SUFFIX,shenyunperformingarts.org,📰 News
+  - DOMAIN-SUFFIX,chinapress.com.my,📰 News
+  - DOMAIN-SUFFIX,zhuichaguoji.org,📰 News
+  - DOMAIN-SUFFIX,fawanghuihui.org,📰 News
+  - DOMAIN-SUFFIX,amnesty.org,📰 News
+  - DOMAIN-SUFFIX,hrw.org,📰 News
+  - DOMAIN-SUFFIX,zhengjian.org,📰 News
+  - DOMAIN-SUFFIX,wujieliulan.com,📰 News
+  - DOMAIN-SUFFIX,dongtaiwang.com,📰 News
+  - DOMAIN-SUFFIX,wujieliulan.com,📰 News
+  - DOMAIN-SUFFIX,yibaochina.com,📰 News
+  - DOMAIN-SUFFIX,creaders.net,📰 News
+  - DOMAIN-SUFFIX,ydn.com.tw,📰 News
+  - DOMAIN-SUFFIX,beanfun.com,📰 News
+  - DOMAIN-SUFFIX,gashpoint.com,📰 News
+  - DOMAIN-SUFFIX,bbc.com,📰 News
+  - DOMAIN-KEYWORD,bbc,📰 News
+  - DOMAIN-KEYWORD,bloomberg,📰 News
+  - DOMAIN-KEYWORD,voa,📰 News
   
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com,🎬 Bilibili
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com,🎬 Bilibili
