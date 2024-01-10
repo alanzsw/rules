@@ -1,30 +1,24 @@
-Proxy`select`[]AUTO`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
+Proxy`select`[]AUTO`[]DIRECT`.*
 AUTO`url-test`.*`http://www.gstatic.com/generate_204`5,2,50
-Telegram`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
-YouTube`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
-Netflix`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
-Disney`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
-Global TV`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
-Asian TV`select`[]DIRECT`[]Proxy`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`.*
+Telegram`select`[]Proxy`[]DIRECT`.*
+YouTube`select`[]Proxy`[]DIRECT`.*
+Netflix`select`[]Proxy`[]DIRECT`.*
+Disney`select`[]Proxy`[]DIRECT`.*
+Global TV`select`[]Proxy`[]DIRECT`.*
+Asian TV`select`[]DIRECT`[]Proxy`.*
 Emby`select`[]Proxy`[]DIRECT`.*
-Google FCM`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
-OpenAI`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
+Google FCM`select`[]Proxy`[]DIRECT`.*
+OpenAI`select`[]Proxy`[]DIRECT`.*
 Apple`select`[]DIRECT`[]Proxy`.*
-Apple TV`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
+Apple TV`select`[]Proxy`[]DIRECT`.*
 Scholar`select`[]Proxy`[]DIRECT`.*
 Microsoft`select`[]DIRECT`[]Proxy`.*
-Spotify`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`.*
-Discord`select`[]Proxy`[]DIRECT`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇹🇼 台湾`[]🇺🇸 美国`[]🇯🇵 日本`[]🇰🇷 韩国`.*
+Spotify`select`[]Proxy`[]DIRECT`.*
+Discord`select`[]Proxy`[]DIRECT`.*
 Steam`select`[]Proxy`[]DIRECT`.*
 Crypto`select`[]Proxy`[]DIRECT`.*
 PayPal`select`[]Proxy`[]DIRECT`.*
 Speedtest`select`[]Proxy`[]DIRECT`.*
-🇭🇰 香港`fallback`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:港|香港|HongKong|HK|Hong Kong|🇭🇰))(^(?!.*(EIP)).*).*$)`http://www.gstatic.com/generate_204`5,2,50
-🇸🇬 新加坡`fallback`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:新加坡|坡|狮城|SG|Singapore|🇸🇬)).*$)`http://www.gstatic.com/generate_204`5,2,50
-🇹🇼 台湾`fallback`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:台|台湾|TW|Taiwan|🇹🇼)).*$)`http://www.gstatic.com/generate_204`5,2,50
-🇺🇸 美国`fallback`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:美|美国|US|United States|🇺🇸|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))).*$)`http://www.gstatic.com/generate_204`5,2,50
-🇯🇵 日本`fallback`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:日本|JP|Japan|🇯🇵)).*$)`http://www.gstatic.com/generate_204`5,2,50
-🇰🇷 韩国`fallback`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:韩国|韩|KR|Korea|KOR|🇰🇷)).*$)`http://www.gstatic.com/generate_204`5,2,50
 Others`select`[]Proxy`[]DIRECT`.*
 Domestic`select`[]DIRECT`[]Proxy`.*
 AdBlock`select`[]REJECT`[]DIRECT`[]Proxy
