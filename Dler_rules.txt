@@ -1,5 +1,5 @@
 Proxy`select`[]AUTO`[]DIRECT`.*
-AUTO`url-test`.*`http://www.gstatic.com/generate_204`5,2,50
+AUTO`url-test`(^(?!.*(EIP)).*)`http://www.gstatic.com/generate_204`5,300,50
 Telegram`select`[]Proxy`[]DIRECT`.*
 YouTube`select`[]Proxy`[]DIRECT`.*
 Netflix`select`[]Proxy`[]DIRECT`.*
