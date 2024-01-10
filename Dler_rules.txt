@@ -1,26 +1,25 @@
 Proxy`select`.*`[]AUTO`[]DIRECT`.*
 AUTO`url-test`.*`http://www.gstatic.com/generate_204`300
-Domestic`select`[]DIRECT`[]Proxy`.*
-Others`select`[]DIRECT`[]Proxy`.*
-AdBlock`select`[]REJECT`[]DIRECT`[]Proxy
-Anti IP`select`[]DIRECT`[]Proxy`.*
-Emby`select`[]Proxy`[]DIRECT`.*
+Telegram`select`[]Proxy`[]DIRECT`.*
+YouTube`select`[]Proxy`[]DIRECT`.*
 Netflix`select`[]Proxy`[]DIRECT`.*
 Disney`select`[]Proxy`[]DIRECT`.*
-YouTube`select`[]Proxy`[]DIRECT`.*
-Spotify`select`[]Proxy`[]DIRECT`.*
-Asian TV`select`[]Proxy`[]DIRECT`.*
+Emby`select`[]Proxy`[]DIRECT`.*
 Global TV`select`[]Proxy`[]DIRECT`.*
-Apple`select`[]Proxy`[]DIRECT`.*
-Apple TV`select`[]Proxy`[]DIRECT`.*
-Telegram`select`[]Proxy`[]DIRECT`.*
+Asian TV`select`[]Proxy`[]DIRECT`.*
+Spotify`select`[]Proxy`[]DIRECT`.*
 Google FCM`select`[]Proxy`[]DIRECT`.*
-Crypto`select`[]Proxy`[]DIRECT`.*
-Discord`select`[]Proxy`[]DIRECT`.*
 OpenAI`select`[]Proxy`[]DIRECT`.*
-Microsoft`select`[]Proxy`[]DIRECT`.*
-PayPal`select`[]Proxy`[]DIRECT`.*
+Discord`select`[]Proxy`[]DIRECT`.*
 Scholar`select`[]Proxy`[]DIRECT`.*
 Speedtest`select`[]Proxy`[]DIRECT`.*
 Steam`select`[]Proxy`[]DIRECT`.*
-miHoYo`select`[]Proxy`[]DIRECT`.*
+Crypto`select`[]Proxy`[]DIRECT`.*
+PayPal`select`[]Proxy`[]DIRECT`.*
+Apple TV`select`[]Proxy`[]DIRECT`.*
+Apple`select`[]Proxy`[]DIRECT`.*
+Microsoft`select`[]Proxy`[]DIRECT`.*
+Others`select`[]DIRECT`[]Proxy`.*
+Domestic`select`[]DIRECT`[]Proxy`.*
+AdBlock`select`[]REJECT`[]DIRECT`[]Proxy
+Anti IP`select`[]DIRECT`[]Proxy`.*
