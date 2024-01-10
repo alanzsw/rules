@@ -7,18 +7,18 @@ Disney`select`[]Proxy`[]DIRECT`.*
 Global TV`select`[]Proxy`[]DIRECT`.*
 Asian TV`select`[]DIRECT`[]Proxy`.*
 Emby`select`[]Proxy`[]DIRECT`.*
+Apple TV`select`[]Proxy`[]DIRECT`.*
+Spotify`select`[]Proxy`[]DIRECT`.*
 Google FCM`select`[]Proxy`[]DIRECT`.*
 OpenAI`select`[]Proxy`[]DIRECT`.*
-Apple`select`[]DIRECT`[]Proxy`.*
-Apple TV`select`[]Proxy`[]DIRECT`.*
 Scholar`select`[]Proxy`[]DIRECT`.*
-Microsoft`select`[]DIRECT`[]Proxy`.*
-Spotify`select`[]Proxy`[]DIRECT`.*
 Discord`select`[]Proxy`[]DIRECT`.*
 Steam`select`[]Proxy`[]DIRECT`.*
 Crypto`select`[]Proxy`[]DIRECT`.*
 PayPal`select`[]Proxy`[]DIRECT`.*
 Speedtest`select`[]Proxy`[]DIRECT`.*
+Microsoft`select`[]DIRECT`[]Proxy`.*
+Apple`select`[]DIRECT`[]Proxy`.*
 Others`select`[]Proxy`[]DIRECT`.*
 Domestic`select`[]DIRECT`[]Proxy`.*
 AdBlock`select`[]REJECT`[]DIRECT`[]Proxy
