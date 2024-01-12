@@ -156,19 +156,19 @@ rules:
   - DOMAIN-SUFFIX,steam-content-dnld-1.eu-c1-cdn.cqloud.com,DIRECT
   - DOMAIN-SUFFIX,steam-content-dnld-1.qwilted-cds.cqloud.com,DIRECT
   
-  - PROCESS-NAME,com.spotify.music,🎵
-  - DOMAIN-SUFFIX,pscdn.co,🎵
-  - DOMAIN-SUFFIX,scdn.co,🎵
-  - DOMAIN-SUFFIX,spoti.fi,🎵
-  - DOMAIN-SUFFIX,spotify.com,🎵
-  - DOMAIN-SUFFIX,spotifycdn.com,🎵
-  - DOMAIN-SUFFIX,spotifycdn.net,🎵
-  - DOMAIN-SUFFIX,spotifycharts.com,🎵
-  - DOMAIN-SUFFIX,spotifycodes.com,🎵
-  - DOMAIN-SUFFIX,spotifyjobs.com,🎵
-  - DOMAIN-SUFFIX,spotifynewsroom.jp,🎵
-  - DOMAIN-SUFFIX,spotilocal.com,🎵
-  - DOMAIN-SUFFIX,tospotify.com,🎵
+  - PROCESS-NAME,com.spotify.music,🎵 Spotify
+  - DOMAIN-SUFFIX,pscdn.co,🎵 Spotify
+  - DOMAIN-SUFFIX,scdn.co,🎵 Spotify
+  - DOMAIN-SUFFIX,spoti.fi,🎵 Spotify
+  - DOMAIN-SUFFIX,spotify.com,🎵 Spotify
+  - DOMAIN-SUFFIX,spotifycdn.com,🎵 Spotify
+  - DOMAIN-SUFFIX,spotifycdn.net,🎵 Spotify
+  - DOMAIN-SUFFIX,spotifycharts.com,🎵 Spotify
+  - DOMAIN-SUFFIX,spotifycodes.com,🎵 Spotify
+  - DOMAIN-SUFFIX,spotifyjobs.com,🎵 Spotify
+  - DOMAIN-SUFFIX,spotifynewsroom.jp,🎵 Spotify
+  - DOMAIN-SUFFIX,spotilocal.com,🎵 Spotify
+  - DOMAIN-SUFFIX,tospotify.com,🎵 Spotify
   
   - DOMAIN-SUFFIX,emby.nexitally.com,🎬 Emby
   - DOMAIN,emby.xeton.dev,🎬 Emby
