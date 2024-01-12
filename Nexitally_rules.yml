@@ -107,7 +107,6 @@ profile:
 
 rules:
   - DOMAIN,lqnmmm.lol,DIRECT
-  - DOMAIN-SUFFIX,ap.spotify.com,DIRECT
   - DOMAIN,content1.steampowered.com,DIRECT
   - DOMAIN,content2.steampowered.com,DIRECT
   - DOMAIN,content3.steampowered.com,DIRECT
@@ -156,6 +155,20 @@ rules:
   - DOMAIN-SUFFIX,steam-content-dnld-1.apac-1-cdn.cqloud.com,DIRECT
   - DOMAIN-SUFFIX,steam-content-dnld-1.eu-c1-cdn.cqloud.com,DIRECT
   - DOMAIN-SUFFIX,steam-content-dnld-1.qwilted-cds.cqloud.com,DIRECT
+  
+  - PROCESS-NAME,com.spotify.music,🎵
+  - DOMAIN-SUFFIX,pscdn.co,🎵
+  - DOMAIN-SUFFIX,scdn.co,🎵
+  - DOMAIN-SUFFIX,spoti.fi,🎵
+  - DOMAIN-SUFFIX,spotify.com,🎵
+  - DOMAIN-SUFFIX,spotifycdn.com,🎵
+  - DOMAIN-SUFFIX,spotifycdn.net,🎵
+  - DOMAIN-SUFFIX,spotifycharts.com,🎵
+  - DOMAIN-SUFFIX,spotifycodes.com,🎵
+  - DOMAIN-SUFFIX,spotifyjobs.com,🎵
+  - DOMAIN-SUFFIX,spotifynewsroom.jp,🎵
+  - DOMAIN-SUFFIX,spotilocal.com,🎵
+  - DOMAIN-SUFFIX,tospotify.com,🎵
   
   - DOMAIN-SUFFIX,emby.nexitally.com,🎬 Emby
   - DOMAIN,emby.xeton.dev,🎬 Emby
@@ -560,16 +573,16 @@ rules:
   - IP-CIDR,23.40.241.251/32,🎬 iQiyi
   - IP-CIDR,23.40.242.10/32,🎬 iQiyi
   
-  - DOMAIN-SUFFIX,byteoversea.com,🎵 Tiktok
-  - DOMAIN-SUFFIX,ibytedtos.com,🎵 Tiktok
-  - DOMAIN-SUFFIX,ipstatp.com,🎵 Tiktok
-  - DOMAIN-SUFFIX,muscdn.com,🎵 Tiktok
-  - DOMAIN-SUFFIX,musical.ly,🎵 Tiktok
-  - DOMAIN-SUFFIX,tiktok.com,🎵 Tiktok
-  - DOMAIN-SUFFIX,tik-tokapi.com,🎵 Tiktok
-  - DOMAIN-SUFFIX,tiktokcdn.com,🎵 Tiktok
-  - DOMAIN-SUFFIX,tiktokv.com,🎵 Tiktok
-  - DOMAIN-KEYWORD,-tiktokcdn-com,🎵 Tiktok
+  - DOMAIN-SUFFIX,byteoversea.com,🎶 Tiktok
+  - DOMAIN-SUFFIX,ibytedtos.com,🎶 Tiktok
+  - DOMAIN-SUFFIX,ipstatp.com,🎶 Tiktok
+  - DOMAIN-SUFFIX,muscdn.com,🎶 Tiktok
+  - DOMAIN-SUFFIX,musical.ly,🎶 Tiktok
+  - DOMAIN-SUFFIX,tiktok.com,🎶 Tiktok
+  - DOMAIN-SUFFIX,tik-tokapi.com,🎶 Tiktok
+  - DOMAIN-SUFFIX,tiktokcdn.com,🎶 Tiktok
+  - DOMAIN-SUFFIX,tiktokv.com,🎶 Tiktok
+  - DOMAIN-KEYWORD,-tiktokcdn-com,🎶 Tiktok
   
   - DOMAIN-SUFFIX,googlevideo.com,▶️ YouTube
   - DOMAIN-SUFFIX,youtube.com,▶️ YouTube
