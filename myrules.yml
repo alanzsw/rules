@@ -342,7 +342,7 @@ rules:
   - DOMAIN-SUFFIX,instachecker.com,Instagram
   - DOMAIN-SUFFIX,instafallow.com,Instagram
   - DOMAIN-SUFFIX,instafollower.com,Instagram
-  - DOMAIN-SUFFIX,instagainer.com,♥ Instagram
+  - DOMAIN-SUFFIX,instagainer.com,Instagram
   - DOMAIN-SUFFIX,instagda.com,Instagram
   - DOMAIN-SUFFIX,instagify.com,Instagram
   - DOMAIN-SUFFIX,instagmania.com,Instagram
