@@ -1223,7 +1223,7 @@ rules:
   - DOMAIN-SUFFIX,fls-na.amazon.com,International-Media
   - DOMAIN-SUFFIX,pv-cdn.net,International-Media
   - DOMAIN-SUFFIX,video.a2z.com,International-Media
-  - DOMAIN-SUFFIX,media-amazon.com,International-Mediaa
+  - DOMAIN-SUFFIX,media-amazon.com,International-Media
   - DOMAIN-SUFFIX,prime-video.com,International-Media
   - DOMAIN-SUFFIX,primevideo.com,International-Media
   - DOMAIN-SUFFIX,primevideo.org,International-Media
