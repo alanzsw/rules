@@ -1356,7 +1356,7 @@ rules:
   - DOMAIN-SUFFIX,viu.tv,International-Media
   - DOMAIN,api.viu.now.com,International-Media
   - DOMAIN,d1k2us671qcoau.cloudfront.net,International-Media
-  - DOMAIN,d2anahhhmp1ffz.cloudfront.net,International-Mediaa
+  - DOMAIN,d2anahhhmp1ffz.cloudfront.net,International-Media
   - DOMAIN,dfp6rglgjqszk.cloudfront.net,International-Media
   - DOMAIN-SUFFIX,googlevideo.com,International-Media
   - DOMAIN-SUFFIX,youtube.com,International-Media
