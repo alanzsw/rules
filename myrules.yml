@@ -156,88 +156,88 @@ rules:
   - DOMAIN-SUFFIX,steam-content-dnld-1.eu-c1-cdn.cqloud.com,DIRECT
   - DOMAIN-SUFFIX,steam-content-dnld-1.qwilted-cds.cqloud.com,DIRECT
   
-  - PROCESS-NAME,com.spotify.music,🎵 Spotify
-  - DOMAIN-SUFFIX,pscdn.co,🎵 Spotify
-  - DOMAIN-SUFFIX,scdn.co,🎵 Spotify
-  - DOMAIN-SUFFIX,spoti.fi,🎵 Spotify
-  - DOMAIN-SUFFIX,spotify.com,🎵 Spotify
-  - DOMAIN-SUFFIX,spotifycdn.com,🎵 Spotify
-  - DOMAIN-SUFFIX,spotifycdn.net,🎵 Spotify
-  - DOMAIN-SUFFIX,spotifycharts.com,🎵 Spotify
-  - DOMAIN-SUFFIX,spotifycodes.com,🎵 Spotify
-  - DOMAIN-SUFFIX,spotifyjobs.com,🎵 Spotify
-  - DOMAIN-SUFFIX,spotifynewsroom.jp,🎵 Spotify
-  - DOMAIN-SUFFIX,spotilocal.com,🎵 Spotify
-  - DOMAIN-SUFFIX,tospotify.com,🎵 Spotify
+  - PROCESS-NAME,com.spotify.music,Spotify
+  - DOMAIN-SUFFIX,pscdn.co,Spotify
+  - DOMAIN-SUFFIX,scdn.co,Spotify
+  - DOMAIN-SUFFIX,spoti.fi,Spotify
+  - DOMAIN-SUFFIX,spotify.com,Spotify
+  - DOMAIN-SUFFIX,spotifycdn.com,Spotify
+  - DOMAIN-SUFFIX,spotifycdn.net,Spotify
+  - DOMAIN-SUFFIX,spotifycharts.com,Spotify
+  - DOMAIN-SUFFIX,spotifycodes.com,Spotify
+  - DOMAIN-SUFFIX,spotifyjobs.com,Spotify
+  - DOMAIN-SUFFIX,spotifynewsroom.jp,Spotify
+  - DOMAIN-SUFFIX,spotilocal.com,Spotify
+  - DOMAIN-SUFFIX,tospotify.com,Spotify
   
-  - DOMAIN-SUFFIX,emby.nexitally.com,🎬 Emby
-  - DOMAIN,emby.xeton.dev,🎬 Emby
-  - DOMAIN,emby-misakaf.atomlantis.cloud ,🎬 Emby
-  - DOMAIN,emby-mix.atomlantis.cloud,🎬 Emby
-  - DOMAIN,emby.cn2gias.uk,🎬 Emby
-  - DOMAIN,emby.enjoyit.eu.org,🎬 Emby
-  - DOMAIN-SUFFIX,cn2gias.uk,🎬 Emby
-  - DOMAIN-SUFFIX,agahk1.jmsooo.com,🎬 Emby
-  - DOMAIN-SUFFIX,agajp1.jmsooo.com,🎬 Emby
-  - DOMAIN-SUFFIX,agasg1.jmsooo.com,🎬 Emby
-  - DOMAIN-SUFFIX,aws.jmsooo.com,🎬 Emby
-  - DOMAIN-SUFFIX,cf1.jmsooo.com,🎬 Emby
-  - DOMAIN-SUFFIX,cristiamo.xyz,🎬 Emby
-  - DOMAIN-SUFFIX,emby.cjpc.cc,🎬 Emby
-  - DOMAIN-SUFFIX,emby.cjpc.tv,🎬 Emby
-  - DOMAIN-SUFFIX,emby.cjpc.xyz,🎬 Emby
-  - DOMAIN-SUFFIX,emby.cristiamo.top,🎬 Emby
-  - DOMAIN-SUFFIX,emby.flowercloud.yt,🎬 Emby
-  - DOMAIN-SUFFIX,emby.immtel.com,🎬 Emby
-  - DOMAIN-SUFFIX,emby.maying.club,🎬 Emby
-  - DOMAIN-SUFFIX,emby.mcwy.me,🎬 Emby
-  - DOMAIN-SUFFIX,emby.mdss.cloud,🎬 Emby
-  - DOMAIN-SUFFIX,emby.neko.edu.rs,🎬 Emby
-  - DOMAIN-SUFFIX,emby.nexitally.com,🎬 Emby
-  - DOMAIN-SUFFIX,emby.nyancat.net,🎬 Emby
-  - DOMAIN-SUFFIX,emby.ok.edu.hk,🎬 Emby
-  - DOMAIN-SUFFIX,emby.paoche.ooo,🎬 Emby
-  - DOMAIN-SUFFIX,emby.prprcloud.com,🎬 Emby
-  - DOMAIN-SUFFIX,emby.wtf,🎬 Emby
-  - DOMAIN-SUFFIX,emby.xeton.dev,🎬 Emby
-  - DOMAIN-SUFFIX,emby.ytoo.li,🎬 Emby
-  - DOMAIN-SUFFIX,embyserver.ga,🎬 Emby
-  - DOMAIN-SUFFIX,hinet.jmsooo.com,🎬 Emby
-  - DOMAIN-SUFFIX,jellyfin.xeton.dev,🎬 Emby
-  - DOMAIN-SUFFIX,line.emby.men,🎬 Emby
-  - DOMAIN-SUFFIX,mickeycloud.com,🎬 Emby
-  - DOMAIN-SUFFIX,movie.xeton.dev,🎬 Emby
-  - DOMAIN-SUFFIX,ntt1.jmsooo.com,🎬 Emby
-  - DOMAIN-SUFFIX,plusmedia.site,🎬 Emby
-  - DOMAIN-SUFFIX,pornemby.club,🎬 Emby
-  - DOMAIN-SUFFIX,servers.xeton.dev,🎬 Emby
-  - DOMAIN-KEYWORD,emby.wtf,🎬 Emby
-  - DOMAIN-KEYWORD,jmsooo,🎬 Emby
-  - DOMAIN-KEYWORD,odysseyplus,🎬 Emby
-  - PROCESS-NAME,com.mb.android,🎬 Emby
+  - DOMAIN-SUFFIX,emby.nexitally.com,Emby
+  - DOMAIN,emby.xeton.dev,Emby
+  - DOMAIN,emby-misakaf.atomlantis.cloud ,Emby
+  - DOMAIN,emby-mix.atomlantis.cloud,Emby
+  - DOMAIN,emby.cn2gias.uk,Emby
+  - DOMAIN,emby.enjoyit.eu.org,Emby
+  - DOMAIN-SUFFIX,cn2gias.uk,Emby
+  - DOMAIN-SUFFIX,agahk1.jmsooo.com,Emby
+  - DOMAIN-SUFFIX,agajp1.jmsooo.com,Emby
+  - DOMAIN-SUFFIX,agasg1.jmsooo.com,Emby
+  - DOMAIN-SUFFIX,aws.jmsooo.com,Emby
+  - DOMAIN-SUFFIX,cf1.jmsooo.com,Emby
+  - DOMAIN-SUFFIX,cristiamo.xyz,Emby
+  - DOMAIN-SUFFIX,emby.cjpc.cc,Emby
+  - DOMAIN-SUFFIX,emby.cjpc.tv,Emby
+  - DOMAIN-SUFFIX,emby.cjpc.xyz,Emby
+  - DOMAIN-SUFFIX,emby.cristiamo.top,Emby
+  - DOMAIN-SUFFIX,emby.flowercloud.yt,Emby
+  - DOMAIN-SUFFIX,emby.immtel.com,Emby
+  - DOMAIN-SUFFIX,emby.maying.club,Emby
+  - DOMAIN-SUFFIX,emby.mcwy.me,Emby
+  - DOMAIN-SUFFIX,emby.mdss.cloud,Emby
+  - DOMAIN-SUFFIX,emby.neko.edu.rs,Emby
+  - DOMAIN-SUFFIX,emby.nexitally.com,Emby
+  - DOMAIN-SUFFIX,emby.nyancat.net,Emby
+  - DOMAIN-SUFFIX,emby.ok.edu.hk,Emby
+  - DOMAIN-SUFFIX,emby.paoche.ooo,Emby
+  - DOMAIN-SUFFIX,emby.prprcloud.com,Emby
+  - DOMAIN-SUFFIX,emby.wtf,Emby
+  - DOMAIN-SUFFIX,emby.xeton.dev,Emby
+  - DOMAIN-SUFFIX,emby.ytoo.li,Emby
+  - DOMAIN-SUFFIX,embyserver.ga,Emby
+  - DOMAIN-SUFFIX,hinet.jmsooo.com,Emby
+  - DOMAIN-SUFFIX,jellyfin.xeton.dev,Emby
+  - DOMAIN-SUFFIX,line.emby.men,Emby
+  - DOMAIN-SUFFIX,mickeycloud.com,Emby
+  - DOMAIN-SUFFIX,movie.xeton.dev,Emby
+  - DOMAIN-SUFFIX,ntt1.jmsooo.com,Emby
+  - DOMAIN-SUFFIX,plusmedia.site,Emby
+  - DOMAIN-SUFFIX,pornemby.club,Emby
+  - DOMAIN-SUFFIX,servers.xeton.dev,Emby
+  - DOMAIN-KEYWORD,emby.wtf,Emby
+  - DOMAIN-KEYWORD,jmsooo,Emby
+  - DOMAIN-KEYWORD,odysseyplus,Emby
+  - PROCESS-NAME,com.mb.android,Emby
   
-  - DOMAIN-SUFFIX,ext-twitch.tv,🐭 Twitch
-  - DOMAIN-SUFFIX,jtvnw.net,🐭 Twitch
-  - DOMAIN-SUFFIX,live-video.net,🐭 Twitch
-  - DOMAIN-SUFFIX,ttvnw.net,🐭 Twitch
-  - DOMAIN-SUFFIX,twitch-ext.rootonline.de,🐭 Twitch
-  - DOMAIN-SUFFIX,twitch.tv,🐭 Twitch
-  - DOMAIN-SUFFIX,twitchcdn.net,🐭 Twitch
-  - DOMAIN-SUFFIX,twitchsvc.net,🐭 Twitch
-  - DOMAIN-KEYWORD,ttvnw,🐭 Twitch
-  - IP-CIDR,103.53.48.0/23,🐭 Twitch,no-resolve
-  - IP-CIDR,185.42.204.0/22,🐭 Twitch,no-resolve
-  - IP-CIDR,192.108.239.0/24,🐭 Twitch,no-resolve
-  - IP-CIDR,192.16.64.0/21,🐭 Twitch,no-resolve
-  - IP-CIDR,199.9.248.0/21,🐭 Twitch,no-resolve
-  - IP-CIDR,23.160.0.0/24,🐭 Twitch,no-resolve
-  - IP-CIDR,45.113.128.0/22,🐭 Twitch,no-resolve
-  - IP-CIDR,52.223.192.0/20,🐭 Twitch,no-resolve
-  - IP-CIDR,52.223.208.0/21,🐭 Twitch,no-resolve
-  - IP-CIDR,52.223.224.0/19,🐭 Twitch,no-resolve
-  - IP-CIDR,99.181.64.0/18,🐭 Twitch,no-resolve
-  - IP-CIDR6,2402:2a80::/32,🐭 Twitch,no-resolve
-  - PROCESS-NAME,tv.twitch.android.app,🐭 Twitch
+  - DOMAIN-SUFFIX,ext-twitch.tv,Twitch
+  - DOMAIN-SUFFIX,jtvnw.net,Twitch
+  - DOMAIN-SUFFIX,live-video.net,Twitch
+  - DOMAIN-SUFFIX,ttvnw.net,Twitch
+  - DOMAIN-SUFFIX,twitch-ext.rootonline.de,Twitch
+  - DOMAIN-SUFFIX,twitch.tv,Twitch
+  - DOMAIN-SUFFIX,twitchcdn.net,Twitch
+  - DOMAIN-SUFFIX,twitchsvc.net,Twitch
+  - DOMAIN-KEYWORD,ttvnw,Twitch
+  - IP-CIDR,103.53.48.0/23,Twitch,no-resolve
+  - IP-CIDR,185.42.204.0/22,Twitch,no-resolve
+  - IP-CIDR,192.108.239.0/24,Twitch,no-resolve
+  - IP-CIDR,192.16.64.0/21,Twitch,no-resolve
+  - IP-CIDR,199.9.248.0/21,Twitch,no-resolve
+  - IP-CIDR,23.160.0.0/24,Twitch,no-resolve
+  - IP-CIDR,45.113.128.0/22,Twitch,no-resolve
+  - IP-CIDR,52.223.192.0/20,Twitch,no-resolve
+  - IP-CIDR,52.223.208.0/21,Twitch,no-resolve
+  - IP-CIDR,52.223.224.0/19,Twitch,no-resolve
+  - IP-CIDR,99.181.64.0/18,Twitch,no-resolve
+  - IP-CIDR6,2402:2a80::/32,Twitch,no-resolve
+  - PROCESS-NAME,tv.twitch.android.app,Twitch
   
   - DOMAIN-KEYWORD,epochtimes,REJECT
   - DOMAIN-SUFFIX,881903.com,REJECT
