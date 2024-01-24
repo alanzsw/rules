@@ -1,5 +1,5 @@
 A.C`select`[]Auto`[]DIRECT`.*
-Auto`url-test`(^(?!.*(EIP)).*)`http://www.gstatic.com/generate_204`5,300,50
+Auto`url-test`(^(?!.*(EIP)).*)`http://www.google-analytics.com/generate_204`5,300,50
 Telegram`select`[]A.C`[]DIRECT`.*
 YouTube`select`[]A.C`[]DIRECT`.*
 Twitch`select`[]A.C`[]DIRECT`.*
