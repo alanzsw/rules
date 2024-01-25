@@ -1488,6 +1488,19 @@ rules:
   - DOMAIN-SUFFIX,pstatp.com,Douyin
   - DOMAIN-SUFFIX,snssdk.com,Douyin
   - DOMAIN-SUFFIX,toutiao.com,Douyin
+  - DOMAIN-SUFFIX,yximgs.com,Douyin
+  - DOMAIN-SUFFIX,gifshow.com,Douyin
+  - DOMAIN-SUFFIX,huoshan.com,Douyin
+  - DOMAIN-SUFFIX,iesdouyin.com,Douyin
+  - DOMAIN-SUFFIX,bytecdn.cn,Douyin
+  - DOMAIN-SUFFIX,umeng.com,Douyin
+  - DOMAIN-SUFFIX,bdurl.net,Douyin
+  - DOMAIN-SUFFIX,bytegoofy.com,Douyin
+  - DOMAIN-SUFFIX,mon.snssdk.com,Douyin
+  - DOMAIN-SUFFIX,aweme-hl.snssdk.com,Douyin
+  - DOMAIN-SUFFIX,vc-gate.snssdk.com,Douyin
+  - DOMAIN-SUFFIX,i.snssdk.com,Douyin
+  - DOMAIN-SUFFIX,dig.bdurl.net,Douyin
   
   - DOMAIN-SUFFIX,iqiyi.com,China-Media
   - DOMAIN-SUFFIX,71.am,China-Media
