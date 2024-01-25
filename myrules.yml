@@ -402,7 +402,6 @@ rules:
   - DOMAIN-SUFFIX,epochtimes.com,News
   - DOMAIN-SUFFIX,ntdtv.com,News
   - DOMAIN-SUFFIX,voachinese.com,News
-  - DOMAIN-SUFFIX,bloomberg.com,News
   - DOMAIN-SUFFIX,independent.co.uk,News
   - DOMAIN-SUFFIX,citizenpowerforchina.org,News
   - DOMAIN-SUFFIX,rfa.org,News
@@ -430,10 +429,113 @@ rules:
   - DOMAIN-SUFFIX,ydn.com.tw,News
   - DOMAIN-SUFFIX,beanfun.com,News
   - DOMAIN-SUFFIX,gashpoint.com,News
-  - DOMAIN-SUFFIX,bbc.com,News
   - DOMAIN-KEYWORD,bbc,News
   - DOMAIN-KEYWORD,bloomberg,News
   - DOMAIN-KEYWORD,voa,News
+  - DOMAIN-SUFFIX,cnn.com,News
+  - DOMAIN-SUFFIX,cnn.io,News
+  - DOMAIN-SUFFIX,cnn.it,News
+  - DOMAIN-SUFFIX,cnnarabic.com,News
+  - DOMAIN-SUFFIX,cnnlabs.com,News
+  - DOMAIN-SUFFIX,cnnmoney.ch,News
+  - DOMAIN-SUFFIX,cnnmoney.com,News
+  - DOMAIN-SUFFIX,cnnmoneystream.com,News
+  - DOMAIN-SUFFIX,cnnpolitics.com,News
+  - DOMAIN-SUFFIX,bbgevent.com,News
+  - DOMAIN-SUFFIX,bbhub.io,News
+  - DOMAIN-SUFFIX,bbthat.com,News
+  - DOMAIN-SUFFIX,bgov.com,News
+  - DOMAIN-SUFFIX,bloomberg.cn,News
+  - DOMAIN-SUFFIX,bloomberg.co.jp,News
+  - DOMAIN-SUFFIX,bloomberg.co.kr,News
+  - DOMAIN-SUFFIX,bloomberg.com,News
+  - DOMAIN-SUFFIX,bloomberg.com.br,News
+  - DOMAIN-SUFFIX,bloomberg.fm,News
+  - DOMAIN-SUFFIX,bloomberg.tv,News
+  - DOMAIN-SUFFIX,bloombergapps.com,News
+  - DOMAIN-SUFFIX,bloombergarcade.com,News
+  - DOMAIN-SUFFIX,bloombergbeta.com,News
+  - DOMAIN-SUFFIX,bloombergbna.com,News
+  - DOMAIN-SUFFIX,bloombergbreakaway.com,News
+  - DOMAIN-SUFFIX,bloombergbriefs.com,News
+  - DOMAIN-SUFFIX,bloombergchina.com,News
+  - DOMAIN-SUFFIX,bloombergenvironment.com,News
+  - DOMAIN-SUFFIX,bloombergforeducation.com,News
+  - DOMAIN-SUFFIX,bloomberggovernment.com,News
+  - DOMAIN-SUFFIX,bloombergindices.com,News
+  - DOMAIN-SUFFIX,bloombergindustry.com,News
+  - DOMAIN-SUFFIX,bloomberglabs.com,News
+  - DOMAIN-SUFFIX,bloomberglaw.com,News
+  - DOMAIN-SUFFIX,bloomberglive.com,News
+  - DOMAIN-SUFFIX,bloomberglp.com,News
+  - DOMAIN-SUFFIX,bloombergmedia.com,News
+  - DOMAIN-SUFFIX,bloombergnext.com,News
+  - DOMAIN-SUFFIX,bloombergpolarlake.com,News
+  - DOMAIN-SUFFIX,bloombergprep.com,News
+  - DOMAIN-SUFFIX,bloombergquint.com,News
+  - DOMAIN-SUFFIX,bloombergradio.com,News
+  - DOMAIN-SUFFIX,bloombergsef.com,News
+  - DOMAIN-SUFFIX,bloombergspace.com,News
+  - DOMAIN-SUFFIX,bloombergstatus.com,News
+  - DOMAIN-SUFFIX,bloombergsurvey.com,News
+  - DOMAIN-SUFFIX,bloombergtax.com,News
+  - DOMAIN-SUFFIX,bloombergtax1.com,News
+  - DOMAIN-SUFFIX,bloombergtaxtech.com,News
+  - DOMAIN-SUFFIX,bloombergtradingchallenge.com,News
+  - DOMAIN-SUFFIX,bloombergtv.mn,News
+  - DOMAIN-SUFFIX,bloombergvault.com,News
+  - DOMAIN-SUFFIX,bloombergview.com,News
+  - DOMAIN-SUFFIX,blpcareers.com,News
+  - DOMAIN-SUFFIX,blpevents.com,News
+  - DOMAIN-SUFFIX,blpprofessional.com,News
+  - DOMAIN-SUFFIX,bmia.org,News
+  - DOMAIN-SUFFIX,bnef.com,News
+  - DOMAIN-SUFFIX,businessweek.com,News
+  - DOMAIN-SUFFIX,businessweekmag.com,News
+  - DOMAIN-SUFFIX,bwbx.io,News
+  - DOMAIN-SUFFIX,citylab.com,News
+  - DOMAIN-SUFFIX,gotraffic.net,News
+  - DOMAIN-SUFFIX,londonmithraeum.com,News
+  - DOMAIN-SUFFIX,neweconomyforum.com,News
+  - DOMAIN-SUFFIX,newenergyfinance.com,News
+  - DOMAIN-SUFFIX,quicktake.video,News
+  - DOMAIN-SUFFIX,techatbloomberg.com,News
+  - DOMAIN-SUFFIX,tictoc.video,News
+  - DOMAIN,aod-dash-uk-live.akamaized.net,News
+  - DOMAIN,aod-hls-uk-live.akamaized.net,News
+  - DOMAIN,aod-pod-uk-live.akamaized.net,News
+  - DOMAIN,as-dash-uk-live.akamaized.net,News
+  - DOMAIN,as-hls-uk-live.akamaized.net,News
+  - DOMAIN,ve-dash-uk-live.akamaized.net,News
+  - DOMAIN,ve-uhd-push-uk-live.akamaized.net,News
+  - DOMAIN,vod-dash-uk-live.akamaized.net,News
+  - DOMAIN,vod-dash-ww-live.akamaized.net,News
+  - DOMAIN,vod-hls-uk-live.akamaized.net,News
+  - DOMAIN,vod-sub-uk-live.akamaized.net,News
+  - DOMAIN,vod-thumb-uk-live.akamaized.net,News
+  - DOMAIN,vod-thumb-ww-live.akamaized.net,News
+  - DOMAIN,vs-cmaf-push-uk-live.akamaized.net,News
+  - DOMAIN,vs-cmaf-pushb-ww-live.akamaized.net,News
+  - DOMAIN,vs-hls-push-uk-live.akamaized.net,News
+  - DOMAIN,vs-hls-pushb-uk-live.akamaized.net,News
+  - DOMAIN-SUFFIX,bbc,News
+  - DOMAIN-SUFFIX,bbc-reporting-api.app,News
+  - DOMAIN-SUFFIX,bbc.co,News
+  - DOMAIN-SUFFIX,bbc.co.uk,News
+  - DOMAIN-SUFFIX,bbc.com,News
+  - DOMAIN-SUFFIX,bbc.in,News
+  - DOMAIN-SUFFIX,bbc.net.uk,News
+  - DOMAIN-SUFFIX,bbcchinese.com,News
+  - DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net,News
+  - DOMAIN-SUFFIX,bbcfmt.s.llnwi.net,News
+  - DOMAIN-SUFFIX,bbci.co,News
+  - DOMAIN-SUFFIX,bbci.co.uk,News
+  - DOMAIN-SUFFIX,bbcmedia.co.uk,News
+  - DOMAIN-SUFFIX,bbcpersian.com,News
+  - DOMAIN-SUFFIX,bbcverticals.com,News
+  - DOMAIN-SUFFIX,bidi.net.uk,News
+  - DOMAIN-KEYWORD,bbcfmt,News
+  - DOMAIN-KEYWORD,uk-live,News
   
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com,Bilibili
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com,Bilibili
@@ -1375,25 +1477,17 @@ rules:
   - IP-CIDR,35.186.224.47/32,International-Media
   - DOMAIN-SUFFIX,tidal.com,International-Media
 
-  - DOMAIN-SUFFIX,snssdk.com,Douyin
-  - DOMAIN-SUFFIX,ixigua.com,Douyin
   - DOMAIN-SUFFIX,amemv.com,Douyin
-  - DOMAIN-SUFFIX,ixiguavideo.com,Douyin
-  - DOMAIN-SUFFIX,yximgs.com,Douyin
-  - DOMAIN-SUFFIX,gifshow.com,Douyin
-  - DOMAIN-SUFFIX,huoshan.com,Douyin
-  - DOMAIN-SUFFIX,iesdouyin.com,Douyin
-  - DOMAIN-SUFFIX,bytecdn.cn,Douyin
-  - DOMAIN-SUFFIX,douyinvod.com,Douyin
-  - DOMAIN-SUFFIX,umeng.com,Douyin
-  - DOMAIN-SUFFIX,bdurl.net,Douyin
-  - DOMAIN-SUFFIX,bytegoofy.com,Douyin
-  - DOMAIN-SUFFIX,mon.snssdk.com,Douyin
-  - DOMAIN-SUFFIX,aweme-hl.snssdk.com,Douyin
+  - DOMAIN-SUFFIX,douyincdn.com,Douyin
+  - DOMAIN-SUFFIX,douyinpic.com,Douyin
   - DOMAIN-SUFFIX,douyinstatic.com,Douyin
-  - DOMAIN-SUFFIX,vc-gate.snssdk.com,Douyin
-  - DOMAIN-SUFFIX,i.snssdk.com,Douyin
-  - DOMAIN-SUFFIX,dig.bdurl.net,Douyin
+  - DOMAIN-SUFFIX,douyinvod.com,Douyin
+  - DOMAIN-SUFFIX,idouyinvod.com,Douyin
+  - DOMAIN-SUFFIX,ixigua.com,Douyin
+  - DOMAIN-SUFFIX,ixiguavideo.com,Douyin
+  - DOMAIN-SUFFIX,pstatp.com,Douyin
+  - DOMAIN-SUFFIX,snssdk.com,Douyin
+  - DOMAIN-SUFFIX,toutiao.com,Douyin
   
   - DOMAIN-SUFFIX,iqiyi.com,China-Media
   - DOMAIN-SUFFIX,71.am,China-Media
