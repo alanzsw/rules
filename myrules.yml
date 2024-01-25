@@ -1374,6 +1374,26 @@ rules:
   - DOMAIN-SUFFIX,spoti.fi,International-Media
   - IP-CIDR,35.186.224.47/32,International-Media
   - DOMAIN-SUFFIX,tidal.com,International-Media
+
+  - DOMAIN-SUFFIX,snssdk.com,Douyin
+  - DOMAIN-SUFFIX,ixigua.com,Douyin
+  - DOMAIN-SUFFIX,amemv.com,Douyin
+  - DOMAIN-SUFFIX,ixiguavideo.com,Douyin
+  - DOMAIN-SUFFIX,yximgs.com,Douyin
+  - DOMAIN-SUFFIX,gifshow.com,Douyin
+  - DOMAIN-SUFFIX,huoshan.com,Douyin
+  - DOMAIN-SUFFIX,iesdouyin.com,Douyin
+  - DOMAIN-SUFFIX,bytecdn.cn,Douyin
+  - DOMAIN-SUFFIX,douyinvod.com,Douyin
+  - DOMAIN-SUFFIX,umeng.com,Douyin
+  - DOMAIN-SUFFIX,bdurl.net,Douyin
+  - DOMAIN-SUFFIX,bytegoofy.com,Douyin
+  - DOMAIN-SUFFIX,mon.snssdk.com,Douyin
+  - DOMAIN-SUFFIX,aweme-hl.snssdk.com,Douyin
+  - DOMAIN-SUFFIX,douyinstatic.com,Douyin
+  - DOMAIN-SUFFIX,vc-gate.snssdk.com,Douyin
+  - DOMAIN-SUFFIX,i.snssdk.com,Douyin
+  - DOMAIN-SUFFIX,dig.bdurl.net,Douyin
   
   - DOMAIN-SUFFIX,iqiyi.com,China-Media
   - DOMAIN-SUFFIX,71.am,China-Media
