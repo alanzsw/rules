@@ -174,8 +174,11 @@ rules:
   - DOMAIN,emby.xeton.dev,Emby
   - DOMAIN,emby-misakaf.atomlantis.cloud ,Emby
   - DOMAIN,emby-mix.atomlantis.cloud,Emby
-  - DOMAIN,emby.cn2gias.uk,Emby
   - DOMAIN,emby.enjoyit.eu.org,Emby
+  - DOMAIN,emby.cn2gias.uk,Emby
+  - DOMAIN,src-emby.cn2gias.uk,Emby
+  - DOMAIN,post.cn2gias.uk,Emby
+  - DOMAIN,test.xttlove.uk
   - DOMAIN-SUFFIX,cn2gias.uk,Emby
   - DOMAIN-SUFFIX,agahk1.jmsooo.com,Emby
   - DOMAIN-SUFFIX,agajp1.jmsooo.com,Emby
