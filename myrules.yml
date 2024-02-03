@@ -119,7 +119,8 @@ rules:
   - DOMAIN-SUFFIX,spotifynewsroom.jp,Spotify
   - DOMAIN-SUFFIX,spotilocal.com,Spotify
   - DOMAIN-SUFFIX,tospotify.com,Spotify
-  
+
+  - DOMAIN,embymv.tk,Emby
   - DOMAIN,stream.ntrrr.top,Emby
   - DOMAIN,film.reddust.link,Emby
   - DOMAIN,e.niceduck.me,Emby
