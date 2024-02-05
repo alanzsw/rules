@@ -119,43 +119,47 @@ rules:
   - DOMAIN-SUFFIX,spotifynewsroom.jp,Spotify
   - DOMAIN-SUFFIX,spotilocal.com,Spotify
   - DOMAIN-SUFFIX,tospotify.com,Spotify
-
-  - DOMAIN,embymv.tk,Emby
-  - DOMAIN,stream.ntrrr.top,Emby
-  - DOMAIN,film.reddust.link,Emby
-  - DOMAIN,e.niceduck.me,Emby
-  - DOMAIN,emby.bangumi.ca,Emby
-  - DOMAIN,film.ohhhh.org,Emby
-  - DOMAIN,direct.mjjemby.org,Emby
-  - DOMAIN,789.123456.al,Emby
-  - DOMAIN,kr.bili.rip,Emby
-  - DOMAIN,line.xmsl.org,Emby
-  - DOMAIN,public.emby.ws,Emby
-  - DOMAIN,o.emby.ws,Emby
-  - DOMAIN,emby.misakaf.org,Emby
-  - DOMAIN,play.charontv.com,Emby
-  - DOMAIN,cf.bili.rip,Emby
-  - DOMAIN,free.emby.eu.org,Emby
-  - DOMAIN,emby.imetyou.top,Emby
-  - DOMAIN,bili.bili.rip,Emby
-  - DOMAIN,4837.bili.rip,Emby
-  - DOMAIN,netlab.bili.rip,Emby
-  - DOMAIN,cfde.xmsl.org,Emby
-  - DOMAIN,pm.xmsl.org,Emby
-  - DOMAIN,cf.imetyou.top,Emby
-  - DOMAIN,fk.imetyou.top,Emby
-  - DOMAIN,kr.imetyou.top,Emby
-  - DOMAIN,sg.imetyou.top,Emby
-  - DOMAIN,chun.imetyou.top,Emby
-  - DOMAIN,emby.pilipiliultra.top,Emby
-  - DOMAIN,emby.pilipiliultra.com,Emby
-  - DOMAIN,emby.aca.best,Emby
-  - DOMAIN,porn.aca.best,Emby
-  - DOMAIN,emby.xeton.dev,Emby
-  - DOMAIN,emby-misakaf.atomlantis.cloud ,Emby
-  - DOMAIN,emby-mix.atomlantis.cloud,Emby
-  - DOMAIN,emby.enjoyit.eu.org,Emby
+  
+  - DOMAIN-SUFFIX,evt.mxplay.com,Emby
+  - DOMAIN-SUFFIX,embymv.tk,Emby
+  - DOMAIN-SUFFIX,embymv.me,Emby
+  - DOMAIN-SUFFIX,stream.ntrrr.top,Emby
+  - DOMAIN-SUFFIX,film.reddust.link,Emby
+  - DOMAIN-SUFFIX,e.niceduck.me,Emby
+  - DOMAIN-SUFFIX,emby.bangumi.ca,Emby
+  - DOMAIN-SUFFIX,film.ohhhh.org,Emby
+  - DOMAIN-SUFFIX,direct.mjjemby.org,Emby
+  - DOMAIN-SUFFIX,789.123456.al,Emby
+  - DOMAIN-SUFFIX,kr.bili.rip,Emby
+  - DOMAIN-SUFFIX,line.xmsl.org,Emby
+  - DOMAIN-SUFFIX,public.emby.ws,Emby
+  - DOMAIN-SUFFIX,o.emby.ws,Emby
+  - DOMAIN-SUFFIX,emby.misakaf.org,Emby
+  - DOMAIN-SUFFIX,play.charontv.com,Emby
+  - DOMAIN-SUFFIX,cf.bili.rip,Emby
+  - DOMAIN-SUFFIX,free.emby.eu.org,Emby
+  - DOMAIN-SUFFIX,emby.imetyou.top,Emby
+  - DOMAIN-SUFFIX,bili.bili.rip,Emby
+  - DOMAIN-SUFFIX,4837.bili.rip,Emby
+  - DOMAIN-SUFFIX,netlab.bili.rip,Emby
+  - DOMAIN-SUFFIX,cfde.xmsl.org,Emby
+  - DOMAIN-SUFFIX,pm.xmsl.org,Emby
+  - DOMAIN-SUFFIX,hd.xmsl.org,Emby
+  - DOMAIN-SUFFIX,cf.imetyou.top,Emby
+  - DOMAIN-SUFFIX,fk.imetyou.top,Emby
+  - DOMAIN-SUFFIX,kr.imetyou.top,Emby
+  - DOMAIN-SUFFIX,sg.imetyou.top,Emby
+  - DOMAIN-SUFFIX,chun.imetyou.top,Emby
+  - DOMAIN-SUFFIX,emby.pilipiliultra.top,Emby
+  - DOMAIN-SUFFIX,emby.pilipiliultra.com,Emby
+  - DOMAIN-SUFFIX,emby.aca.best,Emby
+  - DOMAIN-SUFFIX,porn.aca.best,Emby
+  - DOMAIN-SUFFIX,emby.xeton.dev,Emby
+  - DOMAIN-SUFFIX,emby-misakaf.atomlantis.cloud ,Emby
+  - DOMAIN-SUFFIX,emby-mix.atomlantis.cloud,Emby
+  - DOMAIN-SUFFIX,emby.enjoyit.eu.org,Emby
   - DOMAIN-SUFFIX,cn2gias.uk,Emby
+  - DOMAIN-SUFFIX,gugumedia.link,Emby
   - DOMAIN-SUFFIX,emby.nexitally.com,Emby
   - DOMAIN-SUFFIX,agahk1.jmsooo.com,Emby
   - DOMAIN-SUFFIX,agajp1.jmsooo.com,Emby
