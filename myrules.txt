@@ -22,7 +22,6 @@ Apple`select`[]DIRECT`[]cantoN`.*
 Bilibili`select`[]DIRECT`[]cantoN`.*
 Douyin`select`[]DIRECT`[]cantoN`.*
 iQiyi`select`[]DIRECT`[]cantoN`.*
-China-Media`select`[]DIRECT`[]cantoN`.*
-China-Websites`select`[]DIRECT`[]cantoN`.*
+Domestic`select`[]DIRECT`[]cantoN`.*
 Hijacking`select`[]REJECT`[]DIRECT
 Final`select`[]cantoN`[]DIRECT`.*
