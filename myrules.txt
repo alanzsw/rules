@@ -1,5 +1,5 @@
 cantoN`select`[]Auto`[]DIRECT`.*
-Auto`fallback`(^(?!.*(EIP)).*)`http://www.gstatic.com/generate_204`5,10,50
+Fallback`fallback`(^(?!.*(EIP)).*)`http://www.gstatic.com/generate_204`5,10,50
 Telegram`select`[]cantoN`[]DIRECT`.*
 YouTube`select`[]cantoN`[]DIRECT`.*
 Twitch`select`[]cantoN`[]DIRECT`.*
