@@ -1,4 +1,4 @@
-cantoN`select`[]Auto`[]DIRECT`.*
+cantoN`select`[]Fallback`[]DIRECT`.*
 Fallback`fallback`(^(?!.*(EIP)).*)`http://www.gstatic.com/generate_204`5,10,50
 Telegram`select`[]cantoN`[]DIRECT`.*
 YouTube`select`[]cantoN`[]DIRECT`.*
