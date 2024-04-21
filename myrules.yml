@@ -1047,6 +1047,7 @@ rules:
   - DOMAIN-SUFFIX,viu.tv,Asian-Media
   - DOMAIN-SUFFIX,viu.com,Asian-Media
   - DOMAIN-SUFFIX,viu.now.com,Asian-Media
+  - DOMAIN-SUFFIX,afreecatv.com,Asian-Media
   
   - DOMAIN-SUFFIX,1drv.com,Microsoft
   - DOMAIN-SUFFIX,aadrm.com,Microsoft
