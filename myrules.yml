@@ -986,14 +986,20 @@ rules:
   - IP-CIDR,173.194.0.0/16,Google
   - IP-CIDR,74.125.0.0/16,Google
   
-  - DOMAIN-SUFFIX,openai.com,OpenAI
-  - DOMAIN-SUFFIX,ai.com,OpenAI
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,OpenAI
-  - DOMAIN-SUFFIX,openaicom.imgix.net,OpenAI
-  - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net,OpenAI
-  - DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,OpenAI
-  - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net,OpenAI
-  - DOMAIN-SUFFIX,poe.com,OpenAI
+  - DOMAIN-SUFFIX,openai.com,AI
+  - DOMAIN-SUFFIX,ai.com,AI
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,AI
+  - DOMAIN-SUFFIX,openaicom.imgix.net,AI
+  - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net,AI
+  - DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,AI
+  - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net,AI
+  - DOMAIN-SUFFIX,poe.com,AI
+  - DOMAIN-SUFFIX,gemini.google.com,AI
+  - DOMAIN-SUFFIX,gemini.google.com,AI
+  - DOMAIN-SUFFIX,copilot.microsoft.com,AI
+  - DOMAIN-KEYWORD,openai,AI
+  - DOMAIN-KEYWORD,gemini,AI
+  - DOMAIN-KEYWORD,copilot,AI
   
   - DOMAIN-SUFFIX,gamer.com.tw,Asian-Media
   - DOMAIN-SUFFIX,bahamut.com.tw,Asian-Media
