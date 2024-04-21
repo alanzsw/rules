@@ -1,5 +1,5 @@
 cantoN`select`[]Fallback`[]DIRECT`.*
-Fallback`fallback`(^(?!.*(DE|UK).*)`http://www.gstatic.com/generate_204`5,10,50`.*
+Fallback`fallback`(^(?!.*(DE|UK)).*)`http://www.gstatic.com/generate_204`5,10,50`.*
 Telegram`select`[]cantoN`[]DIRECT`.*
 YouTube`select`[]cantoN`[]DIRECT`.*
 Twitch`select`[]cantoN`[]DIRECT`.*
