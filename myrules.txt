@@ -1,6 +1,6 @@
 cantoN`select`[]Fallback`[]DIRECT`.*
 Fallback`fallback`(HK|TW|SG|JP|US|KR|MO)`http://www.gstatic.com/generate_204`5,10,50
-Telegram`select`[]cantoN`[]DIRECT`.*
+Telegram`select`[]cantoN`[]DIRECT`[]🇭🇰 HK`[]🇹🇼 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇺🇸 US`.*
 YouTube`select`[]cantoN`[]DIRECT`[]🇭🇰 HK`[]🇹🇼 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇺🇸 US`.*
 Twitch`select`[]cantoN`[]DIRECT`[]🇭🇰 HK`[]🇹🇼 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇺🇸 US`.*
 Netflix`select`[]cantoN`[]DIRECT`[]🇭🇰 HK`[]🇹🇼 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇺🇸 US`.*
