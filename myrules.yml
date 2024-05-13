@@ -119,7 +119,10 @@ rules:
   - DOMAIN-SUFFIX,spotifynewsroom.jp,Spotify
   - DOMAIN-SUFFIX,spotilocal.com,Spotify
   - DOMAIN-SUFFIX,tospotify.com,Spotify
-  
+
+  - DOMAIN-SUFFIX,cn2gias.uk,Emby
+  - IP-CIDR,83.147.61.152/8096,Emby
+  - IP-CIDR,104.160.178.150/8096,Emby
   - DOMAIN-SUFFIX,evt.mxplay.com,Emby
   - DOMAIN-SUFFIX,embymv.tk,Emby
   - DOMAIN-SUFFIX,embymv.me,Emby
@@ -158,7 +161,6 @@ rules:
   - DOMAIN-SUFFIX,emby-misakaf.atomlantis.cloud ,Emby
   - DOMAIN-SUFFIX,emby-mix.atomlantis.cloud,Emby
   - DOMAIN-SUFFIX,emby.enjoyit.eu.org,Emby
-  - DOMAIN-SUFFIX,cn2gias.uk,Emby
   - DOMAIN-SUFFIX,gugumedia.link,Emby
   - DOMAIN-SUFFIX,emby.nexitally.com,Emby
   - DOMAIN-SUFFIX,agahk1.jmsooo.com,Emby
@@ -209,18 +211,18 @@ rules:
   - DOMAIN-SUFFIX,twitchcdn.net,Twitch
   - DOMAIN-SUFFIX,twitchsvc.net,Twitch
   - DOMAIN-KEYWORD,ttvnw,Twitch
-  - IP-CIDR,103.53.48.0/23,Twitch,no-resolve
-  - IP-CIDR,185.42.204.0/22,Twitch,no-resolve
-  - IP-CIDR,192.108.239.0/24,Twitch,no-resolve
-  - IP-CIDR,192.16.64.0/21,Twitch,no-resolve
-  - IP-CIDR,199.9.248.0/21,Twitch,no-resolve
-  - IP-CIDR,23.160.0.0/24,Twitch,no-resolve
-  - IP-CIDR,45.113.128.0/22,Twitch,no-resolve
-  - IP-CIDR,52.223.192.0/20,Twitch,no-resolve
-  - IP-CIDR,52.223.208.0/21,Twitch,no-resolve
-  - IP-CIDR,52.223.224.0/19,Twitch,no-resolve
-  - IP-CIDR,99.181.64.0/18,Twitch,no-resolve
-  - IP-CIDR6,2402:2a80::/32,Twitch,no-resolve
+  - IP-CIDR,103.53.48.0/23,Twitch
+  - IP-CIDR,185.42.204.0/22,Twitch
+  - IP-CIDR,192.108.239.0/24,Twitch
+  - IP-CIDR,192.16.64.0/21,Twitch
+  - IP-CIDR,199.9.248.0/21,Twitch
+  - IP-CIDR,23.160.0.0/24,Twitch
+  - IP-CIDR,45.113.128.0/22,Twitch
+  - IP-CIDR,52.223.192.0/20,Twitch
+  - IP-CIDR,52.223.208.0/21,Twitch
+  - IP-CIDR,52.223.224.0/19,Twitch
+  - IP-CIDR,99.181.64.0/18,Twitch
+  - IP-CIDR6,2402:2a80::/32,Twitch
   - PROCESS-NAME,tv.twitch.android.app,Twitch
     
   - DOMAIN-SUFFIX,aaplimg.com,Apple
