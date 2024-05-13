@@ -121,8 +121,8 @@ rules:
   - DOMAIN-SUFFIX,tospotify.com,Spotify
 
   - DOMAIN-SUFFIX,cn2gias.uk,Emby
-  - IP-CIDR,83.147.61.152/8096,Emby
-  - IP-CIDR,104.160.178.150/8096,Emby
+  - IP-CIDR,83.147.61.152/8096,Emby,no-resolve
+  - IP-CIDR,104.160.178.150/8096,Emby,no-resolve
   - DOMAIN-SUFFIX,evt.mxplay.com,Emby
   - DOMAIN-SUFFIX,embymv.tk,Emby
   - DOMAIN-SUFFIX,embymv.me,Emby
@@ -211,18 +211,18 @@ rules:
   - DOMAIN-SUFFIX,twitchcdn.net,Twitch
   - DOMAIN-SUFFIX,twitchsvc.net,Twitch
   - DOMAIN-KEYWORD,ttvnw,Twitch
-  - IP-CIDR,103.53.48.0/23,Twitch
-  - IP-CIDR,185.42.204.0/22,Twitch
-  - IP-CIDR,192.108.239.0/24,Twitch
-  - IP-CIDR,192.16.64.0/21,Twitch
-  - IP-CIDR,199.9.248.0/21,Twitch
-  - IP-CIDR,23.160.0.0/24,Twitch
-  - IP-CIDR,45.113.128.0/22,Twitch
-  - IP-CIDR,52.223.192.0/20,Twitch
-  - IP-CIDR,52.223.208.0/21,Twitch
-  - IP-CIDR,52.223.224.0/19,Twitch
-  - IP-CIDR,99.181.64.0/18,Twitch
-  - IP-CIDR6,2402:2a80::/32,Twitch
+  - IP-CIDR,103.53.48.0/23,Twitch,no-resolve
+  - IP-CIDR,185.42.204.0/22,Twitch,no-resolve
+  - IP-CIDR,192.108.239.0/24,Twitch,no-resolve
+  - IP-CIDR,192.16.64.0/21,Twitch,no-resolve
+  - IP-CIDR,199.9.248.0/21,Twitch,no-resolve
+  - IP-CIDR,23.160.0.0/24,Twitch,no-resolve
+  - IP-CIDR,45.113.128.0/22,Twitch,no-resolve
+  - IP-CIDR,52.223.192.0/20,Twitch,no-resolve
+  - IP-CIDR,52.223.208.0/21,Twitch,no-resolve
+  - IP-CIDR,52.223.224.0/19,Twitch,no-resolve
+  - IP-CIDR,99.181.64.0/18,Twitch,no-resolve
+  - IP-CIDR6,2402:2a80::/32,Twitch,no-resolve
   - PROCESS-NAME,tv.twitch.android.app,Twitch
     
   - DOMAIN-SUFFIX,aaplimg.com,Apple
@@ -236,7 +236,7 @@ rules:
   - DOMAIN-SUFFIX,me.com,Apple
   - DOMAIN-SUFFIX,mzstatic.com,Apple
   - DOMAIN,www-cdn.icloud.com.akadns.net,Apple
-  - IP-CIDR,17.0.0.0/8,Apple
+  - IP-CIDR,17.0.0.0/8,Apple,no-resolve
   
   - DOMAIN-SUFFIX,s.team,Steam
   - DOMAIN-SUFFIX,steampowered.com,Steam
@@ -252,13 +252,13 @@ rules:
   - DOMAIN-SUFFIX,telegram.me,Telegram
   - DOMAIN-SUFFIX,telegram.org,Telegram
   - DOMAIN-SUFFIX,telesco.pe,Telegram
-  - IP-CIDR,91.108.4.0/22,Telegram
-  - IP-CIDR,91.108.8.0/22,Telegram
-  - IP-CIDR,91.108.12.0/22,Telegram
-  - IP-CIDR,91.108.16.0/22,Telegram
-  - IP-CIDR,91.108.20.0/22,Telegram
-  - IP-CIDR,91.108.56.0/22,Telegram
-  - IP-CIDR,149.154.160.0/20,Telegram
+  - IP-CIDR,91.108.4.0/22,Telegram,no-resolve
+  - IP-CIDR,91.108.8.0/22,Telegram,no-resolve
+  - IP-CIDR,91.108.12.0/22,Telegram,no-resolve
+  - IP-CIDR,91.108.16.0/22,Telegram,no-resolve
+  - IP-CIDR,91.108.20.0/22,Telegram,no-resolve
+  - IP-CIDR,91.108.56.0/22,Telegram,no-resolve
+  - IP-CIDR,149.154.160.0/20,Telegram,no-resolve
   
   - DOMAIN-SUFFIX,achat-followers-instagram.com,Instagram
   - DOMAIN-SUFFIX,acheter-followers-instagram.com,Instagram
@@ -653,12 +653,12 @@ rules:
   - DOMAIN-SUFFIX,inter.ptqy.gitv.tv,iQiyi
   - DOMAIN-SUFFIX,intl.iqiyi.com,iQiyi
   - DOMAIN-SUFFIX,iq.com,iQiyi
-  - IP-CIDR,103.44.56.0/22,iQiyi
-  - IP-CIDR,118.26.120.0/24,iQiyi
-  - IP-CIDR,118.26.32.0/23,iQiyi
-  - IP-CIDR,223.119.62.225/28,iQiyi
-  - IP-CIDR,23.40.241.251/32,iQiyi
-  - IP-CIDR,23.40.242.10/32,iQiyi
+  - IP-CIDR,103.44.56.0/22,iQiyi,no-resolve
+  - IP-CIDR,118.26.120.0/24,iQiyi,no-resolve
+  - IP-CIDR,118.26.32.0/23,iQiyi,no-resolve
+  - IP-CIDR,223.119.62.225/28,iQiyi,no-resolve
+  - IP-CIDR,23.40.241.251/32,iQiyi,no-resolve
+  - IP-CIDR,23.40.242.10/32,iQiyi,no-resolve
   
   - DOMAIN-SUFFIX,byteoversea.com,Tiktok
   - DOMAIN-SUFFIX,ibytedtos.com,Tiktok
@@ -985,8 +985,8 @@ rules:
   - DOMAIN-KEYWORD,google,Google
   - DOMAIN-KEYWORD,gstatic,Google
   - DOMAIN-KEYWORD,www.google,Google
-  - IP-CIDR,173.194.0.0/16,Google
-  - IP-CIDR,74.125.0.0/16,Google
+  - IP-CIDR,173.194.0.0/16,Google,no-resolve
+  - IP-CIDR,74.125.0.0/16,Google,no-resolve
   
   - DOMAIN-SUFFIX,openai.com,AI
   - DOMAIN-SUFFIX,ai.com,AI
@@ -1432,15 +1432,15 @@ rules:
   - DOMAIN-SUFFIX,nflximg.net,International-Media
   - DOMAIN-SUFFIX,nflxso.net,International-Media
   - DOMAIN-SUFFIX,nflxvideo.net,International-Media
-  - IP-CIDR,23.246.0.0/18,International-Media
-  - IP-CIDR,37.77.184.0/21,International-Media
-  - IP-CIDR,45.57.0.0/17,International-Media
-  - IP-CIDR,64.120.128.0/17,International-Media
-  - IP-CIDR,66.197.128.0/17,International-Media
-  - IP-CIDR,108.175.32.0/20,International-Media
-  - IP-CIDR,192.173.64.0/18,International-Media
-  - IP-CIDR,198.38.96.0/19,International-Media
-  - IP-CIDR,198.45.48.0/20,International-Media
+  - IP-CIDR,23.246.0.0/18,International-Media,no-resolve
+  - IP-CIDR,37.77.184.0/21,International-Media,no-resolve
+  - IP-CIDR,45.57.0.0/17,International-Media,no-resolve
+  - IP-CIDR,64.120.128.0/17,International-Media,no-resolve
+  - IP-CIDR,66.197.128.0/17,International-Media,no-resolve
+  - IP-CIDR,108.175.32.0/20,International-Media,no-resolve
+  - IP-CIDR,192.173.64.0/18,International-Media,no-resolve
+  - IP-CIDR,198.38.96.0/19,International-Media,no-resolve
+  - IP-CIDR,198.45.48.0/20,International-Media,no-resolve
   - DOMAIN-SUFFIX,pbs.org,International-Media
   - DOMAIN-SUFFIX,phncdn.com,International-Media
   - DOMAIN-SUFFIX,pornhub.com,International-Media
@@ -1468,7 +1468,7 @@ rules:
   - DOMAIN-SUFFIX,scdn.co,International-Media
   - DOMAIN-SUFFIX,spotify.com,International-Media
   - DOMAIN-SUFFIX,spoti.fi,International-Media
-  - IP-CIDR,35.186.224.47/32,International-Media
+  - IP-CIDR,35.186.224.47/32,International-Media,no-resolve
   - DOMAIN-SUFFIX,tidal.com,International-Media
 
   - DOMAIN-SUFFIX,amemv.com,Douyin
@@ -1592,45 +1592,45 @@ rules:
   - DOMAIN-SUFFIX,zhenxinet.com,Hijacking
   - DOMAIN-SUFFIX,zunmi.cn,Hijacking
   - DOMAIN-SUFFIX,zzd6.com,Hijacking
-  - IP-CIDR,39.107.15.115/32,Hijacking
-  - IP-CIDR,47.89.59.182/32,Hijacking
-  - IP-CIDR,103.49.209.27/32,Hijacking
-  - IP-CIDR,123.56.152.96/32,Hijacking
-  - IP-CIDR,61.160.200.223/32,Hijacking
-  - IP-CIDR,61.160.200.242/32,Hijacking
-  - IP-CIDR,61.160.200.252/32,Hijacking
-  - IP-CIDR,61.174.50.214/32,Hijacking
-  - IP-CIDR,111.175.220.163/32,Hijacking
-  - IP-CIDR,111.175.220.164/32,Hijacking
-  - IP-CIDR,124.232.160.178/32,Hijacking
-  - IP-CIDR,175.6.223.15/32,Hijacking
-  - IP-CIDR,183.59.53.237/32,Hijacking
-  - IP-CIDR,218.93.127.37/32,Hijacking
-  - IP-CIDR,221.228.17.152/32,Hijacking
-  - IP-CIDR,221.231.6.79/32,Hijacking
-  - IP-CIDR,222.186.61.91/32,Hijacking
-  - IP-CIDR,222.186.61.95/32,Hijacking
-  - IP-CIDR,222.186.61.96/32,Hijacking
-  - IP-CIDR,222.186.61.97/32,Hijacking
-  - IP-CIDR,106.75.231.48/32,Hijacking
-  - IP-CIDR,119.4.249.166/32,Hijacking
-  - IP-CIDR,220.196.52.141/32,Hijacking
-  - IP-CIDR,221.6.4.148/32,Hijacking
-  - IP-CIDR,114.247.28.96/32,Hijacking
-  - IP-CIDR,221.179.131.72/32,Hijacking
-  - IP-CIDR,221.179.140.145/32,Hijacking
-  - IP-CIDR,10.72.25.0/24,Hijacking
-  - IP-CIDR,115.182.16.79/32,Hijacking
-  - IP-CIDR,118.144.88.126/32,Hijacking
-  - IP-CIDR,118.144.88.215/32,Hijacking
-  - IP-CIDR,118.144.88.216/32,Hijacking
-  - IP-CIDR,120.76.189.132/32,Hijacking
-  - IP-CIDR,124.14.21.147/32,Hijacking
-  - IP-CIDR,124.14.21.151/32,Hijacking
-  - IP-CIDR,180.166.52.24/32,Hijacking
-  - IP-CIDR,211.161.101.106/32,Hijacking
-  - IP-CIDR,220.115.251.25/32,Hijacking
-  - IP-CIDR,222.73.156.235/32,Hijacking
+  - IP-CIDR,39.107.15.115/32,Hijacking,no-resolve
+  - IP-CIDR,47.89.59.182/32,Hijacking,no-resolve
+  - IP-CIDR,103.49.209.27/32,Hijacking,no-resolve
+  - IP-CIDR,123.56.152.96/32,Hijacking,no-resolve
+  - IP-CIDR,61.160.200.223/32,Hijacking,no-resolve
+  - IP-CIDR,61.160.200.242/32,Hijacking,no-resolve
+  - IP-CIDR,61.160.200.252/32,Hijacking,no-resolve
+  - IP-CIDR,61.174.50.214/32,Hijacking,no-resolve
+  - IP-CIDR,111.175.220.163/32,Hijacking,no-resolve
+  - IP-CIDR,111.175.220.164/32,Hijacking,no-resolve
+  - IP-CIDR,124.232.160.178/32,Hijacking,no-resolve
+  - IP-CIDR,175.6.223.15/32,Hijacking,no-resolve
+  - IP-CIDR,183.59.53.237/32,Hijacking,no-resolve
+  - IP-CIDR,218.93.127.37/32,Hijacking,no-resolve
+  - IP-CIDR,221.228.17.152/32,Hijacking,no-resolve
+  - IP-CIDR,221.231.6.79/32,Hijacking,no-resolve
+  - IP-CIDR,222.186.61.91/32,Hijacking,no-resolve
+  - IP-CIDR,222.186.61.95/32,Hijacking,no-resolve
+  - IP-CIDR,222.186.61.96/32,Hijacking,no-resolve
+  - IP-CIDR,222.186.61.97/32,Hijacking,no-resolve
+  - IP-CIDR,106.75.231.48/32,Hijacking,no-resolve
+  - IP-CIDR,119.4.249.166/32,Hijacking,no-resolve
+  - IP-CIDR,220.196.52.141/32,Hijacking,no-resolve
+  - IP-CIDR,221.6.4.148/32,Hijacking,no-resolve
+  - IP-CIDR,114.247.28.96/32,Hijacking,no-resolve
+  - IP-CIDR,221.179.131.72/32,Hijacking,no-resolve
+  - IP-CIDR,221.179.140.145/32,Hijacking,no-resolve
+  - IP-CIDR,10.72.25.0/24,Hijacking,no-resolve
+  - IP-CIDR,115.182.16.79/32,Hijacking,no-resolve
+  - IP-CIDR,118.144.88.126/32,Hijacking,no-resolve
+  - IP-CIDR,118.144.88.215/32,Hijacking,no-resolve
+  - IP-CIDR,118.144.88.216/32,Hijacking,no-resolve
+  - IP-CIDR,120.76.189.132/32,Hijacking,no-resolve
+  - IP-CIDR,124.14.21.147/32,Hijacking,no-resolve
+  - IP-CIDR,124.14.21.151/32,Hijacking,no-resolve
+  - IP-CIDR,180.166.52.24/32,Hijacking,no-resolve
+  - IP-CIDR,211.161.101.106/32,Hijacking,no-resolve
+  - IP-CIDR,220.115.251.25/32,Hijacking,no-resolve
+  - IP-CIDR,222.73.156.235/32,Hijacking,no-resolve
   - DOMAIN-SUFFIX,kuaizip.com,Hijacking
   - DOMAIN-SUFFIX,mackeeper.com,Hijacking
   - DOMAIN-SUFFIX,flash.cn,Hijacking
@@ -1862,11 +1862,11 @@ rules:
   - DOMAIN,mtalk.google.com,Domestic
   - DOMAIN,officecdn-microsoft-com.akamaized.net,Domestic
   - DOMAIN,upos-hz-mirrorakam.akamaized.net,Domestic
-  - IP-CIDR,192.168.0.0/16,Domestic
-  - IP-CIDR,10.0.0.0/8,Domestic
-  - IP-CIDR,172.16.0.0/12,Domestic
-  - IP-CIDR,127.0.0.0/8,Domestic
-  - IP-CIDR,100.64.0.0/10,Domestic
+  - IP-CIDR,192.168.0.0/16,Domestic,no-resolve
+  - IP-CIDR,10.0.0.0/8,Domestic,no-resolve
+  - IP-CIDR,172.16.0.0/12,Domestic,no-resolve
+  - IP-CIDR,127.0.0.0/8,Domestic,no-resolve
+  - IP-CIDR,100.64.0.0/10,Domestic,no-resolve
 
   - DOMAIN-SUFFIX,flightpacific.net,Final
   - DOMAIN-SUFFIX,nexitallysecure.com,Final
@@ -1920,23 +1920,23 @@ rules:
   - DOMAIN-SUFFIX,telegra.ph,Final
   - DOMAIN-SUFFIX,telegram.me,Final
   - DOMAIN-SUFFIX,telegram.org,Final
-  - IP-CIDR,67.198.55.0/24,Final
-  - IP-CIDR,91.108.4.0/22,Final
-  - IP-CIDR,91.108.8.0/22,Final
-  - IP-CIDR,91.108.12.0/22,Final
-  - IP-CIDR,91.108.16.0/22,Final
-  - IP-CIDR,91.108.56.0/22,Final
-  - IP-CIDR,109.239.140.0/24,Final
-  - IP-CIDR,149.154.160.0/20,Final
-  - IP-CIDR,205.172.60.0/22,Final
+  - IP-CIDR,67.198.55.0/24,Final,no-resolve
+  - IP-CIDR,91.108.4.0/22,Final,no-resolve
+  - IP-CIDR,91.108.8.0/22,Final,no-resolve
+  - IP-CIDR,91.108.12.0/22,Final,no-resolve
+  - IP-CIDR,91.108.16.0/22,Final,no-resolve
+  - IP-CIDR,91.108.56.0/22,Final,no-resolve
+  - IP-CIDR,109.239.140.0/24,Final,no-resolve
+  - IP-CIDR,149.154.160.0/20,Final,no-resolve
+  - IP-CIDR,205.172.60.0/22,Final,no-resolve
   - DOMAIN-SUFFIX,line.me,Final
   - DOMAIN-SUFFIX,line-apps.com,Final
   - DOMAIN-SUFFIX,line-scdn.net,Final
   - DOMAIN-SUFFIX,naver.jp,Final
-  - IP-CIDR,103.2.30.0/23,Final
-  - IP-CIDR,125.209.208.0/20,Final
-  - IP-CIDR,147.92.128.0/17,Final
-  - IP-CIDR,203.104.144.0/21,Final
+  - IP-CIDR,103.2.30.0/23,Final,no-resolve
+  - IP-CIDR,125.209.208.0/20,Final,no-resolve
+  - IP-CIDR,147.92.128.0/17,Final,no-resolve
+  - IP-CIDR,203.104.144.0/21,Final,no-resolve
   - DOMAIN-SUFFIX,4shared.com,Final
   - DOMAIN-SUFFIX,520cc.cc,Final
   - DOMAIN-SUFFIX,9cache.com,Final
