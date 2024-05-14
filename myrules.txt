@@ -16,7 +16,7 @@ News`select`[]cantoN`[]DIRECT`.*
 Google`select`[]cantoN`[]DIRECT`.*
 Spotify`select`[]cantoN`[]DIRECT`.*
 Steam`select`[]cantoN`[]DIRECT`.*
-Learning`select`[]cantoN`[]DIRECT`.*
+Scholar`select`[]cantoN`[]DIRECT`.*
 Microsoft`select`[]DIRECT`[]cantoN`.*
 Apple`select`[]DIRECT`[]cantoN`.*
 Bilibili`select`[]DIRECT`[]cantoN`.*
