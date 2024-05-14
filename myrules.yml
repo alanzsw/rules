@@ -106,6 +106,7 @@ profile:
   tracing: true
 
 rules:
+#Spotify
   - PROCESS-NAME,com.spotify.music,Spotify
   - DOMAIN-SUFFIX,pscdn.co,Spotify
   - DOMAIN-SUFFIX,scdn.co,Spotify
@@ -119,7 +120,7 @@ rules:
   - DOMAIN-SUFFIX,spotifynewsroom.jp,Spotify
   - DOMAIN-SUFFIX,spotilocal.com,Spotify
   - DOMAIN-SUFFIX,tospotify.com,Spotify
-
+#Emby
   - DOMAIN-SUFFIX,cn2gias.uk,Emby
   - IP-CIDR,83.147.61.152/32,Emby,no-resolve
   - IP-CIDR,104.160.178.150/32,Emby,no-resolve
@@ -201,7 +202,7 @@ rules:
   - DOMAIN-KEYWORD,jmsooo,Emby
   - DOMAIN-KEYWORD,odysseyplus,Emby
   - PROCESS-NAME,com.mb.android,Emby
-  
+#Twitch  
   - DOMAIN-SUFFIX,ext-twitch.tv,Twitch
   - DOMAIN-SUFFIX,jtvnw.net,Twitch
   - DOMAIN-SUFFIX,live-video.net,Twitch
@@ -224,7 +225,7 @@ rules:
   - IP-CIDR,99.181.64.0/18,Twitch,no-resolve
   - IP-CIDR6,2402:2a80::/32,Twitch,no-resolve
   - PROCESS-NAME,tv.twitch.android.app,Twitch
-    
+#Apple    
   - DOMAIN-SUFFIX,aaplimg.com,Apple
   - DOMAIN-SUFFIX,Apple.co,Apple
   - DOMAIN-SUFFIX,Apple.com,Apple
@@ -237,7 +238,7 @@ rules:
   - DOMAIN-SUFFIX,mzstatic.com,Apple
   - DOMAIN,www-cdn.icloud.com.akadns.net,Apple
   - IP-CIDR,17.0.0.0/8,Apple,no-resolve
-  
+#Steam  
   - DOMAIN-SUFFIX,s.team,Steam
   - DOMAIN-SUFFIX,steampowered.com,Steam
   - DOMAIN-SUFFIX,steamcommunity.com,Steam
@@ -245,7 +246,7 @@ rules:
   - DOMAIN-SUFFIX,steamusercontent.com,Steam
   - DOMAIN-SUFFIX,steamcontent.com,Steam
   - DOMAIN-SUFFIX,steamstatic.com,Steam
-  
+#Telegram  
   - DOMAIN-SUFFIX,t.me,Telegram
   - DOMAIN-SUFFIX,tdesktop.com,Telegram
   - DOMAIN-SUFFIX,telegra.ph,Telegram
@@ -259,7 +260,7 @@ rules:
   - IP-CIDR,91.108.20.0/22,Telegram,no-resolve
   - IP-CIDR,91.108.56.0/22,Telegram,no-resolve
   - IP-CIDR,149.154.160.0/20,Telegram,no-resolve
-  
+#Instagram  
   - DOMAIN-SUFFIX,achat-followers-instagram.com,Instagram
   - DOMAIN-SUFFIX,acheter-followers-instagram.com,Instagram
   - DOMAIN-SUFFIX,acheterdesfollowersinstagram.com,Instagram
@@ -334,7 +335,7 @@ rules:
   - DOMAIN-SUFFIX,web-instagram.net,Instagram
   - DOMAIN-SUFFIX,wwwinstagram.com,Instagram
   - DOMAIN-KEYWORD,instagram,Instagram
-
+#News
   - DOMAIN-SUFFIX,epochtimes.com,News
   - DOMAIN-SUFFIX,ntdtv.com,News
   - DOMAIN-SUFFIX,voachinese.com,News
@@ -472,7 +473,6 @@ rules:
   - DOMAIN-SUFFIX,bidi.net.uk,News
   - DOMAIN-KEYWORD,bbcfmt,News
   - DOMAIN-KEYWORD,uk-live,News
-
   - DOMAIN-KEYWORD,epochtimes,News
   - DOMAIN-SUFFIX,881903.com,News
   - DOMAIN-SUFFIX,aboluowang.com,News
@@ -522,7 +522,7 @@ rules:
   - DOMAIN-SUFFIX,xinsheng.net,News
   - DOMAIN-SUFFIX,zhengjian.org,News
   - DOMAIN-SUFFIX,zhuichaguoji.org,News
-  
+#Bilibili  
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com,Bilibili
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com,Bilibili
   - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com,Bilibili
@@ -644,7 +644,7 @@ rules:
   - IP-CIDR,120.92.153.217/32,Bilibili
   - IP-CIDR,134.175.207.130/32,Bilibili
   - IP-CIDR,203.107.1.0/24,Bilibili
-  
+#iQiyi  
   - DOMAIN,intel-cache.m.iqiyi.com,iQiyi
   - DOMAIN,intel-cache.video.iqiyi.com,iQiyi
   - DOMAIN,intl-rcd.iqiyi.com,iQiyi
@@ -659,7 +659,7 @@ rules:
   - IP-CIDR,223.119.62.225/28,iQiyi,no-resolve
   - IP-CIDR,23.40.241.251/32,iQiyi,no-resolve
   - IP-CIDR,23.40.242.10/32,iQiyi,no-resolve
-  
+#Tiktok  
   - DOMAIN-SUFFIX,byteoversea.com,Tiktok
   - DOMAIN-SUFFIX,ibytedtos.com,Tiktok
   - DOMAIN-SUFFIX,ipstatp.com,Tiktok
@@ -670,13 +670,13 @@ rules:
   - DOMAIN-SUFFIX,tiktokcdn.com,Tiktok
   - DOMAIN-SUFFIX,tiktokv.com,Tiktok
   - DOMAIN-KEYWORD,-tiktokcdn-com,Tiktok
-  
+#Youtube  
   - DOMAIN-SUFFIX,googlevideo.com,YouTube
   - DOMAIN-SUFFIX,youtube.com,YouTube
   - DOMAIN-SUFFIX,ytimg.com,YouTube
   - DOMAIN,youtubei.googleapis.com,YouTube
   - DOMAIN,yt3.ggpht.com,YouTube
-  
+#Disney  
   - DOMAIN-SUFFIX,20thcenturystudios.com.au,Disney
   - DOMAIN-SUFFIX,20thcenturystudios.com.br,Disney
   - DOMAIN-SUFFIX,20thcenturystudios.jp,Disney
@@ -838,7 +838,7 @@ rules:
   - DOMAIN-SUFFIX,watchespn.com,Disney
   - PROCESS-NAME,com.disney.datg.videoplatforms.android.abc,Disney
   - PROCESS-NAME,com.disney.disneyplus,Disney
-  
+#Netflix  
   - DOMAIN,e13252.dscg.akamaiedge.net,Netflix
   - DOMAIN,h-netflix.online-metrix.net,Netflix
   - DOMAIN,netflix.com.edgesuite.net,Netflix
@@ -873,7 +873,7 @@ rules:
   - DOMAIN-KEYWORD,dualstack.apiproxy-,Netflix
   - DOMAIN-KEYWORD,dualstack.ichnaea-web-,Netflix
   - DOMAIN-KEYWORD,netflixdnstest,Netflix
-  
+#Google  
   - DOMAIN,mtalk.google.com,Google
   - DOMAIN,mobile-gtalk.l.google.com,Google
   - DOMAIN,alt1-mtalk.google.com,Google
@@ -987,8 +987,9 @@ rules:
   - DOMAIN-KEYWORD,www.google,Google
   - IP-CIDR,173.194.0.0/16,Google,no-resolve
   - IP-CIDR,74.125.0.0/16,Google,no-resolve
-  
+#AI  
   - DOMAIN-SUFFIX,openai.com,AI
+  - DOMAIN-SUFFIX,chatgpt.com,AI
   - DOMAIN-SUFFIX,ai.com,AI
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,AI
   - DOMAIN-SUFFIX,openaicom.imgix.net,AI
@@ -1002,7 +1003,7 @@ rules:
   - DOMAIN-KEYWORD,openai,AI
   - DOMAIN-KEYWORD,gemini,AI
   - DOMAIN-KEYWORD,copilot,AI
-  
+#Asian-Media  
   - DOMAIN-SUFFIX,gamer.com.tw,Asian-Media
   - DOMAIN-SUFFIX,bahamut.com.tw,Asian-Media
   - DOMAIN-SUFFIX,hinet.net,Asian-Media
@@ -1056,7 +1057,7 @@ rules:
   - DOMAIN-SUFFIX,viu.com,Asian-Media
   - DOMAIN-SUFFIX,viu.now.com,Asian-Media
   - DOMAIN-SUFFIX,afreecatv.com,Asian-Media
-  
+#Microsoft  
   - DOMAIN-SUFFIX,1drv.com,Microsoft
   - DOMAIN-SUFFIX,aadrm.com,Microsoft
   - DOMAIN-SUFFIX,acompli.com,Microsoft
@@ -1180,84 +1181,84 @@ rules:
   - DOMAIN-KEYWORD,microsoft,Microsoft
   - DOMAIN-KEYWORD,onedrive,Microsoft
   - DOMAIN-KEYWORD,skydrive,Microsoft
-  
-  - DOMAIN-SUFFIX,acm.org,Learning
-  - DOMAIN-SUFFIX,acs.org,Learning
-  - DOMAIN-SUFFIX,aip.org,Learning
-  - DOMAIN-SUFFIX,ams.org,Learning
-  - DOMAIN-SUFFIX,annualreviews.org,Learning
-  - DOMAIN-SUFFIX,aps.org,Learning
-  - DOMAIN-SUFFIX,ascelibrary.org,Learning
-  - DOMAIN-SUFFIX,asm.org,Learning
-  - DOMAIN-SUFFIX,asme.org,Learning
-  - DOMAIN-SUFFIX,astm.org,Learning
-  - DOMAIN-SUFFIX,blackwell-synergy.com,Learning
-  - DOMAIN-SUFFIX,bmj.com,Learning
-  - DOMAIN-SUFFIX,cabdirect.org,Learning
-  - DOMAIN-SUFFIX,cambridge.org,Learning
-  - DOMAIN-SUFFIX,cas.org,Learning
-  - DOMAIN-SUFFIX,cell.com,Learning
-  - DOMAIN-SUFFIX,clarivate.com,Learning
-  - DOMAIN-SUFFIX,cnki.net,Learning
-  - DOMAIN-SUFFIX,cqvip.com,Learning
-  - DOMAIN-SUFFIX,csiro.au,Learning
-  - DOMAIN-SUFFIX,deepdyve.com,Learning
-  - DOMAIN-SUFFIX,ebscohost.com,Learning
-  - DOMAIN-SUFFIX,els-cdn.com,Learning
-  - DOMAIN-SUFFIX,elsevier.com,Learning
-  - DOMAIN-SUFFIX,emerald.com,Learning
-  - DOMAIN-SUFFIX,endnote.com,Learning
-  - DOMAIN-SUFFIX,engineeringvillage.com,Learning
-  - DOMAIN-SUFFIX,icevirtuallibrary.com,Learning
-  - DOMAIN-SUFFIX,ieee.org,Learning
-  - DOMAIN-SUFFIX,imf.org,Learning
-  - DOMAIN-SUFFIX,iop.org,Learning
-  - DOMAIN-SUFFIX,jamanetwork.com,Learning
-  - DOMAIN-SUFFIX,jbc.org,Learning
-  - DOMAIN-SUFFIX,jhu.edu,Learning
-  - DOMAIN-SUFFIX,jstor.org,Learning
-  - DOMAIN-SUFFIX,karger.com,Learning
-  - DOMAIN-SUFFIX,libguides.com,Learning
-  - DOMAIN-SUFFIX,madsrevolution.net,Learning
-  - DOMAIN-SUFFIX,mdpi.com,Learning
-  - DOMAIN-SUFFIX,mpg.de,Learning
-  - DOMAIN-SUFFIX,myilibrary.com,Learning
-  - DOMAIN-SUFFIX,nature.com,Learning
-  - DOMAIN-SUFFIX,ncbi.nlm.nih.gov,Learning
-  - DOMAIN-SUFFIX,oecd-ilibrary.org,Learning
-  - DOMAIN-SUFFIX,osapublishing.org,Learning
-  - DOMAIN-SUFFIX,oup.com,Learning
-  - DOMAIN-SUFFIX,ovid.com,Learning
-  - DOMAIN-SUFFIX,oxfordartonline.com,Learning
-  - DOMAIN-SUFFIX,oxfordbibliographies.com,Learning
-  - DOMAIN-SUFFIX,oxfordmusiconline.com,Learning
-  - DOMAIN-SUFFIX,pkulaw.com,Learning
-  - DOMAIN-SUFFIX,pnas.org,Learning
-  - DOMAIN-SUFFIX,proquest.com,Learning
-  - DOMAIN-SUFFIX,readcube.com,Learning
-  - DOMAIN-SUFFIX,researchgate.net,Learning
-  - DOMAIN-SUFFIX,rsc.org,Learning
-  - DOMAIN-SUFFIX,sagepub.com,Learning
-  - DOMAIN-SUFFIX,sci-hub.tw,Learning
-  - DOMAIN-SUFFIX,sciencedirect.com,Learning
-  - DOMAIN-SUFFIX,sciencemag.org,Learning
-  - DOMAIN-SUFFIX,scitation.org,Learning
-  - DOMAIN-SUFFIX,scopus.com,Learning
-  - DOMAIN-SUFFIX,siam.org,Learning
-  - DOMAIN-SUFFIX,spiedigitallibrary.org,Learning
-  - DOMAIN-SUFFIX,springer.com,Learning
-  - DOMAIN-SUFFIX,springerlink.com,Learning
-  - DOMAIN-SUFFIX,tandfonline.com,Learning
-  - DOMAIN-SUFFIX,un.org,Learning
-  - DOMAIN-SUFFIX,uni-bielefeld.de,Learning
-  - DOMAIN-SUFFIX,wanfangdata.com,Learning
-  - DOMAIN-SUFFIX,webofknowledge.com,Learning
-  - DOMAIN-SUFFIX,westlaw.com,Learning
-  - DOMAIN-SUFFIX,westlawchina.com,Learning
-  - DOMAIN-SUFFIX,wiley.com,Learning
-  - DOMAIN-SUFFIX,worldbank.org,Learning
-  - DOMAIN-SUFFIX,worldscientific.com,Learning
-  
+#Scholar  
+  - DOMAIN-SUFFIX,acm.org,Scholar
+  - DOMAIN-SUFFIX,acs.org,Scholar
+  - DOMAIN-SUFFIX,aip.org,Scholar
+  - DOMAIN-SUFFIX,ams.org,Scholar
+  - DOMAIN-SUFFIX,annualreviews.org,Scholar
+  - DOMAIN-SUFFIX,aps.org,Scholar
+  - DOMAIN-SUFFIX,ascelibrary.org,Scholar
+  - DOMAIN-SUFFIX,asm.org,Scholar
+  - DOMAIN-SUFFIX,asme.org,Scholar
+  - DOMAIN-SUFFIX,astm.org,Scholar
+  - DOMAIN-SUFFIX,blackwell-synergy.com,Scholar
+  - DOMAIN-SUFFIX,bmj.com,Scholar
+  - DOMAIN-SUFFIX,cabdirect.org,Scholar
+  - DOMAIN-SUFFIX,cambridge.org,Scholar
+  - DOMAIN-SUFFIX,cas.org,Scholar
+  - DOMAIN-SUFFIX,cell.com,Scholar
+  - DOMAIN-SUFFIX,clarivate.com,Scholar
+  - DOMAIN-SUFFIX,cnki.net,Scholar
+  - DOMAIN-SUFFIX,cqvip.com,Scholar
+  - DOMAIN-SUFFIX,csiro.au,Scholar
+  - DOMAIN-SUFFIX,deepdyve.com,Scholar
+  - DOMAIN-SUFFIX,ebscohost.com,Scholar
+  - DOMAIN-SUFFIX,els-cdn.com,Scholar
+  - DOMAIN-SUFFIX,elsevier.com,Scholar
+  - DOMAIN-SUFFIX,emerald.com,Scholar
+  - DOMAIN-SUFFIX,endnote.com,Scholar
+  - DOMAIN-SUFFIX,engineeringvillage.com,Scholar
+  - DOMAIN-SUFFIX,icevirtuallibrary.com,Scholar
+  - DOMAIN-SUFFIX,ieee.org,Scholar
+  - DOMAIN-SUFFIX,imf.org,Scholar
+  - DOMAIN-SUFFIX,iop.org,Scholar
+  - DOMAIN-SUFFIX,jamanetwork.com,Scholar
+  - DOMAIN-SUFFIX,jbc.org,Scholar
+  - DOMAIN-SUFFIX,jhu.edu,Scholar
+  - DOMAIN-SUFFIX,jstor.org,Scholar
+  - DOMAIN-SUFFIX,karger.com,Scholar
+  - DOMAIN-SUFFIX,libguides.com,Scholar
+  - DOMAIN-SUFFIX,madsrevolution.net,Scholar
+  - DOMAIN-SUFFIX,mdpi.com,Scholar
+  - DOMAIN-SUFFIX,mpg.de,Scholar
+  - DOMAIN-SUFFIX,myilibrary.com,Scholar
+  - DOMAIN-SUFFIX,nature.com,Scholar
+  - DOMAIN-SUFFIX,ncbi.nlm.nih.gov,Scholar
+  - DOMAIN-SUFFIX,oecd-ilibrary.org,Scholar
+  - DOMAIN-SUFFIX,osapublishing.org,Scholar
+  - DOMAIN-SUFFIX,oup.com,Scholar
+  - DOMAIN-SUFFIX,ovid.com,Scholar
+  - DOMAIN-SUFFIX,oxfordartonline.com,Scholar
+  - DOMAIN-SUFFIX,oxfordbibliographies.com,Scholar
+  - DOMAIN-SUFFIX,oxfordmusiconline.com,Scholar
+  - DOMAIN-SUFFIX,pkulaw.com,Scholar
+  - DOMAIN-SUFFIX,pnas.org,Scholar
+  - DOMAIN-SUFFIX,proquest.com,Scholar
+  - DOMAIN-SUFFIX,readcube.com,Scholar
+  - DOMAIN-SUFFIX,researchgate.net,Scholar
+  - DOMAIN-SUFFIX,rsc.org,Scholar
+  - DOMAIN-SUFFIX,sagepub.com,Scholar
+  - DOMAIN-SUFFIX,sci-hub.tw,Scholar
+  - DOMAIN-SUFFIX,sciencedirect.com,Scholar
+  - DOMAIN-SUFFIX,sciencemag.org,Scholar
+  - DOMAIN-SUFFIX,scitation.org,Scholar
+  - DOMAIN-SUFFIX,scopus.com,Scholar
+  - DOMAIN-SUFFIX,siam.org,Scholar
+  - DOMAIN-SUFFIX,spiedigitallibrary.org,Scholar
+  - DOMAIN-SUFFIX,springer.com,Scholar
+  - DOMAIN-SUFFIX,springerlink.com,Scholar
+  - DOMAIN-SUFFIX,tandfonline.com,Scholar
+  - DOMAIN-SUFFIX,un.org,Scholar
+  - DOMAIN-SUFFIX,uni-bielefeld.de,Scholar
+  - DOMAIN-SUFFIX,wanfangdata.com,Scholar
+  - DOMAIN-SUFFIX,webofknowledge.com,Scholar
+  - DOMAIN-SUFFIX,westlaw.com,Scholar
+  - DOMAIN-SUFFIX,westlawchina.com,Scholar
+  - DOMAIN-SUFFIX,wiley.com,Scholar
+  - DOMAIN-SUFFIX,worldbank.org,Scholar
+  - DOMAIN-SUFFIX,worldscientific.com,Scholar
+#Twitter  
   - DOMAIN-SUFFIX,pscp.tv,Twitter
   - DOMAIN-SUFFIX,periscope.tv,Twitter
   - DOMAIN-SUFFIX,t.co,Twitter
@@ -1267,7 +1268,7 @@ rules:
   - DOMAIN-SUFFIX,twitter.com,Twitter
   - DOMAIN-SUFFIX,twitter.jp,Twitter
   - DOMAIN-SUFFIX,vine.co,Twitter
-  
+#International-Media  
   - DOMAIN-SUFFIX,max.com,International-Media
   - DOMAIN-SUFFIX,maxgo.com,International-Media
   - DOMAIN-SUFFIX,hbo.com,International-Media
@@ -1368,7 +1369,6 @@ rules:
   - DOMAIN-SUFFIX,pplusstatic.com,International-Media
   - DOMAIN-SUFFIX,popcornflix.com,International-Media
   - DOMAIN-SUFFIX,popcornflix-prod.cloud.seachange.com,International-Media
-
   - DOMAIN-SUFFIX,peacocktv.com,International-Media
   - DOMAIN-SUFFIX,peacock.com,International-Media
   - DOMAIN-SUFFIX,plex.tv,International-Media
@@ -1470,7 +1470,7 @@ rules:
   - DOMAIN-SUFFIX,spoti.fi,International-Media
   - IP-CIDR,35.186.224.47/32,International-Media,no-resolve
   - DOMAIN-SUFFIX,tidal.com,International-Media
-
+#Douyin
   - DOMAIN-SUFFIX,amemv.com,Douyin
   - DOMAIN-SUFFIX,douyincdn.com,Douyin
   - DOMAIN-SUFFIX,douyinpic.com,Douyin
@@ -1495,7 +1495,7 @@ rules:
   - DOMAIN-SUFFIX,vc-gate.snssdk.com,Douyin
   - DOMAIN-SUFFIX,i.snssdk.com,Douyin
   - DOMAIN-SUFFIX,dig.bdurl.net,Douyin
-  
+#Hijacking  
   - DOMAIN-SUFFIX,17gouwuba.com,Hijacking
   - DOMAIN-SUFFIX,186078.com,Hijacking
   - DOMAIN-SUFFIX,189zj.cn,Hijacking
@@ -1685,7 +1685,7 @@ rules:
   - DOMAIN-SUFFIX,yuanchengxiezuo.com,Hijacking
   - DOMAIN-SUFFIX,zbrushcn.com,Hijacking
   - DOMAIN-SUFFIX,zhzzx.com,Hijacking
-
+#Domestic
   - DOMAIN-SUFFIX,taichi-maker.com,Domestic
   - DOMAIN-SUFFIX,leaguehd.com,Domestic
   - DOMAIN-SUFFIX,qhres.com,Domestic
@@ -1867,7 +1867,7 @@ rules:
   - IP-CIDR,172.16.0.0/12,Domestic,no-resolve
   - IP-CIDR,127.0.0.0/8,Domestic,no-resolve
   - IP-CIDR,100.64.0.0/10,Domestic,no-resolve
-
+#Final
   - DOMAIN-SUFFIX,flightpacific.net,Final
   - DOMAIN-SUFFIX,nexitallysecure.com,Final
   - DOMAIN-SUFFIX,nexitally.com,Final
