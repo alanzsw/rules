@@ -121,8 +121,8 @@ rules:
   - DOMAIN-SUFFIX,tospotify.com,Spotify
 
   - DOMAIN-SUFFIX,cn2gias.uk,Emby
-  - IP-CIDR,83.147.61.152/8096,Emby,no-resolve
-  - IP-CIDR,104.160.178.150/8096,Emby,no-resolve
+  - IP-CIDR,83.147.61.152/32,Emby,no-resolve
+  - IP-CIDR,104.160.178.150/32,Emby,no-resolve
   - DOMAIN-SUFFIX,evt.mxplay.com,Emby
   - DOMAIN-SUFFIX,embymv.tk,Emby
   - DOMAIN-SUFFIX,embymv.me,Emby
