@@ -830,7 +830,6 @@ rules:
   - IP-CIDR,54.173.34.141/32,Meta,no-resolve
   - IP-CIDR,54.235.23.242/32,Meta,no-resolve
   - IP-CIDR,54.93.124.31/32,Meta,no-resolve
-  - IP-ASN,32934,Meta,no-resolve
 #News
   - DOMAIN-SUFFIX,epochtimes.com,News
   - DOMAIN-SUFFIX,ntdtv.com,News
