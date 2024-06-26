@@ -1,0 +1,198 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+cfw-latency-url: 'http://cp.cloudflare.com/generate_204'
+cfw-latency-timeout: 3000
+cfw-latency-type: 1
+cfw-conn-break-strategy: true
+dns:
+  enabled: true
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
+
+rules:
+  - RULE-SET, AI
+  - RULE-SET, Apple
+  - RULE-SET, Asian-Media
+  - RULE-SET, Bilibili
+  - RULE-SET, Discord
+  - RULE-SET, Disney
+  - RULE-SET, Domestic
+  - RULE-SET, DouYin
+  - RULE-SET, Emby
+  - RULE-SET, Google
+  - RULE-SET, Hijacking
+  - RULE-SET, International-Media
+  - RULE-SET, Meta
+  - RULE-SET, Microsoft
+  - RULE-SET, Netflix
+  - RULE-SET, News
+  - RULE-SET, Spotify
+  - RULE-SET, Steam
+  - RULE-SET, Telegram
+  - RULE-SET, TikTok
+  - RULE-SET, Twitch
+  - RULE-SET, Twitter
+  - RULE-SET, Youtube
+
+rule-providers:
+  AI:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/AI.yaml"
+    path: ./rule-providers/AI.yaml
+    interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Apple.yaml"
+    path: ./rule-providers/Apple.yaml
+    interval: 86400
+  Asian-Media:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Asian-Media.yaml"
+    path: ./rule-providers/Asian-Media.yaml
+    interval: 86400
+  Bilibili:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Bilibili.yaml"
+    path: ./rule-providers/Bilibili.yaml
+    interval: 86400
+  Discord:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Discord.yaml"
+    path: ./rule-providers/Discord.yaml
+    interval: 86400
+  Disney:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Disney.yaml"
+    path: ./rule-providers/Disney.yaml
+    interval: 86400
+  Domestic:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Domestic.yaml"
+    path: ./rule-providers/Domestic.yaml
+    interval: 86400
+  DoYin:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/DoYin.yaml"
+    path: ./rule-providers/DoYin.yaml
+    interval: 86400
+  Emby:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Emby.yaml"
+    path: ./rule-providers/Emby.yaml
+    interval: 86400
+  Google:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Google.yaml"
+    path: ./rule-providers/Google.yaml
+    interval: 86400
+  Hijacking:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Hijacking.yaml"
+    path: ./rule-providers/Hijacking.yaml
+    interval: 86400
+  International-Media:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/International-Media.yaml"
+    path: ./rule-providers/International-Media.yaml
+    interval: 86400
+  Meta:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Meta.yaml"
+    path: ./rule-providers/Meta.yaml
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Microsoft.yaml"
+    path: ./rule-providers/Microsoft.yaml
+    interval: 86400
+  Netflix:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Netflix.yaml"
+    path: ./rule-providers/Netflix.yaml
+    interval: 86400
+  News:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/News.yaml"
+    path: ./rule-providers/News.yaml
+    interval: 86400
+  Spotify:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Spotify.yaml"
+    path: ./rule-providers/Spotify.yaml
+    interval: 86400
+  Steam:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Steam.yaml"
+    path: ./rule-providers/Steam.yaml
+    interval: 86400
+  Telegram:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Telegram.yaml"
+    path: ./rule-providers/Telegram.yaml
+    interval: 86400
+  TikTok:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/TikTok.yaml"
+    path: ./rule-providers/TikTok.yaml
+    interval: 86400
+  Twitch:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Twitch.yaml"
+    path: ./rule-providers/Twitch.yaml
+    interval: 86400
+  Twitter:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Twitter.yaml"
+    path: ./rule-providers/Twitter.yaml
+    interval: 86400
+  Youtube:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Youtube.yaml"
+    path: ./rule-providers/Youtube.yaml
+    interval: 86400
+
+
+
+
+
+
+
+
+
+
+
+    
+    
