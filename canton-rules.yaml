@@ -20,29 +20,31 @@ dns:
     - tls://dns.google:853
 
 rules:
-  - RULE-SET, AI
-  - RULE-SET, Apple
-  - RULE-SET, Asian-Media
-  - RULE-SET, Bilibili
-  - RULE-SET, Discord
-  - RULE-SET, Disney
-  - RULE-SET, Domestic
-  - RULE-SET, DouYin
-  - RULE-SET, Emby
-  - RULE-SET, Google
-  - RULE-SET, Hijacking
-  - RULE-SET, International-Media
-  - RULE-SET, Meta
-  - RULE-SET, Microsoft
-  - RULE-SET, Netflix
-  - RULE-SET, News
-  - RULE-SET, Spotify
-  - RULE-SET, Steam
-  - RULE-SET, Telegram
-  - RULE-SET, TikTok
-  - RULE-SET, Twitch
-  - RULE-SET, Twitter
-  - RULE-SET, Youtube
+  - RULE-SET, AI, AI
+  - RULE-SET, Apple, Apple
+  - RULE-SET, Asian-Media, Asian-Media
+  - RULE-SET, Bilibili, Bilibili
+  - RULE-SET, Discord, Discord
+  - RULE-SET, Disney, Disney
+  - RULE-SET, Domestic, Domestic
+  - RULE-SET, DouYin, DouYin
+  - RULE-SET, Emby, Emby
+  - RULE-SET, Google, Google
+  - RULE-SET, Hijacking, Hijacking
+  - RULE-SET, International-Media, International-Media
+  - RULE-SET, Meta, Meta
+  - RULE-SET, Microsoft, Microsoft
+  - RULE-SET, Netflix, Netflix
+  - RULE-SET, News, News
+  - RULE-SET, Spotify, Spotify
+  - RULE-SET, Steam, Steam
+  - RULE-SET, Telegram, Telegram
+  - RULE-SET, TikTok, TikTok
+  - RULE-SET, Twitch, Twitch
+  - RULE-SET, Twitter, Twitter
+  - RULE-SET, Youtube, Youtube
+  - MATCH, Canton
+  - GEOIP, CN, Domestic
 
 rule-providers:
   AI:
