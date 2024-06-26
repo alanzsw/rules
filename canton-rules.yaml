@@ -42,7 +42,7 @@ rules:
   - RULE-SET, TikTok, TikTok
   - RULE-SET, Twitch, Twitch
   - RULE-SET, Twitter, Twitter
-  - RULE-SET, Youtube, Youtube
+  - RULE-SET, YouTube, YouTube
   - MATCH, cantoN
   - GEOIP, CN, Domestic
 
@@ -179,7 +179,7 @@ rule-providers:
     url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Twitter.yaml"
     path: ./rule-providers/Twitter.yaml
     interval: 86400
-  Youtube:
+  YouTube:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Youtube.yaml"
