@@ -89,7 +89,7 @@ rule-providers:
     url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Domestic.yaml"
     path: ./rule-providers/Domestic.yaml
     interval: 86400
-  DoYin:
+  DouYin:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/DoYin.yaml"
