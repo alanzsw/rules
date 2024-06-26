@@ -43,7 +43,7 @@ rules:
   - RULE-SET, Twitch, Twitch
   - RULE-SET, Twitter, Twitter
   - RULE-SET, Youtube, Youtube
-  - MATCH, Canton
+  - MATCH, cantoN
   - GEOIP, CN, Domestic
 
 rule-providers:
