@@ -42,29 +42,59 @@ dns:
        - 240.0.0.0/4
 
 rules:
-  - RULE-SET, AI, AI
+  - RULE-SET, Abema, JP-Media
+  - RULE-SET, Amazon, Int-Medai
   - RULE-SET, Apple, Apple
-  - RULE-SET, Asian-Media, Asian-Media
+  - RULE-SET, AppleMusic, Music
+  - RULE-SET, Bahamut, HK&TW-Media 
+  - RULE-SET, BaiduTieba, BBS
   - RULE-SET, Bilibili, Bilibili
-  - RULE-SET, Discord, Discord
+  - RULE-SET, CN-Media, Domestic
+  - RULE-SET, Coolapk, BBS
+  - RULE-SET, Copilot, AI
+  - RULE-SET, DAZN, Int-Media
+  - RULE-SET, DMM, JP-Media
+  - RULE-SET, Discord, BBS
   - RULE-SET, Disney, Disney
-  - RULE-SET, Domestic, Domestic
-  - RULE-SET, DouYin, DouYin
+  - RULE-SET, Douyin, Douyin
+  - RULE-SET, ESPN, Int-Media
   - RULE-SET, Emby, Emby
+  - RULE-SET, Epic, Games
+  - RULE-SET, Facebook, Meta
+  - RULE-SET, Games, Games
+  - RULE-SET, Gemini, AI
+  - RULE-SET, Github, BBS
   - RULE-SET, Google, Google
-  - RULE-SET, Hijacking, Hijacking
-  - RULE-SET, International-Media, International-Media
-  - RULE-SET, Meta, Meta
+  - RULE-SET, HBO-Asia, HK&TW-Meida
+  - RULE-SET, HBO-US, Int-Media
+  - RULE-SET, Hamivideo, HK&TW-Media
+  - RULE-SET, Hulu-JP, JP-Media
+  - RULE-SET, Hulu-US, Int-Media
+  - RULE-SET, Instagram, Meta
+  - RULE-SET, KKBOX, Music
+  - RULE-SET, KKTV, HK&TW-Media
+  - RULE-SET, LiTV, HK&TW-Media
+  - RULE-SET, Line, BBS
+  - RULE-SET, LineTV, HK&TW-Media
   - RULE-SET, Microsoft, Microsoft
   - RULE-SET, Netflix, Netflix
   - RULE-SET, News, News
-  - RULE-SET, Spotify, Spotify
-  - RULE-SET, Steam, Steam
-  - RULE-SET, Telegram, Telegram
-  - RULE-SET, TikTok, TikTok
-  - RULE-SET, Twitch, Twitch
-  - RULE-SET, Twitter, Twitter
-  - RULE-SET, YouTube, YouTube
+  - RULE-SET, OpenAI, AI
+  - RULE-SET, Paramount, Int-Media 
+  - RULE-SET, Peacock, Int-Media
+  - RULE-SET, Pixiv, JP-Media
+  - RULE-SET, Primvideo, Int-Media
+  - RULE-SET, Qobuz, Music
+  - RULE-SET, Reddit, BBS
+  - RULE-SET, Spotify, Music
+  - RULE-SET, Steam, Games
+  - RULE-SET, Telegram, BBS
+  - RULE-SET, Tiktok, Tiktok
+  - RULE-SET, Twitch, HK&TW-Media
+  - RULE-SET, Twitter, BBS
+  - RULE-SET, ViuTV, HK&TW-Media
+  - RULE-SET, Youtube, Google
+  - RULE-SET, myTVSUPER, HK&TW-Media
   - MATCH, cantoN
   - GEOIP, CN, Domestic
 
