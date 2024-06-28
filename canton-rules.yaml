@@ -54,7 +54,7 @@ rules:
   - RULE-SET, News, News
   - RULE-SET, OpenAI, AI
   - RULE-SET, Pandora, JP&KR-Media
-  - RULE-SET, Paramount, US&EU-Medaia
+  - RULE-SET, Paramount, US&EU-Media
   - RULE-SET, Peacock, US&EU-Media
   - RULE-SET, Pixiv, JP&KR-Media
   - RULE-SET, Primvideo, US&EU-Media
