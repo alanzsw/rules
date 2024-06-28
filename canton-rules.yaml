@@ -40,7 +40,7 @@ rules:
   - RULE-SET, Gemini, AI
   - RULE-SET, Github, BBS
   - RULE-SET, Google, Google
-  - RULE-SET, HBO, US&EU-Medai
+  - RULE-SET, HBO, US&EU-Media
   - RULE-SET, Hamivideo, HK&TW-Media
   - RULE-SET, Hulu, US&EU-Media
   - RULE-SET, Instagram, Meta
