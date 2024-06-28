@@ -116,7 +116,7 @@ rule-providers:
   Peacock: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Peacock.yaml", path: ./rule-providers/Peacock, interval: 86400}
   Pixiv: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Pixiv.yaml", path: ./rule-providers/Pixiv, interval: 86400}
   Primvideo: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Primvideo.yaml", path: ./rule-providers/Primvideo, interval: 86400}
-  Qoboz: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Qoboz.yaml", path: ./rule-providers/Qoboz, interval: 86400}
+  Qobuz: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Qobuz.yaml", path: ./rule-providers/Qobuz, interval: 86400}
   Reddit: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Reddit.yaml", path: ./rule-providers/Reddit, interval: 86400}
   Spotify: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Spotify.yaml", path: ./rule-providers/Spotify, interval: 86400}
   Steam: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Steam.yaml", path: ./rule-providers/Steam, interval: 86400}
