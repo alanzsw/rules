@@ -8,7 +8,6 @@ News`select`[]cantoN`[]DIRECT`.*
 Emby`select`[]cantoN`[]DIRECT`.*
 Tiktok`select`[]cantoN`[]DIRECT`.*
 Bilibili`select`[]cantoN`[]DIRECT`.*
-Douyin`select`[]cantoN`[]DIRECT`.*
 Netflix`select`[]cantoN`[]DIRECT`.*
 Disney`select`[]cantoN`[]DIRECT`.*
 HK&TW-Media`select`[]cantoN`[]DIRECT`.*
