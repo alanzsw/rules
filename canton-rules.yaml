@@ -63,11 +63,13 @@ rules:
   - RULE-SET, Spotify, Music
   - RULE-SET, Steam, Games
   - RULE-SET, Telegram, BBS
+  - RULE-SET, Tidal, Music
   - RULE-SET, Tiktok, Tiktok
   - RULE-SET, Twitch, HK&TW-Media
   - RULE-SET, Twitter, BBS
   - RULE-SET, ViuTV, HK&TW-Media
   - RULE-SET, Youtube, Google
+  - RULE-SET, YoutubeMusic, Music
   - RULE-SET, Zhihu, BBS
   - RULE-SET, myTVSUPER, HK&TW-Media
   - MATCH, cantoN
@@ -121,11 +123,13 @@ rule-providers:
   Spotify: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Spotify.yaml", path: ./rule-providers/Spotify, interval: 86400}
   Steam: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Steam.yaml", path: ./rule-providers/Steam, interval: 86400}
   Telegram: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Telegram.yaml", path: ./rule-providers/Telegram, interval: 86400}
+  Tidal: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Tidal.yaml", path: ./rule-providers/Tidal, interval: 86400}
   Tiktok: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Tiktok.yaml", path: ./rule-providers/Tiktok, interval: 86400}
   Twitch: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Twitch.yaml", path: ./rule-providers/Twitch, interval: 86400}
   Twitter: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Twitter.yaml", path: ./rule-providers/Twitter, interval: 86400}
   ViuTV: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/ViuTV.yaml", path: ./rule-providers/ViuTV, interval: 86400}
   Whatsapp: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Whatsapp.yaml", path: ./rule-providers/Whatsapp, interval: 86400}
   Youtube: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Youtube.yaml", path: ./rule-providers/Youtube, interval: 86400}
+  YoutubeMusic: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/YoutubeMusic.yaml", path: ./rule-providers/YoutubeMusic, interval: 86400}
   Zhihu: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Zhihu.yaml", path: ./rule-providers/Zhihu, interval: 86400}
   myTVSUPER: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/myTVSUPER.yaml", path: ./rule-providers/myTVSUPER, interval: 86400}
