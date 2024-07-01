@@ -72,7 +72,7 @@ rules:
   - RULE-SET, Youtube, Google
   - RULE-SET, YoutubeMusic, Music
   - RULE-SET, Zhihu, BBS
-  - RULE-SET, myTVSUPER, HK&TW-Media
+  - RULE-SET, TVB, HK&TW-Media
   - MATCH, cantoN
   - GEOIP, CN, Domestic
 
@@ -134,4 +134,4 @@ rule-providers:
   Youtube: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Youtube.yaml", path: ./rule-providers/Youtube, interval: 86400}
   YoutubeMusic: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/YoutubeMusic.yaml", path: ./rule-providers/YoutubeMusic, interval: 86400}
   Zhihu: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Zhihu.yaml", path: ./rule-providers/Zhihu, interval: 86400}
-  myTVSUPER: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/myTVSUPER.yaml", path: ./rule-providers/myTVSUPER, interval: 86400}
+  TVB: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/TVB.yaml", path: ./rule-providers/TVB, interval: 86400}
