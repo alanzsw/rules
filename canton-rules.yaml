@@ -21,6 +21,7 @@ rules:
   - RULE-SET, Amazon, US&EU-Media
   - RULE-SET, Apple, Apple
   - RULE-SET, AppleMusic, Music
+  - RULE-SET, AppleTV, Apple
   - RULE-SET, Bahamut, HK&TW-Media 
   - RULE-SET, BaiduTieba, BBS
   - RULE-SET, Bilibili, Bilibili
@@ -73,6 +74,7 @@ rules:
   - RULE-SET, YoutubeMusic, Music
   - RULE-SET, Zhihu, BBS
   - RULE-SET, TVB, HK&TW-Media
+  - RULE-SET, iCloud, Apple
   - MATCH, cantoN
   - GEOIP, CN, Domestic
 
@@ -82,6 +84,7 @@ rule-providers:
   Amazon: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Amazon.yaml", path: ./rule-providers/Amazon, interval: 86400}
   Apple: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Apple.yaml", path: ./rule-providers/Apple, interval: 86400}
   AppleMusic: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/AppleMusic.yaml", path: ./rule-providers/AppleMusic, interval: 86400}
+  AppleTV: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/AppleTV.yaml", path: ./rule-providers/AppleTV, interval: 86400}
   Bahamut: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Bahamut.yaml", path: ./rule-providers/Bahamut, interval: 86400}
   BaiduTieba: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/BaiduTieba.yaml", path: ./rule-providers/BaiduTieba, interval: 86400}
   Bilibili: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Bilibili.yaml", path: ./rule-providers/Bilibili, interval: 86400}
@@ -135,3 +138,4 @@ rule-providers:
   YoutubeMusic: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/YoutubeMusic.yaml", path: ./rule-providers/YoutubeMusic, interval: 86400}
   Zhihu: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Zhihu.yaml", path: ./rule-providers/Zhihu, interval: 86400}
   TVB: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/TVB.yaml", path: ./rule-providers/TVB, interval: 86400}
+  iCloud: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/iCloud.yaml", path: ./rule-providers/iCloud, interval: 86400}
