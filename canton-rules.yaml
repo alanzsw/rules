@@ -44,6 +44,7 @@ rules:
   - RULE-SET, Hamivideo, HK&TW-Media
   - RULE-SET, Hulu, US&EU-Media
   - RULE-SET, Instagram, Meta
+  - RULE-SET, JOOX, Music
   - RULE-SET, KKBOX, Music
   - RULE-SET, KKTV, HK&TW-Media
   - RULE-SET, LiTV, HK&TW-Media
@@ -104,6 +105,7 @@ rule-providers:
   Hamivideo: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Hamivideo.yaml", path: ./rule-providers/Hamivideo, interval: 86400} 
   Hulu: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Hulu.yaml", path: ./rule-providers/Hulu, interval: 86400}
   Instagram: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Instagram.yaml", path: ./rule-providers/Instagram, interval: 86400}
+  JOOX: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/JOOX.yaml", path: ./rule-providers/JOOX, interval: 86400}
   KKBOX: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/KKBOX.yaml", path: ./rule-providers/KKBOX, interval: 86400}
   KKTV: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/KKTV.yaml", path: ./rule-providers/KKTV, interval: 86400}
   LiTV: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/LiTV.yaml", path: ./rule-providers/LiTV, interval: 86400}
