@@ -4,6 +4,7 @@ Meta`select`[]cantoN`[]DIRECT`.*
 AI`select`[]cantoN`[]DIRECT`.*
 Google`select`[]cantoN`[]DIRECT`.*
 News`select`[]cantoN`[]DIRECT`.*
+Music`select`[]cantoN`[]DIRECT`.*
 Emby`select`[]cantoN`[]DIRECT`.*
 Tiktok`select`[]cantoN`[]DIRECT`.*
 Bilibili`select`[]cantoN`[]DIRECT`.*
@@ -12,8 +13,7 @@ Disney`select`[]cantoN`[]DIRECT`.*
 HK&TW-Media`select`[]cantoN`[]DIRECT`.*
 US&EU-Media`select`[]cantoN`[]DIRECT`.*
 JP&KR-Media`select`[]cantoN`[]DIRECT`.*
-Music`select`[]cantoN`[]DIRECT`.*
-Games`select`[]cantoN`[]DIRECT`.*
 Microsoft`select`[]cantoN`[]DIRECT`.*
-Apple`select`[]DIRECT`[]cantoN`.*
+Apple`select`[]cantoN`[]DIRECT`.*
+Games`select`[]cantoN`[]DIRECT`.*
 Domestic`select`[]DIRECT`[]cantoN`
