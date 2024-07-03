@@ -40,7 +40,7 @@ rules:
   - RULE-SET, Games, Games
   - RULE-SET, Gemini, AI
   - RULE-SET, Github, BBS
-  - RULE-SET, Google FCM, FCM
+  - RULE-SET, GoogleFCM, FCM
   - RULE-SET, Google, Google
   - RULE-SET, HBO, US&EU-Media
   - RULE-SET, Hamivideo, HK&TW-Media
@@ -104,7 +104,7 @@ rule-providers:
   Games: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Games.yaml", path: ./rule-providers/Games, interval: 86400}
   Gemini: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Gemini.yaml", path: ./rule-providers/Gemini, interval: 86400}
   Github: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Github.yaml", path: ./rule-providers/Github, interval: 86400}
-  Google FCM: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Google FCM.yaml", path: ./rule-providers/Google FCM, interval: 86400}
+  GoogleFCM: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/GoogleFCM.yaml", path: ./rule-providers/GoogleFCM, interval: 86400}
   Google: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Google.yaml", path: ./rule-providers/Google, interval: 86400}
   HBO: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/HBO.yaml", path: ./rule-providers/HBO, interval: 86400}
   Hamivideo: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Hamivideo.yaml", path: ./rule-providers/Hamivideo, interval: 86400} 
