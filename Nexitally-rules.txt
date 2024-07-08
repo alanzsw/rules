@@ -1,27 +1,25 @@
-⭐ Main`select`[]♻️ Auto`[]DIRECT`.*
-♻️ Auto`url-test`(^(?!.*(EIP)).*)`http://www.gstatic.com/generate_204`5,300,50
-📢 Telegram`select`[]⭐ Main`[]DIRECT`.*
-▶️ YouTube`select`[]⭐ Main`[]DIRECT`.*
-🐭 Twitch`select`[]⭐ Main`[]DIRECT`.*
-📺 Netflix`select`[]⭐ Main`[]DIRECT`.*
-📺 Disney`select`[]⭐ Main`[]DIRECT`.*
-📺 International-Media`select`[]⭐ Main`[]DIRECT`.*
-📺 Asian-Media`select`[]⭐ Main`[]DIRECT`.*
-🎬 Emby`select`[]⭐ Main`[]DIRECT`.*
-🎶 Tiktok`select`[]⭐ Main`[]DIRECT`.*
-🤖 OpenAI`select`[]⭐ Main`[]DIRECT`.*
-♥ Instagram`select`[]⭐ Main`[]DIRECT`.*
-🐦 Twitter`select`[]⭐ Main`[]DIRECT`.*
-📰 News`select`[]⭐ Main`[]DIRECT`.*
-🌐 Google`select`[]⭐ Main`[]DIRECT`.*
-🎵 Spotify`select`[]⭐ Main`[]DIRECT`.*
-🎮 Steam`select`[]⭐ Main`[]DIRECT`.*
-📖 Learning`select`[]⭐ Main`[]DIRECT`.*
-🖥 Microsoft`select`[]DIRECT`[]⭐ Main`.*
-🍎 Apple`select`[]DIRECT`[]⭐ Main`.*
-🎬 Bilibili`select`[]DIRECT`[]⭐ Main`.*
-🎬 iQiyi`select`[]DIRECT`[]⭐ Main`.*
-China-Media`select`[]DIRECT`[]⭐ Main`.*
-China-Websites`select`[]DIRECT`[]⭐ Main`.*
+cantoN`select`.*
+Telegram`select`[]cantoN`[]DIRECT`.*
+YouTube`select`[]cantoN`[]DIRECT`.*
+Twitch`select`[]cantoN`[]DIRECT`.*
+Netflix`select`[]cantoN`[]DIRECT`.*
+Disney`select`[]cantoN`[]DIRECT`.*
+International-Media`select`[]cantoN`[]DIRECT`.*
+Asian-Media`select`[]cantoN`[]DIRECT`.*
+Emby`select`[]cantoN`[]DIRECT`.*
+Tiktok`select`[]cantoN`[]DIRECT`.*
+OpenAI`select`[]cantoN`[]DIRECT`.*
+Instagram`select`[]cantoN`[]DIRECT`.*
+Twitter`select`[]cantoN`[]DIRECT`.*
+News`select`[]cantoN`[]DIRECT`.*
+Google`select`[]cantoN`[]DIRECT`.*
+Spotify`select`[]cantoN`[]DIRECT`.*
+Steam`select`[]cantoN`[]DIRECT`.*
+Learning`select`[]cantoN`[]DIRECT`.*
+Microsoft`select`[]DIRECT`[]cantoN`.*
+Apple`select`[]DIRECT`[]cantoN`.*
+Bilibili`select`[]DIRECT`[]cantoN`.*
+Douyin`select`[]DIRECT`[]cantoN`.*
+Domestic`select`[]DIRECT`[]cantoN`.*
 Hijacking`select`[]REJECT`[]DIRECT
-Final`select`[]⭐ Main`[]DIRECT`.*
+Final`select`[]cantoN`[]DIRECT`.*
