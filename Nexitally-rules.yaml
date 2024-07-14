@@ -549,21 +549,6 @@ rules:
   - IP-CIDR,134.175.207.130/32,Bilibili
   - IP-CIDR,203.107.1.0/24,Bilibili
   
-  - DOMAIN,intel-cache.m.iqiyi.com,iQiyi
-  - DOMAIN,intel-cache.video.iqiyi.com,iQiyi
-  - DOMAIN,intl-rcd.iqiyi.com,iQiyi
-  - DOMAIN,intl-subscription.iqiyi.com,iQiyi
-  - DOMAIN-SUFFIX,inter.iqiyi.com,iQiyi
-  - DOMAIN-SUFFIX,inter.ptqy.gitv.tv,iQiyi
-  - DOMAIN-SUFFIX,intl.iqiyi.com,iQiyi
-  - DOMAIN-SUFFIX,iq.com,iQiyi
-  - IP-CIDR,103.44.56.0/22,iQiyi
-  - IP-CIDR,118.26.120.0/24,iQiyi
-  - IP-CIDR,118.26.32.0/23,iQiyi
-  - IP-CIDR,223.119.62.225/28,iQiyi
-  - IP-CIDR,23.40.241.251/32,iQiyi
-  - IP-CIDR,23.40.242.10/32,iQiyi
-  
   - DOMAIN-SUFFIX,byteoversea.com,Tiktok
   - DOMAIN-SUFFIX,ibytedtos.com,Tiktok
   - DOMAIN-SUFFIX,ipstatp.com,Tiktok
@@ -1764,6 +1749,20 @@ rules:
   - IP-CIDR,172.16.0.0/12,Domestic
   - IP-CIDR,127.0.0.0/8,Domestic
   - IP-CIDR,100.64.0.0/10,Domestic
+  - DOMAIN,intel-cache.m.iqiyi.com,Domestic
+  - DOMAIN,intel-cache.video.iqiyi.com,Domestic
+  - DOMAIN,intl-rcd.iqiyi.com,Domestic
+  - DOMAIN,intl-subscription.iqiyi.com,Domestic
+  - DOMAIN-SUFFIX,inter.iqiyi.com,Domestic
+  - DOMAIN-SUFFIX,inter.ptqy.gitv.tv,Domestic
+  - DOMAIN-SUFFIX,intl.iqiyi.com,Domestic
+  - DOMAIN-SUFFIX,iq.com,Domestic
+  - IP-CIDR,103.44.56.0/22,Domestic
+  - IP-CIDR,118.26.120.0/24,Domestic
+  - IP-CIDR,118.26.32.0/23,Domestic
+  - IP-CIDR,223.119.62.225/28,Domestic
+  - IP-CIDR,23.40.241.251/32,Domestic
+  - IP-CIDR,23.40.242.10/32,Domestic
 
   - DOMAIN-SUFFIX,flightpacific.net,Final
   - DOMAIN-SUFFIX,nexitallysecure.com,Final
