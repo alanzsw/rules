@@ -44,10 +44,10 @@ rules:
   - RULE-SET, AppleMusic, Music
   - RULE-SET, AppleTV, Apple
   - RULE-SET, Bahamut, HK&TW-Media 
-  - RULE-SET, BaiduTieba, Domestic
+  - RULE-SET, BaiduTieba, BBS
   - RULE-SET, Bilibili, Bilibili
   - RULE-SET, CN-Media, Domestic
-  - RULE-SET, Coolapk, Domestic
+  - RULE-SET, Coolapk, BBS
   - RULE-SET, Copilot, AI
   - RULE-SET, DAZN, US&EU-Media
   - RULE-SET, DMM, JP&KR-Media
@@ -94,7 +94,7 @@ rules:
   - RULE-SET, ViuTV, HK&TW-Media
   - RULE-SET, Youtube, Google
   - RULE-SET, YoutubeMusic, Music
-  - RULE-SET, Zhihu, Domestic
+  - RULE-SET, Zhihu, BBS
   - RULE-SET, TVB, HK&TW-Media
   - RULE-SET, iCloud, Apple
   - MATCH, cantoN
