@@ -14,7 +14,7 @@ HK&TW-Media`select`[]cantoN`[]DIRECT`.*
 US&EU-Media`select`[]cantoN`[]DIRECT`.*
 JP&KR-Media`select`[]cantoN`[]DIRECT`.*
 Microsoft`select`[]cantoN`[]DIRECT`.*
+Games`select`[]cantoN`[]DIRECT`.*
 FCM`select`[]DIRECT`[]cantoN`.*
 Apple`select`[]cantoN`[]DIRECT`.*
-Games`select`[]cantoN`[]DIRECT`.*
 Domestic`select`[]DIRECT`[]cantoN`
