@@ -7,7 +7,7 @@ mode: Rule
 log-level: info
 external-controller: ':9990'
 clash-for-android:
-    append-system-dns: true
+    append-system-dns: false
 hosts:
     mtalk.google.com: 108.177.125.188
     mtalk.google.com: 2404:6800:4008:c07::bc
