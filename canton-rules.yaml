@@ -33,6 +33,7 @@ rules:
   - RULE-SET, AppleTV, Apple
   - RULE-SET, Bahamut, HK&TW-Media 
   - RULE-SET, BaiduTieba, Domestic
+  - RULE-SET, Bank, Domestic
   - RULE-SET, Bilibili, Bilibili
   - RULE-SET, CN-Media, Domestic
   - RULE-SET, Coolapk, Domestic
@@ -97,6 +98,7 @@ rule-providers:
   AppleTV: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/AppleTV.yaml", path: ./rule-providers/AppleTV, interval: 86400}
   Bahamut: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Bahamut.yaml", path: ./rule-providers/Bahamut, interval: 86400}
   BaiduTieba: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/BaiduTieba.yaml", path: ./rule-providers/BaiduTieba, interval: 86400}
+  Bank: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Bank.yaml", path: ./rule-providers/Bank, interval: 86400}
   Bilibili: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Bilibili.yaml", path: ./rule-providers/Bilibili, interval: 86400}
   CN-Media: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/CN-Media.yaml", path: ./rule-providers/CN-Media, interval: 86400}
   Coolapk: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Coolapk.yaml", path: ./rule-providers/Coolapk, interval: 86400}
