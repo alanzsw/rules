@@ -70,6 +70,7 @@ rules:
   - RULE-SET, Pandora, JP&KR-Media
   - RULE-SET, Paramount, US&EU-Media
   - RULE-SET, Peacock, US&EU-Media
+  - RULE-SET, Perplexity, AI
   - RULE-SET, Pixiv, JP&KR-Media
   - RULE-SET, Primvideo, US&EU-Media
   - RULE-SET, Qobuz, Music
@@ -136,6 +137,7 @@ rule-providers:
   Pandora: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Pandora.yaml", path: ./rule-providers/Pandora, interval: 86400}
   Paramount: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Paramount.yaml", path: ./rule-providers/Paramount, interval: 86400}
   Peacock: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Peacock.yaml", path: ./rule-providers/Peacock, interval: 86400}
+  Perplexity: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Perplexity.yaml", path: ./rule-providers/Perplexity, interval: 86400}
   Pixiv: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Pixiv.yaml", path: ./rule-providers/Pixiv, interval: 86400}
   Primvideo: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Primvideo.yaml", path: ./rule-providers/Primvideo, interval: 86400}
   Qobuz: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Qobuz.yaml", path: ./rule-providers/Qobuz, interval: 86400}
