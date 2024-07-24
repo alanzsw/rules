@@ -36,6 +36,7 @@ rules:
   - RULE-SET, Bank, Domestic
   - RULE-SET, Bilibili, Bilibili
   - RULE-SET, CN-Media, Domestic
+  - RULE-SET, Claude, AI
   - RULE-SET, Coolapk, Domestic
   - RULE-SET, Copilot, AI
   - RULE-SET, DAZN, US&EU-Media
@@ -101,6 +102,7 @@ rule-providers:
   Bank: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Bank.yaml", path: ./rule-providers/Bank, interval: 86400}
   Bilibili: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Bilibili.yaml", path: ./rule-providers/Bilibili, interval: 86400}
   CN-Media: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/CN-Media.yaml", path: ./rule-providers/CN-Media, interval: 86400}
+  Claude: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Claude.yaml", path: ./rule-providers/Claude, interval: 86400}
   Coolapk: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Coolapk.yaml", path: ./rule-providers/Coolapk, interval: 86400}
   Copilot: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Copilot.yaml", path: ./rule-providers/Copilot, interval: 86400}
   DAZN: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/DAZN.yaml", path: ./rule-providers/DAZN, interval: 86400}
