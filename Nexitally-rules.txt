@@ -1,0 +1,23 @@
+⚡cantoN`select`[]♻️ Auto`[]DIRECT`.*
+♻️ Auto`url-test`.*`http://www.gstatic.com/generate_204`300
+🍎 Apple`select`[]DIRECT`[]⚡cantoN`.*
+🎬 Emby`select`[]⚡cantoN`[]DIRECT`.*
+📲 Telegram`select`[]⚡cantoN`[]DIRECT`.*
+🎬 YouTube`select`[]⚡cantoN`[]DIRECT`.*
+🎬 Bilibili`select`[]DIRECT`[]⚡cantoN`.*
+🎬 myTVSUPER`select`[]⚡cantoN`[]DIRECT`.*
+📲 LineTV`select`[]⚡cantoN`[]DIRECT`.*
+🎬 iQiyi`select`[]DIRECT`[]⚡cantoN`.*
+🎵 Tiktok`select`[]⚡cantoN`[]DIRECT`.*
+📺 Disney`select`[]⚡cantoN`[]DIRECT`.*
+📺 Netflix`select`[]⚡cantoN`[]DIRECT`.*
+🌐 Google`select`[]⚡cantoN`[]DIRECT`.*
+🐹 OpenAI`select`[]⚡cantoN`[]DIRECT`.*
+🖥 Microsoft`select`[]DIRECT`[]⚡cantoN`.*
+🖥 Learning`select`[]⚡cantoN`[]DIRECT`.*
+📟 Twitter`select`[]⚡cantoN`[]DIRECT`.*
+📺 International-Media`select`[]⚡cantoN`[]DIRECT`.*
+China-Media`select`[]DIRECT`[]⚡cantoN`.*
+China-Websites`select`[]DIRECT`[]⚡cantoN`.*
+Hijacking`select`[]REJECT`[]DIRECT
+Final`select`[]⚡cantoN`[]DIRECT`.*
