@@ -14,6 +14,9 @@ cfw-latency-type: 1
 cfw-conn-break-strategy: true
 clash-for-android:
     ui-subtitle-pattern: '[一-龥]{2,4}'
+hosts:
+    mtalk.google.com: 108.177.125.188
+    raw.githubusercontent.com: 151.101.76.133
 url-rewrite:
     - '^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302'
     - '^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302'
@@ -74,7 +77,7 @@ rules:
     - 'RULE-SET, Scholar, Scholar'
     - 'RULE-SET, Speedtest, Speedtest'
     - 'RULE-SET, Steam, Steam'
-    - 'RULE-SET, PROXY, Proxy'
+    - 'RULE-SET, PROXY, cantoN'
     - 'RULE-SET, Domestic, Domestic'
     - 'RULE-SET, Domestic IPs, Domestic'
     - 'RULE-SET, LAN, DIRECT'
