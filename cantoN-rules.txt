@@ -6,6 +6,7 @@ Google`select`[]cantoN`[]DIRECT`.*
 Netflix`select`[]cantoN`[]DIRECT`.*
 Disney`select`[]cantoN`[]DIRECT`.*
 Emby`select`[]cantoN`[]DIRECT`.*
+Twitch`select`[]DIRECT`[]cantoN`.*
 Tiktok`select`[]cantoN`[]DIRECT`.*
 News`select`[]cantoN`[]DIRECT`.*
 Music`select`[]cantoN`[]DIRECT`.*
