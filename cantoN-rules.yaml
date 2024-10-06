@@ -86,7 +86,7 @@ rules:
   - RULE-SET, Telegram, BBS
   - RULE-SET, Tidal, Music
   - RULE-SET, Tiktok, Tiktok
-  - RULE-SET, Twitch, HK&TW-Media
+  - RULE-SET, Twitch, Twitch
   - RULE-SET, Twitter, BBS
   - RULE-SET, ViuTV, HK&TW-Media
   - RULE-SET, Youtube, Google
