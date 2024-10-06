@@ -3,13 +3,12 @@ BBS`select`[]cantoN`[]DIRECT`.*
 Meta`select`[]cantoN`[]DIRECT`.*
 AI`select`[]cantoN`[]DIRECT`.*
 Google`select`[]cantoN`[]DIRECT`.*
-News`select`[]cantoN`[]DIRECT`.*
-Music`select`[]cantoN`[]DIRECT`.*
-Emby`select`[]cantoN`[]DIRECT`.*
-Tiktok`select`[]cantoN`[]DIRECT`.*
-Bilibili`select`[]DIRECT`[]cantoN`.*
 Netflix`select`[]cantoN`[]DIRECT`.*
 Disney`select`[]cantoN`[]DIRECT`.*
+Emby`select`[]cantoN`[]DIRECT`.*
+Tiktok`select`[]cantoN`[]DIRECT`.*
+News`select`[]cantoN`[]DIRECT`.*
+Music`select`[]cantoN`[]DIRECT`.*
 HK&TW-Media`select`[]cantoN`[]DIRECT`.*
 US&EU-Media`select`[]cantoN`[]DIRECT`.*
 JP&KR-Media`select`[]cantoN`[]DIRECT`.*
@@ -17,4 +16,5 @@ Microsoft`select`[]cantoN`[]DIRECT`.*
 Games`select`[]cantoN`[]DIRECT`.*
 Apple`select`[]cantoN`[]DIRECT`.*
 FCM`select`[]DIRECT`[]cantoN`.*
+Bilibili`select`[]DIRECT`[]cantoN`.*
 Domestic`select`[]DIRECT`[]cantoN`
