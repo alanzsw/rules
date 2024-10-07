@@ -14,6 +14,7 @@ cfw-latency-type: 1
 cfw-conn-break-strategy: true
 clash-for-android:
     append-system-dns: false
+    ui-subtitle-pattern: '[一-龥]{2,4}'
 hosts:
     mtalk.google.com: 108.177.125.188
     raw.githubusercontent.com: 151.101.76.133
