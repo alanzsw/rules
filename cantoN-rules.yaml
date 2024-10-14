@@ -6,7 +6,6 @@ allow-lan: false
 mode: Rule
 log-level: info
 ipv6: false
-hosts:
 dns:
   enable: true
   ipv6: false
