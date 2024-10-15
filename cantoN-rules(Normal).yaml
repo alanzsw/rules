@@ -204,3 +204,39 @@ rule-providers:
   Github: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Github.yaml", path: ./rule-providers/Github, interval: 86400}
   GoogleFCM: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/GoogleFCM.yaml", path: ./rule-providers/GoogleFCM, interval: 86400}
   Google: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Google.yaml", path: ./rule-providers/Google, interval: 86400}
+  HBO: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/HBO.yaml", path: ./rule-providers/HBO, interval: 86400}
+  Hamivideo: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Hamivideo.yaml", path: ./rule-providers/Hamivideo, interval: 86400} 
+  Hulu: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Hulu.yaml", path: ./rule-providers/Hulu, interval: 86400}
+  Instagram: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Instagram.yaml", path: ./rule-providers/Instagram, interval: 86400}
+  JOOX: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/JOOX.yaml", path: ./rule-providers/JOOX, interval: 86400}
+  KKBOX: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/KKBOX.yaml", path: ./rule-providers/KKBOX, interval: 86400}
+  KKTV: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/KKTV.yaml", path: ./rule-providers/KKTV, interval: 86400}
+  LiTV: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/LiTV.yaml", path: ./rule-providers/LiTV, interval: 86400}
+  Line: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Line.yaml", path: ./rule-providers/Line, interval: 86400}
+  LineTV: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/LineTV.yaml", path: ./rule-providers/LineTV, interval: 86400}
+  Microsoft: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Microsoft.yaml", path: ./rule-providers/Microsoft, interval: 86400} 
+  Netflix: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Netflix.yaml", path: ./rule-providers/Netflix, interval: 86400}
+  News: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/News.yaml", path: ./rule-providers/News, interval: 86400}
+  OpenAI: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/OpenAI.yaml", path: ./rule-providers/OpenAI, interval: 86400}
+  Pandora: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Pandora.yaml", path: ./rule-providers/Pandora, interval: 86400}
+  Paramount: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Paramount.yaml", path: ./rule-providers/Paramount, interval: 86400}
+  Peacock: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Peacock.yaml", path: ./rule-providers/Peacock, interval: 86400}
+  Perplexity: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Perplexity.yaml", path: ./rule-providers/Perplexity, interval: 86400}
+  Pixiv: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Pixiv.yaml", path: ./rule-providers/Pixiv, interval: 86400}
+  Primvideo: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Primvideo.yaml", path: ./rule-providers/Primvideo, interval: 86400}
+  Qobuz: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Qobuz.yaml", path: ./rule-providers/Qobuz, interval: 86400}
+  Reddit: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Reddit.yaml", path: ./rule-providers/Reddit, interval: 86400}
+  Spotify: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Spotify.yaml", path: ./rule-providers/Spotify, interval: 86400}
+  Steam: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Steam.yaml", path: ./rule-providers/Steam, interval: 86400}
+  Telegram: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Telegram.yaml", path: ./rule-providers/Telegram, interval: 86400}
+  Tidal: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Tidal.yaml", path: ./rule-providers/Tidal, interval: 86400}
+  Tiktok: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Tiktok.yaml", path: ./rule-providers/Tiktok, interval: 86400}
+  Twitch: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Twitch.yaml", path: ./rule-providers/Twitch, interval: 86400}
+  Twitter: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Twitter.yaml", path: ./rule-providers/Twitter, interval: 86400}
+  ViuTV: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/ViuTV.yaml", path: ./rule-providers/ViuTV, interval: 86400}
+  Whatsapp: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Whatsapp.yaml", path: ./rule-providers/Whatsapp, interval: 86400}
+  Youtube: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Youtube.yaml", path: ./rule-providers/Youtube, interval: 86400}
+  YoutubeMusic: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/YoutubeMusic.yaml", path: ./rule-providers/YoutubeMusic, interval: 86400}
+  Zhihu: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Zhihu.yaml", path: ./rule-providers/Zhihu, interval: 86400}
+  TVB: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/TVB.yaml", path: ./rule-providers/TVB, interval: 86400}
+  iCloud: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/iCloud.yaml", path: ./rule-providers/iCloud, interval: 86400}
