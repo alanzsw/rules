@@ -1,1 +1,182 @@
-1
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+allow-lan: false
+mode: Rule
+log-level: info
+ipv6: false
+dns:
+  enable: true
+  ipv6: false
+  listen: 0.0.0.0:1053
+  use-hosts: true
+  default-nameserver:
+    - 119.29.29.29
+    - 8.8.8.8
+    - 1.1.1.1
+  nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - '*.localdomain'
+    - '*.example'
+    - '*.invalid'
+    - '*.localhost'
+    - '*.test'
+    - '*.local'
+    - '*.home.arpa'
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - '*.time.edu.cn'
+    - '*.ntp.org.cn'
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - stun.*.*
+    - stun.*.*.*
+    - swscan.apple.com
+    - mesu.apple.com
+    - music.163.com
+    - '*.music.163.com'
+    - '*.126.net'
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - '*.kuwo.cn'
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - y.qq.com
+    - '*.y.qq.com'
+    - streamoc.music.tc.qq.com
+    - mobileoc.music.tc.qq.com
+    - isure.stream.qqmusic.qq.com
+    - dl.stream.qqmusic.qq.com
+    - aqqmusic.tc.qq.com
+    - amobile.music.tc.qq.com
+    - localhost.ptlogin2.qq.com
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - '*.xiami.com'
+    - '*.music.migu.cn'
+    - music.migu.cn
+    - +.wotgame.cn
+    - +.wggames.cn
+    - +.wowsgame.cn
+    - +.wargaming.net
+    - '*.*.*.srv.nintendo.net'
+    - '*.*.stun.playstation.net'
+    - xbox.*.*.microsoft.com
+    - '*.*.xboxlive.com'
+    - '*.ipv6.microsoft.com'
+    - teredo.*.*.*
+    - teredo.*.*
+    - speedtest.cros.wr.pvp.net
+    - +.jjvip8.com
+    - www.douyu.com
+    - activityapi.huya.com
+    - activityapi.huya.com.w.cdngslb.com
+    - www.bilibili.com
+    - api.bilibili.com
+    - a.w.bilicdn1.com
+external-controller: 127.0.0.1:9090
+clash-for-android:
+  append-system-dns: false
+hosts:
+    mtalk.google.com: 108.177.125.188
+    raw.githubusercontent.com: 151.101.76.133
+profile:
+  tracing: true
+    
+rules:
+  - RULE-SET, Abema, JP&KR-Media
+  - RULE-SET, AfreecaTV, JP&KR-Media
+  - RULE-SET, Amazon, US&EU-Media
+  - RULE-SET, Apple, Apple
+  - RULE-SET, AppleMusic, Music
+  - RULE-SET, AppleTV, Apple
+  - RULE-SET, Bahamut, HK&TW-Media 
+  - RULE-SET, BaiduTieba, Domestic
+  - RULE-SET, Bank, Domestic
+  - RULE-SET, Bilibili, Bilibili
+  - RULE-SET, CN-Media, Domestic
+  - RULE-SET, Claude, AI
+  - RULE-SET, Coolapk, Domestic
+  - RULE-SET, Copilot, AI
+  - RULE-SET, DAZN, US&EU-Media
+  - RULE-SET, DMM, JP&KR-Media
+  - RULE-SET, Discord, BBS
+  - RULE-SET, Disney, Disney
+  - RULE-SET, Douyin, Domestic
+  - RULE-SET, ESPN, US&EU-Media
+  - RULE-SET, Emby, Emby
+  - RULE-SET, Epic, Games
+  - RULE-SET, Facebook, Meta
+  - RULE-SET, Games, Games
+  - RULE-SET, Gemini, AI
+  - RULE-SET, Github, BBS
+  - RULE-SET, GoogleFCM, FCM
+  - RULE-SET, Google, Google
+  - RULE-SET, HBO, US&EU-Media
+  - RULE-SET, Hamivideo, HK&TW-Media
+  - RULE-SET, Hulu, US&EU-Media
+  - RULE-SET, Instagram, Meta
+  - RULE-SET, JOOX, Music
+  - RULE-SET, KKBOX, Music
+  - RULE-SET, KKTV, HK&TW-Media
+  - RULE-SET, LiTV, HK&TW-Media
+  - RULE-SET, Line, BBS
+  - RULE-SET, LineTV, HK&TW-Media
+  - RULE-SET, Microsoft, Microsoft
+  - RULE-SET, Netflix, Netflix
+  - RULE-SET, News, News
+  - RULE-SET, OpenAI, AI
+  - RULE-SET, Pandora, JP&KR-Media
+  - RULE-SET, Paramount, US&EU-Media
+  - RULE-SET, Peacock, US&EU-Media
+  - RULE-SET, Perplexity, AI
+  - RULE-SET, Pixiv, JP&KR-Media
+  - RULE-SET, Primvideo, US&EU-Media
+  - RULE-SET, Qobuz, Music
+  - RULE-SET, Reddit, BBS
+  - RULE-SET, Spotify, Music
+  - RULE-SET, Steam, Games
+  - RULE-SET, Telegram, BBS
+  - RULE-SET, Tidal, Music
+  - RULE-SET, Tiktok, Tiktok
+  - RULE-SET, Twitch, Twitch
+  - RULE-SET, Twitter, BBS
+  - RULE-SET, ViuTV, HK&TW-Media
+  - RULE-SET, Youtube, Google
+  - RULE-SET, YoutubeMusic, Music
+  - RULE-SET, Zhihu, Domestic
+  - RULE-SET, TVB, HK&TW-Media
+  - RULE-SET, iCloud, Apple
+  - MATCH, cantoN
+  - GEOIP, CN, Domestic
+
+rule-providers:
+  Abema: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Abema.yaml", path: ./rule-providers/Abema, interval: 86400}
+  AfreecaTV: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/AfreecaTV.yaml", path: ./rule-providers/AfreecaTV, interval: 86400}
+  Amazon: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Amazon.yaml", path: ./rule-providers/Amazon, interval: 86400}
+  Apple: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Apple.yaml", path: ./rule-providers/Apple, interval: 86400}
+  AppleMusic: {type:
