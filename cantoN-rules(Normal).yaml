@@ -101,12 +101,13 @@ dns:
 external-controller: 127.0.0.1:9090
 clash-for-android:
   append-system-dns: false
+  ui-subtitle-pattern: '[一-龥]{2,4}'
 hosts:
     mtalk.google.com: 108.177.125.188
     raw.githubusercontent.com: 151.101.76.133
 profile:
   tracing: true
-    
+
 rules:
   - RULE-SET, Abema, JP&KR-Media
   - RULE-SET, AfreecaTV, JP&KR-Media
@@ -179,4 +180,3 @@ rule-providers:
   AfreecaTV: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/AfreecaTV.yaml", path: ./rule-providers/AfreecaTV, interval: 86400}
   Amazon: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Amazon.yaml", path: ./rule-providers/Amazon, interval: 86400}
   Apple: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Apple.yaml", path: ./rule-providers/Apple, interval: 86400}
-  AppleMusic: {type:
