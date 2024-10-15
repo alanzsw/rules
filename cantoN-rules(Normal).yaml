@@ -180,3 +180,27 @@ rule-providers:
   AfreecaTV: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/AfreecaTV.yaml", path: ./rule-providers/AfreecaTV, interval: 86400}
   Amazon: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Amazon.yaml", path: ./rule-providers/Amazon, interval: 86400}
   Apple: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Apple.yaml", path: ./rule-providers/Apple, interval: 86400}
+  AppleMusic: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/AppleMusic.yaml", path: ./rule-providers/AppleMusic, interval: 86400}
+  AppleTV: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/AppleTV.yaml", path: ./rule-providers/AppleTV, interval: 86400}
+  Bahamut: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Bahamut.yaml", path: ./rule-providers/Bahamut, interval: 86400}
+  BaiduTieba: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/BaiduTieba.yaml", path: ./rule-providers/BaiduTieba, interval: 86400}
+  Bank: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Bank.yaml", path: ./rule-providers/Bank, interval: 86400}
+  Bilibili: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Bilibili.yaml", path: ./rule-providers/Bilibili, interval: 86400}
+  CN-Media: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/CN-Media.yaml", path: ./rule-providers/CN-Media, interval: 86400}
+  Claude: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Claude.yaml", path: ./rule-providers/Claude, interval: 86400}
+  Coolapk: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Coolapk.yaml", path: ./rule-providers/Coolapk, interval: 86400}
+  Copilot: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Copilot.yaml", path: ./rule-providers/Copilot, interval: 86400}
+  DAZN: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/DAZN.yaml", path: ./rule-providers/DAZN, interval: 86400}
+  DMM: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/DMM.yaml", path: ./rule-providers/DMM, interval: 86400}
+  Discord: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Discord.yaml", path: ./rule-providers/Discord, interval: 86400}
+  Disney: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Disney.yaml", path: ./rule-providers/Disney, interval: 86400}
+  Douyin: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Douyin.yaml", path: ./rule-providers/Douyin, interval: 86400}
+  ESPN: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/ESPN.yaml", path: ./rule-providers/ESPN, interval: 86400}
+  Emby: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Emby.yaml", path: ./rule-providers/Emby, interval: 86400}
+  Epic: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Epic.yaml", path: ./rule-providers/Epic, interval: 86400}
+  Facebook: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Facebook.yaml", path: ./rule-providers/Facebook, interval: 86400}
+  Games: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Games.yaml", path: ./rule-providers/Games, interval: 86400}
+  Gemini: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Gemini.yaml", path: ./rule-providers/Gemini, interval: 86400}
+  Github: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Github.yaml", path: ./rule-providers/Github, interval: 86400}
+  GoogleFCM: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/GoogleFCM.yaml", path: ./rule-providers/GoogleFCM, interval: 86400}
+  Google: {type: http, behavior: classical, url: "https://raw.githubusercontent.com/alanzsw/rule-providers/main/Google.yaml", path: ./rule-providers/Google, interval: 86400}
